@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility resource when reusing its code or results."
+type: software
+title: "Sharp Residual Classification Regret for Independently Capped Softmax Logits: Reproducibility Resource"
+authors:
+  - family-names: Huang
+    given-names: Jing-Rung
+  - family-names: Lu
+    given-names: Wen-Hsiang
+version: 1.0.0
+date-released: 2026-10-25
+url: https://github.com/gbanyan/capped-logit-regret
+repository-code: https://github.com/gbanyan/capped-logit-regret
+license:
+  - MIT
+  - CC-BY-4.0

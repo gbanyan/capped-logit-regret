@@ -1,0 +1,9 @@
+{
+  "commit": "1da54f3a658fd02539895f331e2054052dc8b616",
+  "inputs": {
+    "oracles.py": "acf4b93099dff09148782752c37066ec17835723c29990cd0f55ddc53ee6a011",
+    "producer.py": "7c32423c857bef19c44c91d4ba17390b1d7f939f1966add27eeaee6f556f4406",
+    "queue.json": "b1cf1bfbd26a3a8c8b57e86aaa8a0a24c9a01c7614ae5d23435ad404e96afc13",
+    "protocol.md": "e841edfa1e71ee0acf7e3be7de28ed3e1e2ecdab364efdd5f824b6d0c28b17f0"
+  }
+}

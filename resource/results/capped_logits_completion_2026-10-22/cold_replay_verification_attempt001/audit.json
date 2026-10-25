@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "phase_type": "actual_cold_official_replay",
+  "teacher_input_packs": 3,
+  "model_slots": 648,
+  "all_metrics_and_saved_array_values_bitwise": true,
+  "source_pins_verified": true,
+  "terminal_states": {
+    "cold_official_features_v1": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-10-22T20:20:33.299844715Z",
+      "FinishedAt": "2026-10-22T20:25:57.405104557Z"
+    },
+    "cold_official_evaluation_v1": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-10-22T20:25:59.52196725Z",
+      "FinishedAt": "2026-10-22T20:38:34.314770969Z"
+    },
+    "cold_official_comparison_v1": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-10-22T20:38:36.102463376Z",
+      "FinishedAt": "2026-10-22T20:39:06.980885928Z"
+    }
+  },
+  "containers": {
+    "cold_official_features_v1": "3cf4fc9bd6929fddfc8dc8db5232a100f9db932db2b89b49c1390c2e393efd64",
+    "cold_official_evaluation_v1": "4ba1dde122015524d73757ca6a4af52c53d1def0a5368557c999aeef9285e5f1",
+    "cold_official_comparison_v1": "4ea5b85c85b96c5d865a71f4379b1fb2d005307a024afa3de5df4fe8ee775a4c"
+  },
+  "cold_bridge": {
+    "status": "ALL_TRANSFERRED_ORIGIN_BYTES_VERIFIED",
+    "restored_root": "/mnt/SAM1TB/dev/data/oscillation-trans-capped-completion-20261022/restored_origin_v1",
+    "files": 11110,
+    "bytes": 24247876972,
+    "commit": "c6d7d85cbbd5f533742c32da31cd861d087cca32",
+    "cold_provenance_sha256": "ba1ca15fb78114e53d752e416c095fd5bbbd42a7d2a92f22377d43d7a8131502",
+    "external_compressed_fashion": [
+      {
+        "path": "/mnt/SAM1TB/dev/data/oscillation-trans-capped-completion-20261022/restored_origin_v1/fashion/train-images-idx3-ubyte.gz",
+        "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+        "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84"
+      },
+      {
+        "path": "/mnt/SAM1TB/dev/data/oscillation-trans-capped-completion-20261022/restored_origin_v1/fashion/train-labels-idx1-ubyte.gz",
+        "md5": "25c81989df183df01b3e8a0aad5dffbe",
+        "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+      },
+      {
+        "path": "/mnt/SAM1TB/dev/data/oscillation-trans-capped-completion-20261022/restored_origin_v1/fashion/t10k-images-idx3-ubyte.gz",
+        "md5": "bef4ecab320f06d8554ea6380940ec79",
+        "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073"
+      },
+      {
+        "path": "/mnt/SAM1TB/dev/data/oscillation-trans-capped-completion-20261022/restored_origin_v1/fashion/t10k-labels-idx1-ubyte.gz",
+        "md5": "bb300cfdad3c16e7a12a480ee83cd310",
+        "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5"
+      }
+    ],
+    "original_models_or_feature_store_copied": false,
+    "source": "Audited gbminipc cold origin materialization;Mac acted as byte pipe only",
+    "inference_executed": false,
+    "unix": 1792700297.2837753
+  },
+  "comparison_sha256": "645510c7d62cdd5455853502fa092cab44b67af182402f6cf757c340a74faec3",
+  "serialized_test_NPZ_bytes_equal": 648,
+  "complete_JSON_bytes_equal": 648,
+  "metadata_only_replay_archive": true,
+  "original_committed_array_values_retained": true,
+  "fresh_arrays_retained_on_source_host": true,
+  "optimizer_updates": 0,
+  "official_test_evaluated": true,
+  "source_sha256": "c4b206f2e58a538632e9a4fb27f8687fbd7e328e2ac0385f72b45bf9f7456eee",
+  "scope": "Actual restored teacher/model official-path inference,not additional independent trained seeds or full R1-R7 completion"
+}

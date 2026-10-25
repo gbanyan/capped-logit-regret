@@ -1,0 +1,75 @@
+{
+  "architecture": "fashion_cnn",
+  "seed": 222105,
+  "epochs": 30,
+  "phase": "frozen confirmation matrix; official test still sealed",
+  "head": "raw",
+  "beta": 0.3,
+  "history": [
+    {
+      "epoch": 0,
+      "validation": {
+        "CE": 2.302902389526367,
+        "accuracy": 0.16883333333333334
+      },
+      "elapsed_seconds": 0.19512385200005156
+    },
+    {
+      "epoch": 5,
+      "validation": {
+        "CE": 0.19939624691009522,
+        "accuracy": 0.9251666666666667
+      },
+      "elapsed_seconds": 2.916958379999869
+    },
+    {
+      "epoch": 10,
+      "validation": {
+        "CE": 0.20404513676961264,
+        "accuracy": 0.93
+      },
+      "elapsed_seconds": 5.40693939699986
+    },
+    {
+      "epoch": 15,
+      "validation": {
+        "CE": 0.26190552552541096,
+        "accuracy": 0.9321666666666667
+      },
+      "elapsed_seconds": 7.866733164999914
+    },
+    {
+      "epoch": 20,
+      "validation": {
+        "CE": 0.2833266461690267,
+        "accuracy": 0.937
+      },
+      "elapsed_seconds": 10.349354940000012
+    },
+    {
+      "epoch": 25,
+      "validation": {
+        "CE": 0.30322499593098956,
+        "accuracy": 0.9398333333333333
+      },
+      "elapsed_seconds": 12.833904082000117
+    },
+    {
+      "epoch": 30,
+      "validation": {
+        "CE": 0.3055427017211914,
+        "accuracy": 0.9363333333333334
+      },
+      "elapsed_seconds": 15.324447141999826
+    }
+  ],
+  "initialization_sha256": "997720bfd20c3d73bdfebff96efe20ee71dc1e008a3c384966abb7d001e052b4",
+  "parameter_count": 1701130,
+  "torch": "2.8.0+cu128",
+  "CUDA": "12.8",
+  "official_test_evaluated": false,
+  "replay_validation_exact": true,
+  "seconds": 15.380010176999804,
+  "model_sha256": "fc65ce224ef64423e8d3cbf1b32cb76179ff0f661922c76b8bae8c0672d686ef",
+  "peak_cuda_allocated": 408828928
+}

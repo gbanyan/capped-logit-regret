@@ -1,0 +1,141 @@
+{
+  "kind": "NEW local read-only comparison of existing saved arrays; not historical execution",
+  "numpy": "2.5.4",
+  "rows": [
+    {
+      "architecture": "resnet18",
+      "arrays": {
+        "coefficients": {
+          "shape": [
+            513,
+            100
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "17a49c5bf10a3629b04e82c9396ec6780d35487d42caabc978dec08ddaabbfb6"
+        },
+        "preconditioner": {
+          "shape": [
+            513,
+            513
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "20e792371dbcc39d0ce49d0cbcf88cb261ec3542f8f95af863e180b34c0e983a"
+        }
+      },
+      "original_records": [
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_reference_v2/output/resnet18/complete.json",
+          "sha256": "7cf18420335a56a3489ee6ac4950d52553c9fe103597b52c9114982c39f5026b"
+        },
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/resnet18/complete.json",
+          "sha256": "99eaa26ca1d11c04e9f9a0e4c944a4f3f3938149fce86ef3930e315ac1e3bbda"
+        }
+      ],
+      "parent_link_hashes_match": true,
+      "source_hashes_match": true,
+      "upper_bound": 3.964260028438043,
+      "v2_width": 0.02795144152239404,
+      "v3_width": 4.920793594820339e-08,
+      "v2_tight": false,
+      "v3_tight": true,
+      "saved_additional_primal_optimizer_steps": 0
+    },
+    {
+      "architecture": "fashion_cnn",
+      "arrays": {
+        "coefficients": {
+          "shape": [
+            147,
+            10
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "6c2b13e4bf8722c5d5eaaa585b802b3614484bb8525d700083da7667e73fbaf4"
+        },
+        "preconditioner": {
+          "shape": [
+            147,
+            147
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "9c69e4e50949bf8ddd8435601d087088cb947d3ac3520059eb5409f0d26097cc"
+        }
+      },
+      "original_records": [
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_reference_v2/output/fashion_cnn/complete.json",
+          "sha256": "63643df1303f9b219e8a0159eea6a9a3b122b9ecc91cde93c51ce2a669f8a44e"
+        },
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_cnn/complete.json",
+          "sha256": "e2dd8116a165bf60668ffeb6bf74b71b25347d105be8ca604746ea977e0ac739"
+        }
+      ],
+      "parent_link_hashes_match": true,
+      "source_hashes_match": true,
+      "upper_bound": 1.7341380380801223,
+      "v2_width": 0.003233666646821343,
+      "v3_width": 1.234254698445625e-09,
+      "v2_tight": false,
+      "v3_tight": true,
+      "saved_additional_primal_optimizer_steps": 0
+    },
+    {
+      "architecture": "fashion_mlp",
+      "arrays": {
+        "coefficients": {
+          "shape": [
+            252,
+            10
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "d44bbe8e8a768523a720d643b8ef4af9698776d021471106a162608a2e44c02f"
+        },
+        "preconditioner": {
+          "shape": [
+            252,
+            252
+          ],
+          "dtype": "float64",
+          "byte_identical": true,
+          "C_order_bytes_sha256": "baea9961db51e19c713d3e27d3d4eb283de965d63fa2e89a1eb2a8e324a21915"
+        }
+      },
+      "original_records": [
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_reference_v2/output/fashion_mlp/complete.json",
+          "sha256": "46e67cd129415f6a3149f821808ba3250b3f4fe53a69ab1acd2e5e4bb8eb1600"
+        },
+        {
+          "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_mlp/complete.json",
+          "sha256": "ec6d18ac4fcd4173702e09f70d71033c1dd9f8bc924f6a01fc36c87a47d049ec"
+        }
+      ],
+      "parent_link_hashes_match": true,
+      "source_hashes_match": true,
+      "upper_bound": 1.7114196241891975,
+      "v2_width": 0.001972674251739415,
+      "v3_width": 3.0963396291383564e-09,
+      "v2_tight": false,
+      "v3_tight": true,
+      "saved_additional_primal_optimizer_steps": 0
+    }
+  ],
+  "all_coefficients_and_maps_byte_identical": true,
+  "criteria": {
+    "reference_width": 1e-06,
+    "learner_gap": 0.0001
+  },
+  "criteria_evidence": "Original v2/v3 producer width guards and original reference/adequacy protocols; no inferred timestamp ordering.",
+  "limits": [
+    "No optimizer, inference or interval arithmetic rerun.",
+    "Original runtime conditional arithmetic certificate remains conditional on its IEEE/libm model.",
+    "Zero additional primal optimization does not mean no dual-candidate arithmetic.",
+    "Original 30 learner outcomes and earlier wide intervals are retained."
+  ]
+}

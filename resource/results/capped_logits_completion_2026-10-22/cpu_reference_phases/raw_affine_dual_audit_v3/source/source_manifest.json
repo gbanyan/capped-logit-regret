@@ -1,0 +1,14 @@
+{
+  "commit": "d4479281dbb5b75ad9f158de40cf4ae70d9ae5e6",
+  "inputs": {
+    "check_affine_dual_audit.py": "8fd6a0871aa37f096f2abcc8488ec2dbe954eab0204ad952ae6896475428c523",
+    "requirements.txt": "48c5e1fcf87b5337291eac2621440171c64b6326ff7bea94bd0920edaf49810f",
+    "check_affine_reference.py": "d1610354d082bcc22df035d8c3277f929a900838df1d11d9e33316ffbe405163",
+    "producer.py": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac",
+    "affine_raw_dual_audit.py": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac",
+    "check_affine_reference_platform.py": "b8c07dce4d4c5080dbd5bc90d20ff3d9c407ab0dff2f2ba81b5a4a84c0fa15e9",
+    "queue.json": "3087732df11a19a0c0b443805d94de0648cd74a221ccb8986dc02a0a2891c191",
+    "affine_raw_reference.py": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289",
+    "protocol.md": "16944ca3307d7e88962f3f3768f087494019a4000b67e6dd01d30b1178a3bad1"
+  }
+}

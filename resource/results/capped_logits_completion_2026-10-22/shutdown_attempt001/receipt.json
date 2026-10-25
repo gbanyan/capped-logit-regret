@@ -1,0 +1,32 @@
+{
+  "user_authorized": true,
+  "host_alias": "gblinux",
+  "started_utc": "2026-10-22T21:18:24.590280+00:00",
+  "pre_shutdown_commit_pushed": "a5f46aaad1525174035ed36c4bc228d546b77e04",
+  "scientific_audit_sha256": "3b1c5de8ba358eb14a2662e4942ecef005d79e853091b5efbf923d6b100be829",
+  "final_metadata_sha256": "8ba187b70e7c05112c03e86dfc8a82d4d0d8ce4b37657ed70da21afeaf019165",
+  "actual_cold_replay_sha256": "b71a2ad8df5a51a831d37774a4b0b04e3d30d002c25cf132c6352e365330fb5c",
+  "source_sha256": "d85e684bc835f002b9b7059f9bbbf8ee97197d7a62c346644e7e017271e6a1ca",
+  "status": "poweroff_accepted_and_SSH_unreachable",
+  "physical_power_state_directly_observed": false,
+  "remote_exit_code": 0,
+  "stdout": "{\"pre_shutdown_pass\": true, \"host\": \"GBLinux\", \"active_containers\": [\"gblinux-dcgm-exporter\", \"gblinux-node-exporter\"], \"gpu_compute_processes\": \"\", \"sustained_CPU_jobs\": []}\n{\"poweroff_command_exit_code\": 0, \"stdout\": \"\", \"stderr\": \"\"}\nPOWEROFF_COMMAND_ACCEPTED\n",
+  "stderr": "",
+  "poweroff_command_accepted": true,
+  "post_shutdown_connectivity": [
+    {
+      "attempt": 1,
+      "ssh_port_open": false,
+      "error": "OSError:[Errno 65] No route to host",
+      "unix": 1792703908.163946
+    },
+    {
+      "attempt": 2,
+      "ssh_port_open": false,
+      "error": "OSError:[Errno 65] No route to host",
+      "unix": 1792703911.169197
+    }
+  ],
+  "ssh_unreachable_observed": true,
+  "completed_utc": "2026-10-22T21:18:31.169217+00:00"
+}

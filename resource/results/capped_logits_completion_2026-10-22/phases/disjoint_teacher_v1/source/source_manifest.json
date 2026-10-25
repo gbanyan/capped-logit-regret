@@ -1,0 +1,8 @@
+{
+  "commit": "b74b1d86ec59980e1ec8254152a0af92cc58b7e7",
+  "inputs": {
+    "producer.py": "3b088a15c3e663d8491f399732cdc7456f9b070b1b2324c303e0c6ffd9701ab8",
+    "queue.json": "48adad18a4bf8d891f0859130868bb17d3e8e9599087d6383aa9e95b0a2bd9b8",
+    "protocol.md": "bf8f60bc32424e7dfc848edeedbbdbe080f7137e9ac367652647d2dd753786fa"
+  }
+}

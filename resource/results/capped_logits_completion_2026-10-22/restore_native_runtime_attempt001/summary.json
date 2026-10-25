@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "runtime": {
+    "python": "3.14.8 (main, Oct 13 2026, 10:43:33) [GCC 16.2.1 20260810]",
+    "numpy": "2.4.4",
+    "torch": "2.11.0+cpu",
+    "CUDA": null
+  },
+  "environment": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022/restore_native_venv_v1",
+  "affinity": [
+    0,
+    1
+  ],
+  "niceness": 10,
+  "started": 1792697936.5255744,
+  "completed": 1792697960.3608875,
+  "source_sha256": "fabea99467f99a4d403fa7a0189d8ef5c4237ba357ad238fb4b36d88ae47bc20",
+  "prepared_commit": "729d273d4eb27b6dc7bcec480516397aace4cb7f",
+  "original_reference_environment_unchanged": true,
+  "location_reason": "Native host Python/Git for isolated cold origin/LFS serialization audit;separate task venv and2CPU affinity,no persistent service/global installation"
+}

@@ -1,0 +1,56 @@
+{
+  "prospectivity": {
+    "protocol_commit": "3b2d18ee0c24769cab1e6a0c8b7cd0958e0a9491",
+    "protocol_commit_utc": "2026-10-22T16:49:02+00:00",
+    "joint_queue_commit": "0c5629e3bdae3cde38c0f28cd4b2b3b7ca2c1c38",
+    "joint_queue_commit_utc": "2026-10-22T17:06:40+00:00",
+    "launches": [
+      {
+        "phase": "pixel_affine_primary_v1",
+        "launch_path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/launch.json",
+        "launch_sha256": "21203931bdd09fc19ee6d743e83e83e68eab66cfd27642f32133c627e9560f4c",
+        "launch_utc": "2026-10-22T17:13:06.484140+00:00",
+        "source_commit": "0c5629e3bdae3cde38c0f28cd4b2b3b7ca2c1c38",
+        "protocol_sha256": "f460041a8b7f9e20183fdc8505be2ab0304f54a1470018419151a798be411dbf",
+        "queue_sha256": "e7efd41714f34311a9367e0d00612df7b1e1f6dd7c032a4468bdbdc73f61a94e"
+      },
+      {
+        "phase": "pixel_affine_secondary_v1",
+        "launch_path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/launch.json",
+        "launch_sha256": "df596bcc30fc2d31325838d67dd7ddcb561925cd211050cc5f3900db9651df01",
+        "launch_utc": "2026-10-22T17:34:40.332899+00:00",
+        "source_commit": "0c5629e3bdae3cde38c0f28cd4b2b3b7ca2c1c38",
+        "protocol_sha256": "f460041a8b7f9e20183fdc8505be2ab0304f54a1470018419151a798be411dbf",
+        "queue_sha256": "4a034cd712aa8177658079c38b6b2c0d41b1c60e81420a0f12bd158b7dcea248"
+      }
+    ],
+    "conclusion": "A common protocol with both rates and both queue hashes was committed before the first recorded affine training launch; the two launch records pin the same protocol and producer.",
+    "limit": "Stored Git/runtime chronology supports the recorded freeze, not every possible prior access, external clock or unrecorded run."
+  },
+  "historical_blob_checks": [
+    {
+      "commit": "3b2d18ee0c24769cab1e6a0c8b7cd0958e0a9491",
+      "path": "research/next_exploration/capped_logits_completion_2026-10-22/affine_extension_protocol.md",
+      "sha256": "f460041a8b7f9e20183fdc8505be2ab0304f54a1470018419151a798be411dbf",
+      "equals_current_frozen_file": true
+    },
+    {
+      "commit": "0c5629e3bdae3cde38c0f28cd4b2b3b7ca2c1c38",
+      "path": "research/next_exploration/capped_logits_completion_2026-10-22/pixel_affine_primary_queue_v1.json",
+      "sha256": "e7efd41714f34311a9367e0d00612df7b1e1f6dd7c032a4468bdbdc73f61a94e",
+      "equals_current_frozen_file": true
+    },
+    {
+      "commit": "0c5629e3bdae3cde38c0f28cd4b2b3b7ca2c1c38",
+      "path": "research/next_exploration/capped_logits_completion_2026-10-22/pixel_affine_secondary_queue_v1.json",
+      "sha256": "4a034cd712aa8177658079c38b6b2c0d41b1c60e81420a0f12bd158b7dcea248",
+      "equals_current_frozen_file": true
+    }
+  ],
+  "teacher_gauge": {
+    "operation": "FP64 conversion of the saved A-trained teacher, then subtract output-row weight means and bias mean before saving the centered checkpoint",
+    "ideal_relation": "r_i(x)=t_i(x)-mean_class(t(x))",
+    "scope": "Deterministic transform of teacher coefficients, not a fit to B or validation outcomes; stored targets use FP64 evaluation",
+    "source": "producer_sources/disjoint_centered_features.py"
+  }
+}

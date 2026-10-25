@@ -1,0 +1,161 @@
+{
+  "kind": "Extraction of existing saved scalar records; no numerical solver or model run",
+  "source_baseline": "d1bef6621301666371c8367430479518f1278925",
+  "inputs": {
+    "image_slots": 648,
+    "known_posterior_image_slots": 588,
+    "synthetic_models": 980,
+    "synthetic_summary_sha256": "4c364130cc84102f3ac0786e8afb772517b174f475e6fda1f1507dd6bea9e713"
+  },
+  "groups": [
+    {
+      "cohort": "image",
+      "head": "ball",
+      "split": "official",
+      "saved_records": 120,
+      "maximum_FW_gap": 9.999978622943217e-11
+    },
+    {
+      "cohort": "image",
+      "head": "ball",
+      "split": "training",
+      "saved_records": 120,
+      "maximum_FW_gap": 9.999995276288587e-11
+    },
+    {
+      "cohort": "image",
+      "head": "ball",
+      "split": "validation",
+      "saved_records": 120,
+      "maximum_FW_gap": 9.999617800460214e-11
+    },
+    {
+      "cohort": "image",
+      "head": "box",
+      "split": "official",
+      "saved_records": 219,
+      "maximum_FW_gap": 2.42861286636753e-15
+    },
+    {
+      "cohort": "image",
+      "head": "box",
+      "split": "training",
+      "saved_records": 219,
+      "maximum_FW_gap": 2.562935522289807e-15
+    },
+    {
+      "cohort": "image",
+      "head": "box",
+      "split": "validation",
+      "saved_records": 219,
+      "maximum_FW_gap": 2.220446049250313e-15
+    },
+    {
+      "cohort": "image",
+      "head": "raw",
+      "split": "official",
+      "saved_records": 129,
+      "maximum_FW_gap": 0.0
+    },
+    {
+      "cohort": "image",
+      "head": "raw",
+      "split": "training",
+      "saved_records": 129,
+      "maximum_FW_gap": 0.0
+    },
+    {
+      "cohort": "image",
+      "head": "raw",
+      "split": "validation",
+      "saved_records": 129,
+      "maximum_FW_gap": 0.0
+    },
+    {
+      "cohort": "image",
+      "head": "tanh",
+      "split": "official",
+      "saved_records": 120,
+      "maximum_FW_gap": 2.42861286636753e-15
+    },
+    {
+      "cohort": "image",
+      "head": "tanh",
+      "split": "training",
+      "saved_records": 120,
+      "maximum_FW_gap": 2.55351295663786e-15
+    },
+    {
+      "cohort": "image",
+      "head": "tanh",
+      "split": "validation",
+      "saved_records": 120,
+      "maximum_FW_gap": 2.220446049250313e-15
+    },
+    {
+      "cohort": "synthetic",
+      "head": "ball",
+      "split": "training",
+      "saved_records": 230,
+      "maximum_FW_gap": 9.999989725173464e-11
+    },
+    {
+      "cohort": "synthetic",
+      "head": "ball",
+      "split": "validation",
+      "saved_records": 230,
+      "maximum_FW_gap": 9.999978622943217e-11
+    },
+    {
+      "cohort": "synthetic",
+      "head": "box",
+      "split": "training",
+      "saved_records": 260,
+      "maximum_FW_gap": 1.3322676295501878e-15
+    },
+    {
+      "cohort": "synthetic",
+      "head": "box",
+      "split": "validation",
+      "saved_records": 260,
+      "maximum_FW_gap": 1.3322676295501878e-15
+    },
+    {
+      "cohort": "synthetic",
+      "head": "raw",
+      "split": "training",
+      "saved_records": 250,
+      "maximum_FW_gap": 0.0
+    },
+    {
+      "cohort": "synthetic",
+      "head": "raw",
+      "split": "validation",
+      "saved_records": 250,
+      "maximum_FW_gap": 0.0
+    },
+    {
+      "cohort": "synthetic",
+      "head": "tanh",
+      "split": "training",
+      "saved_records": 240,
+      "maximum_FW_gap": 1.3322676295501878e-15
+    },
+    {
+      "cohort": "synthetic",
+      "head": "tanh",
+      "split": "validation",
+      "saved_records": 240,
+      "maximum_FW_gap": 1.3322676295501878e-15
+    }
+  ],
+  "missing": [],
+  "limitations": [
+    "Missing posterior mass/positivity extrema are not invented.",
+    "A saved scalar is reported execution evidence, not independent solver verification.",
+    "Candidate FP32 adjustment does not measure oracle feasibility.",
+    "Records sharing inputs/teachers are not independent replications.",
+    "Synthetic records lacking explicit producer hash retain source-record hash and baseline locator."
+  ],
+  "output_sha256": "f2a1505a74022ffe28a01a123a081d0d1332c4d2118d3fada1b3528fa4d09a96"
+}

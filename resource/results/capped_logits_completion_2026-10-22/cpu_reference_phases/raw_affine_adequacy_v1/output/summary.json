@@ -1,0 +1,2506 @@
+{
+  "status": "COMPLETE_ANALYSIS",
+  "objective_scope": "trainingB_unbounded_fixed_affine",
+  "canonical_problems": [
+    {
+      "architecture": "resnet18",
+      "lower_bound": 3.964259979230107,
+      "upper_bound": 3.964260028438043,
+      "interval_width": 4.920793594820339e-08,
+      "tight_interval": true,
+      "geometry": {
+        "rank_and_coordinate_change_verified": true,
+        "gram_lambda_lower": 0.9999999625733983,
+        "feature_norm_upper": 45.06133368805063,
+        "left_inverse_defect_upper": 3.9145587973652577e-10,
+        "right_inverse_defect_upper": 7.85005112693186e-11,
+        "gram_error_upper": 3.742641807251031e-08,
+        "full_dimension": 513
+      },
+      "training_D_floor_lower": 0.11333453102037792,
+      "training_D_floor_upper": 0.11333458041283741,
+      "reference_coefficient_exceeds_FP32_max": false,
+      "source_complete_sha256": "99eaa26ca1d11c04e9f9a0e4c944a4f3f3938149fce86ef3930e315ac1e3bbda"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "lower_bound": 1.7341380368458676,
+      "upper_bound": 1.7341380380801223,
+      "interval_width": 1.234254698445625e-09,
+      "tight_interval": true,
+      "geometry": {
+        "rank_and_coordinate_change_verified": true,
+        "gram_lambda_lower": 0.9999999976048088,
+        "feature_norm_upper": 164.31676754332386,
+        "left_inverse_defect_upper": 3.4295575747621236e-11,
+        "right_inverse_defect_upper": 2.2704120726700923e+27,
+        "gram_error_upper": 2.395124122758597e-09,
+        "full_dimension": 147
+      },
+      "training_D_floor_lower": 0.08773476734080975,
+      "training_D_floor_upper": 0.08773476859009445,
+      "reference_coefficient_exceeds_FP32_max": false,
+      "source_complete_sha256": "e2dd8116a165bf60668ffeb6bf74b71b25347d105be8ca604746ea977e0ac739"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "lower_bound": 1.7114196210928578,
+      "upper_bound": 1.7114196241891975,
+      "interval_width": 3.0963396291383564e-09,
+      "tight_interval": true,
+      "geometry": {
+        "rank_and_coordinate_change_verified": true,
+        "gram_lambda_lower": 0.9999999901405369,
+        "feature_norm_upper": 163.73934209841644,
+        "left_inverse_defect_upper": 1.9161554304726396e-10,
+        "right_inverse_defect_upper": 9.597740034401862e-10,
+        "gram_error_upper": 9.859238532414933e-09,
+        "full_dimension": 252
+      },
+      "training_D_floor_lower": 0.036422215741413126,
+      "training_D_floor_upper": 0.03642221885290065,
+      "reference_coefficient_exceeds_FP32_max": false,
+      "source_complete_sha256": "ec6d18ac4fcd4173702e09f70d71033c1dd9f8bc924f6a01fc36c87a47d049ec"
+    }
+  ],
+  "transport_checks": [
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227001,
+      "passed": true,
+      "actual_target_sha256": "3e6e6de6c18514e850eb9f57f7e4b618e786e9500b7049cfa4e657ca1d1feb9b",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "9279538f307f0f41d1b62c9ead0fe731425bb52fae2aa29cf848557a9c3afa97"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227002,
+      "passed": true,
+      "actual_target_sha256": "31c5b21f68483194b9a08771d322de758af114ac11a0ba8f4696c99fc9f77b25",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "29e45799f055c5da769bb0ce5c6fe65e9ab2e0180db744e7d0aab74fca10037d"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227003,
+      "passed": true,
+      "actual_target_sha256": "0f323eaac7e3f2fc200ebb3c5ee54aa609ebb13301cbf89fad9304f7ef494fa6",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "b7e9467e10f155e1fe9a44d669e8bbc9d5756532fa4cabf1959e858e083195c6"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227004,
+      "passed": true,
+      "actual_target_sha256": "15f1c488748908be6525e6a57bb7cfab14b3c8085fcb94205b9fec6aef635c14",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "360ed4b2b840baf55ecc8c0caddef5ef599e0076cfdb7a9c63de4cde4c7bab34"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227005,
+      "passed": true,
+      "actual_target_sha256": "d1ef69442e7874cb60a803d9f15cc7dddbc85fa9f1911d6b067b41c298c27874",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "6ddb88eed8da2f82ac3d6239e15c504f453521bc57fb6fe3ba18448213f48a53"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227001,
+      "passed": true,
+      "actual_target_sha256": "8f44a653356e7493612d18e01d764acdba16acb1a4c4f017f1be5a9fab8041f7",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "d96edcd09c03249c5c0f8e272ff7c692f07d60123bb3981c3eac1d81586e59d7"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227002,
+      "passed": true,
+      "actual_target_sha256": "1d71c00fc39ab01640e100d6bac5c87ab7f4ada1df24d41319e74489bf5d3870",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "0d9e15cf02ea5f50709d3702728633ac92fc77f7621e91990d7d8742919bbd43"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227003,
+      "passed": true,
+      "actual_target_sha256": "0e9b667cb6572e254ed00a2a9a3d78c9e36114a1a1d96d63ed4a80c081116cba",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "6a0c98e5068f95d6c7cf57aa9c44719cbb1f367c0e9dcbfa828c439486c00603"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227004,
+      "passed": true,
+      "actual_target_sha256": "9e59953a4790052b59f5f340bbcb98ea544c500ccb6b0a5471fcd08b6e644e39",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "152513108aa3ebbe4cbd8e06b57281d0e09937b337ca72e180b68a86fbdc930b"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227005,
+      "passed": true,
+      "actual_target_sha256": "e47bee5a4d7da3ae32a0c1ba2dcc592cb681977ee4ef5a117e6649a6c004835c",
+      "indices_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "880f27c26fe6f16132005f1f2fcc0f05e83dee9fdc7950e7b0671a8aa2069500"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227001,
+      "passed": true,
+      "actual_target_sha256": "5672fbffe70ae4e8370643e8f504dce3dc3cb392cfa16a90e3da25398821d8ee",
+      "indices_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "8e5a352f20b3c4e751078b7dd95cb1ca34b34ffc957c546e8c73535ea45752c2"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227002,
+      "passed": true,
+      "actual_target_sha256": "d443d6e00ec9fb0406ec057e09629eab8edd8e48b2bd82cca29e24dd8a448f9e",
+      "indices_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "6203cb8ef5df2f09acb12d54eb6a9faed50237f69d1d878d8851036d78fc362f"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227003,
+      "passed": true,
+      "actual_target_sha256": "59a9c0fcd405e13a0b9f5570ba5cc156d41a20504a67146f15c265744b866674",
+      "indices_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "1282c6027aad3ea6deeed04b80e337db50e23fa07a7ad43d831f381bfab30773"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227004,
+      "passed": true,
+      "actual_target_sha256": "1144e533540dc2d249bbcb420fcf86020013f089572f2a9e7cd5c16f5f8bc3c7",
+      "indices_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "1e4b98322507b6461a75da07814c7b8166c9e827cf5b5d3c8836bf5cfe394b94"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227005,
+      "passed": true,
+      "actual_target_sha256": "f0918931e827b7c62a24b4b9f48535e20d151b1d1137cdc7b398720cf84febb3",
+      "indices_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d",
+      "coefficient_transport_back_permutation_exact": true,
+      "transported_reference_CE_difference": 0.0,
+      "source_complete_sha256": "c98eac66aab96be31eb1c643d2b4ad4c23d36ce9b35665359322626fee55eb8f"
+    }
+  ],
+  "raw_learners": [
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227001,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_cnn_raw_s227001",
+      "source_model_sha256": "4bcde27137b65572a4c484a773cf42d66d499d70d04cd3c079e18b7550605421",
+      "source_complete_sha256": "9279538f307f0f41d1b62c9ead0fe731425bb52fae2aa29cf848557a9c3afa97",
+      "real_affine_point_primal": {
+        "value": 1.7342869263579468,
+        "lower": 1.734286926324203,
+        "upper": 1.7342869263916907,
+        "forward_allowance": 8.019080403609651e-16,
+        "arithmetic_allowance": 3.3742798992579736e-11,
+        "operations": 9504100,
+        "maximum_score": 6.352856939794123,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.12391739702281035,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07103982405151614,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0001488882440805472,
+      "empirical_class_gap_upper": 0.00014888954582303884,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7342869261903937,
+      "saved_CUDA_machine_mean_D": 0.08788365669285068,
+      "machine_minus_real_affine_CE": -1.6755308251958922e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227002,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_cnn_raw_s227002",
+      "source_model_sha256": "cbab6dcb1f31649775cddd6c75ca3865105726194a2e1ad1ebe728ccc8ed5587",
+      "source_complete_sha256": "29e45799f055c5da769bb0ce5c6fe65e9ab2e0180db744e7d0aab74fca10037d",
+      "real_affine_point_primal": {
+        "value": 1.7342866390731098,
+        "lower": 1.7342866390393026,
+        "upper": 1.7342866391069167,
+        "forward_allowance": 8.030852419313601e-16,
+        "arithmetic_allowance": 3.380603174652506e-11,
+        "operations": 9504100,
+        "maximum_score": 6.446823936780119,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.12091027231794087,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06676856144694913,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00014860095918023394,
+      "empirical_class_gap_upper": 0.00014860226104906896,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.734286638474322,
+      "saved_CUDA_machine_mean_D": 0.08788336897677891,
+      "machine_minus_real_affine_CE": -5.987876861013319e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227003,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_cnn_raw_s227003",
+      "source_model_sha256": "147ec81450ddf94014305c253acfc9d5262d3af3786b46c2efae9c3cd2a197f7",
+      "source_complete_sha256": "b7e9467e10f155e1fe9a44d669e8bbc9d5756532fa4cabf1959e858e083195c6",
+      "real_affine_point_primal": {
+        "value": 1.7342866927698144,
+        "lower": 1.7342866927361542,
+        "upper": 1.7342866928034746,
+        "forward_allowance": 8.185891029253862e-16,
+        "arithmetic_allowance": 3.365915111583842e-11,
+        "operations": 9504100,
+        "maximum_score": 6.5153075536104925,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.08181243684948608,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07436267817232388,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00014865465603186576,
+      "empirical_class_gap_upper": 0.00014865595760693576,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.734286693515781,
+      "saved_CUDA_machine_mean_D": 0.08788342401823791,
+      "machine_minus_real_affine_CE": 7.459666218068151e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227004,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_cnn_raw_s227004",
+      "source_model_sha256": "470a070997992698f1a804df853a84caf1e40f945d2e41b1ce902eb9a0980fa3",
+      "source_complete_sha256": "360ed4b2b840baf55ecc8c0caddef5ef599e0076cfdb7a9c63de4cde4c7bab34",
+      "real_affine_point_primal": {
+        "value": 1.7342869914901264,
+        "lower": 1.7342869914561916,
+        "upper": 1.7342869915240613,
+        "forward_allowance": 7.780844172774695e-16,
+        "arithmetic_allowance": 3.39338564698302e-11,
+        "operations": 9504100,
+        "maximum_score": 6.304596378171303,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.12433936490000727,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06768713570237574,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0001489533760692385,
+      "empirical_class_gap_upper": 0.00014895467819364685,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7342869909510443,
+      "saved_CUDA_machine_mean_D": 0.0878837214535015,
+      "machine_minus_real_affine_CE": -5.390821122830403e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227005,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_cnn_raw_s227005",
+      "source_model_sha256": "292a39d137d424cb9afe3add7411b56e3e30b410eca49ce54625b75ad98ab143",
+      "source_complete_sha256": "6ddb88eed8da2f82ac3d6239e15c504f453521bc57fb6fe3ba18448213f48a53",
+      "real_affine_point_primal": {
+        "value": 1.7342862996695352,
+        "lower": 1.7342862996355584,
+        "upper": 1.7342862997035122,
+        "forward_allowance": 7.814566636070804e-16,
+        "arithmetic_allowance": 3.397593565928041e-11,
+        "operations": 9504100,
+        "maximum_score": 6.393845596513738,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.1237481687826165,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07763862568083664,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00014826155543601335,
+      "empirical_class_gap_upper": 0.0001482628576445766,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7342862999453128,
+      "saved_CUDA_machine_mean_D": 0.08788303044777017,
+      "machine_minus_real_affine_CE": 2.757776229600495e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227001,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_mlp_raw_s227001",
+      "source_model_sha256": "75af78405db165d15fcac23d0d9d759ccad9d0ce5d06012f4d186ea505742b84",
+      "source_complete_sha256": "d96edcd09c03249c5c0f8e272ff7c692f07d60123bb3981c3eac1d81586e59d7",
+      "real_affine_point_primal": {
+        "value": 1.711781653159311,
+        "lower": 1.7117816531262426,
+        "upper": 1.7117816531923795,
+        "forward_allowance": 2.027874240762602e-15,
+        "arithmetic_allowance": 3.3066149546686105e-11,
+        "operations": 9504100,
+        "maximum_score": 6.658968215438673,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.08043619386231818,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06681045572130849,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00036202893704517786,
+      "empirical_class_gap_upper": 0.00036203209952168086,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7117816537944681,
+      "saved_CUDA_machine_mean_D": 0.036784248450597454,
+      "machine_minus_real_affine_CE": 6.351570380758176e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227002,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_mlp_raw_s227002",
+      "source_model_sha256": "651c9254de4abedd88c16774e9881b3dbe0d6ebe568c4c1016c75a4abcc0bb1c",
+      "source_complete_sha256": "0d9e15cf02ea5f50709d3702728633ac92fc77f7621e91990d7d8742919bbd43",
+      "real_affine_point_primal": {
+        "value": 1.7117694159469892,
+        "lower": 1.7117694159140155,
+        "upper": 1.7117694159799626,
+        "forward_allowance": 1.9775166042046247e-15,
+        "arithmetic_allowance": 3.297140441357931e-11,
+        "operations": 9504100,
+        "maximum_score": 6.514870092364588,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10271697287108708,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06466309766969613,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0003497917248180826,
+      "empirical_class_gap_upper": 0.00034979488710473744,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7117694159171208,
+      "saved_CUDA_machine_mean_D": 0.03677201057324996,
+      "machine_minus_real_affine_CE": -2.9868330031490586e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227003,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_mlp_raw_s227003",
+      "source_model_sha256": "09118f2341a319c2dec9929e9e7d2acfc5c3b6e7038784a64de3f55aa7ce896d",
+      "source_complete_sha256": "6a0c98e5068f95d6c7cf57aa9c44719cbb1f367c0e9dcbfa828c439486c00603",
+      "real_affine_point_primal": {
+        "value": 1.7117794395107937,
+        "lower": 1.7117794394773818,
+        "upper": 1.7117794395442059,
+        "forward_allowance": 2.002387431453586e-15,
+        "arithmetic_allowance": 3.3409816638034994e-11,
+        "operations": 9504100,
+        "maximum_score": 6.525932599325958,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.13466317790636664,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07562545258381602,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00035981528818429526,
+      "empirical_class_gap_upper": 0.0003598184513480263,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.711779439284387,
+      "saved_CUDA_machine_mean_D": 0.03678203394051626,
+      "machine_minus_real_affine_CE": -2.2640667118878355e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227004,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_mlp_raw_s227004",
+      "source_model_sha256": "d4aea73e65580ed3c1caec77bfd20ea310887e3a9e92bdaf573ddb39046e5c3e",
+      "source_complete_sha256": "152513108aa3ebbe4cbd8e06b57281d0e09937b337ca72e180b68a86fbdc930b",
+      "real_affine_point_primal": {
+        "value": 1.711790267593051,
+        "lower": 1.7117902675597456,
+        "upper": 1.7117902676263566,
+        "forward_allowance": 2.0012981755574887e-15,
+        "arithmetic_allowance": 3.330324770665029e-11,
+        "operations": 9504100,
+        "maximum_score": 6.646246623783789,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11587781027102388,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07006580040152426,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0003706433705481515,
+      "empirical_class_gap_upper": 0.00037064653349871973,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7117902675964303,
+      "saved_CUDA_machine_mean_D": 0.03679286225255995,
+      "machine_minus_real_affine_CE": 3.3792968423540515e-12,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227005,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "fashion_mlp_raw_s227005",
+      "source_model_sha256": "93284f0a92d4647da20af3db515422c3a48a2dd553b684ac527bb6f50d0d7c0e",
+      "source_complete_sha256": "880f27c26fe6f16132005f1f2fcc0f05e83dee9fdc7950e7b0671a8aa2069500",
+      "real_affine_point_primal": {
+        "value": 1.711771895502652,
+        "lower": 1.7117718954699135,
+        "upper": 1.7117718955353904,
+        "forward_allowance": 1.9662430610868634e-15,
+        "arithmetic_allowance": 3.273629449946136e-11,
+        "operations": 9504100,
+        "maximum_score": 7.363940792672736,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10557236720427651,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06676386408551511,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.00035227128071602104,
+      "empirical_class_gap_upper": 0.0003522744425326075,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7117718963587765,
+      "saved_CUDA_machine_mean_D": 0.03677449101490578,
+      "machine_minus_real_affine_CE": 8.561245046223576e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227001,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "resnet18_raw_s227001",
+      "source_model_sha256": "f403f86d66cc18f9d9cebd860df9c6746612eb970a2abbd58dd7977c1458dacb",
+      "source_complete_sha256": "8e5a352f20b3c4e751078b7dd95cb1ca34b34ffc957c546e8c73535ea45752c2",
+      "real_affine_point_primal": {
+        "value": 3.964337638908632,
+        "lower": 3.964337638532714,
+        "upper": 3.9643376392845506,
+        "forward_allowance": 4.515622983809168e-15,
+        "arithmetic_allowance": 3.759134947329299e-10,
+        "operations": 72720100,
+        "maximum_score": 7.29840103232516,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11148777722407947,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10126158533927851,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 7.761009467088796e-05,
+      "empirical_class_gap_upper": 7.766005444365122e-05,
+      "raw_adequacy_confirmed": true,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.964337638587831,
+      "saved_CUDA_machine_mean_D": 0.11341219047036387,
+      "machine_minus_real_affine_CE": -3.2080116341148823e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227002,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "resnet18_raw_s227002",
+      "source_model_sha256": "29e1d561d0db5c67ea2676bf91cd0d22c19b828a452a3c91151a5b31cdc1d76c",
+      "source_complete_sha256": "6203cb8ef5df2f09acb12d54eb6a9faed50237f69d1d878d8851036d78fc362f",
+      "real_affine_point_primal": {
+        "value": 3.96433946440951,
+        "lower": 3.9643394640338605,
+        "upper": 3.9643394647851586,
+        "forward_allowance": 4.5196508229410705e-15,
+        "arithmetic_allowance": 3.7564417062312076e-10,
+        "operations": 72720100,
+        "maximum_score": 7.247264875096569,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.13772114069093877,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09046287897246977,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 7.943559581757852e-05,
+      "empirical_class_gap_upper": 7.948555505166156e-05,
+      "raw_adequacy_confirmed": true,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.9643394648625296,
+      "saved_CUDA_machine_mean_D": 0.113414016745062,
+      "machine_minus_real_affine_CE": 4.530198438601474e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227003,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "resnet18_raw_s227003",
+      "source_model_sha256": "c43c73cda150a8c619f3833ead75925cae97a87296b2419239d6a8c200b5ee4e",
+      "source_complete_sha256": "1282c6027aad3ea6deeed04b80e337db50e23fa07a7ad43d831f381bfab30773",
+      "real_affine_point_primal": {
+        "value": 3.9643379194985564,
+        "lower": 3.964337919122966,
+        "upper": 3.9643379198741466,
+        "forward_allowance": 4.522167227419461e-15,
+        "arithmetic_allowance": 3.7558510776531184e-10,
+        "operations": 72720100,
+        "maximum_score": 7.241741568824553,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10961680951291211,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.08666584431643637,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 7.789068492325411e-05,
+      "empirical_class_gap_upper": 7.794064403965352e-05,
+      "raw_adequacy_confirmed": true,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.964337919258535,
+      "saved_CUDA_machine_mean_D": 0.11341247114106827,
+      "machine_minus_real_affine_CE": -2.4002133613976184e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227004,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "resnet18_raw_s227004",
+      "source_model_sha256": "d3f6d42de06610d6b0da180417e7b74de8a763c41def32b1e00fb5f482f654f9",
+      "source_complete_sha256": "1e4b98322507b6461a75da07814c7b8166c9e827cf5b5d3c8836bf5cfe394b94",
+      "real_affine_point_primal": {
+        "value": 3.9643387959810923,
+        "lower": 3.964338795605282,
+        "upper": 3.964338796356903,
+        "forward_allowance": 4.5220103976550055e-15,
+        "arithmetic_allowance": 3.7580565835713464e-10,
+        "operations": 72720100,
+        "maximum_score": 7.2104385561162765,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09770894613439747,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07832437120266786,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 7.8767167238869e-05,
+      "empirical_class_gap_upper": 7.88171267958049e-05,
+      "raw_adequacy_confirmed": true,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.9643387951688323,
+      "saved_CUDA_machine_mean_D": 0.11341334705136517,
+      "machine_minus_real_affine_CE": -8.122600370086275e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227005,
+      "arm": "primary",
+      "source_phase": "pixel_affine_primary_v1",
+      "source_job": "resnet18_raw_s227005",
+      "source_model_sha256": "bc7f57140a4dd41a35c499fa5fbcc70b9f004c95829d480da87a88c326a60cbd",
+      "source_complete_sha256": "c98eac66aab96be31eb1c643d2b4ad4c23d36ce9b35665359322626fee55eb8f",
+      "real_affine_point_primal": {
+        "value": 3.964338676431915,
+        "lower": 3.964338676056323,
+        "upper": 3.9643386768075075,
+        "forward_allowance": 4.514490672839261e-15,
+        "arithmetic_allowance": 3.755871631779139e-10,
+        "operations": 72720100,
+        "maximum_score": 7.2366103210581505,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09867845818663593,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09019483697877531,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 7.864761828013654e-05,
+      "empirical_class_gap_upper": 7.869757740053275e-05,
+      "raw_adequacy_confirmed": true,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.964338677232525,
+      "saved_CUDA_machine_mean_D": 0.11341322911505825,
+      "machine_minus_real_affine_CE": 8.006098006774209e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227001,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_cnn_raw_s227001",
+      "source_model_sha256": "159b30a6f55185f3fcd6939c17b938d3c5e26bb280e2b506976b7d3ca6810b51",
+      "source_complete_sha256": "6e4473336b234b6670fa9626abecd759583bd189f727514c48213df3e9c5b3cb",
+      "real_affine_point_primal": {
+        "value": 1.735959379706407,
+        "lower": 1.735959379673281,
+        "upper": 1.735959379739533,
+        "forward_allowance": 6.485487030080272e-16,
+        "arithmetic_allowance": 3.3125076319833275e-11,
+        "operations": 9504100,
+        "maximum_score": 5.857472796460283,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10664210524281147,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.0640895356240035,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0018213415931587205,
+      "empirical_class_gap_upper": 0.0018213428936653122,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7359593803297455,
+      "saved_CUDA_machine_mean_D": 0.08955611083220251,
+      "machine_minus_real_affine_CE": 6.233384919340779e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227002,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_cnn_raw_s227002",
+      "source_model_sha256": "0474314652f60fcf187def607bf5b3c367ee0b7c2491ea4f9a56e18ae04f919d",
+      "source_complete_sha256": "a00979ebe4d74fb96731260a5a7747f4cbb91933bb2793a55e978c17e1d4ef46",
+      "real_affine_point_primal": {
+        "value": 1.7360373390853672,
+        "lower": 1.7360373390520925,
+        "upper": 1.7360373391186417,
+        "forward_allowance": 6.353509869391112e-16,
+        "arithmetic_allowance": 3.3273700410684617e-11,
+        "operations": 9504100,
+        "maximum_score": 5.785542819999379,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11632390075069261,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06966809861079651,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.001899300971970108,
+      "empirical_class_gap_upper": 0.0018993022727740174,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7360373393912334,
+      "saved_CUDA_machine_mean_D": 0.08963406989369044,
+      "machine_minus_real_affine_CE": 3.058662212396257e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227003,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_cnn_raw_s227003",
+      "source_model_sha256": "0bf830dc78113d3df4021160de2a693c9b762cc76f166f6eaa67b96158bd6404",
+      "source_complete_sha256": "ed727899c5c150d4ced2f8fb48a48b9fdfedb845f34c965fa41ea601573a417b",
+      "real_affine_point_primal": {
+        "value": 1.7359273957216685,
+        "lower": 1.7359273956886137,
+        "upper": 1.7359273957547234,
+        "forward_allowance": 6.599717185645115e-16,
+        "arithmetic_allowance": 3.3054042805520654e-11,
+        "operations": 9504100,
+        "maximum_score": 5.944764986191539,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.1080223092100139,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06878305544085582,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.001789357608491304,
+      "empirical_class_gap_upper": 0.0017893589088557873,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7359273954018248,
+      "saved_CUDA_machine_mean_D": 0.08952412590428169,
+      "machine_minus_real_affine_CE": -3.198437070750515e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227004,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_cnn_raw_s227004",
+      "source_model_sha256": "bb80cc1b52d9dbc7454f3929316ec6abef6bae14999f361c68174520b548ad08",
+      "source_complete_sha256": "873d268c86f5c875d19d60e0eecf8913dc9f18a06a0cc71e201992533cb95184",
+      "real_affine_point_primal": {
+        "value": 1.735969175578054,
+        "lower": 1.7359691755445945,
+        "upper": 1.7359691756115134,
+        "forward_allowance": 6.503924134042976e-16,
+        "arithmetic_allowance": 3.345859539205557e-11,
+        "operations": 9504100,
+        "maximum_score": 5.795036193851583,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09876650373336372,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06552756884804235,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.0018311374644721654,
+      "empirical_class_gap_upper": 0.0018311387656457791,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7359691764178542,
+      "saved_CUDA_machine_mean_D": 0.08956590692031127,
+      "machine_minus_real_affine_CE": 8.398002293574791e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 227005,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_cnn_raw_s227005",
+      "source_model_sha256": "86069aabc4226e977743c4aff5228f365cd239a4bca3d573343138f777c85157",
+      "source_complete_sha256": "b410dddaf0c7e6cb9aa4e0bb517c146985ed3a0a187c7c4a49a34b52c931f2c3",
+      "real_affine_point_primal": {
+        "value": 1.7360612493412757,
+        "lower": 1.736061249307845,
+        "upper": 1.7360612493747065,
+        "forward_allowance": 6.558057947777014e-16,
+        "arithmetic_allowance": 3.3429907903954146e-11,
+        "operations": 9504100,
+        "maximum_score": 5.949531077098419,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.13405264142785042,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.055576841532727426,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 1.3877787807810197e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.001923211227722543,
+      "empirical_class_gap_upper": 0.0019232125288388693,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7360612493612593,
+      "saved_CUDA_machine_mean_D": 0.08965797986371633,
+      "machine_minus_real_affine_CE": 1.9983570354042968e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227001,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_mlp_raw_s227001",
+      "source_model_sha256": "01a9d6d1b4341f60f6381d4158dd2b6bdb4c581417e8c94f29761b29014ce2f3",
+      "source_complete_sha256": "2fa3a439becd055445838ed299a7e4dbfc47d527b1909ea33922f26837af03a2",
+      "real_affine_point_primal": {
+        "value": 1.7180034059467952,
+        "lower": 1.7180034059144162,
+        "upper": 1.718003405979174,
+        "forward_allowance": 1.1792857855344494e-15,
+        "arithmetic_allowance": 3.2377422460958236e-11,
+        "operations": 9504100,
+        "maximum_score": 6.38989458113156,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09830730115695321,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.0768217393815236,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.006583781725218784,
+      "empirical_class_gap_upper": 0.006583784886316169,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.718003406012275,
+      "saved_CUDA_machine_mean_D": 0.04300600066840422,
+      "machine_minus_real_affine_CE": 6.547984376936711e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227002,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_mlp_raw_s227002",
+      "source_model_sha256": "6631d53ca1c92d0f14de760c96837884722803098d05005acac70b0709c0e4cc",
+      "source_complete_sha256": "aefa5a8a828051af48cf8e4000cdb3abc4715806df14bdcbdd8239a2d37ef900",
+      "real_affine_point_primal": {
+        "value": 1.7180091656360172,
+        "lower": 1.7180091656038579,
+        "upper": 1.7180091656681764,
+        "forward_allowance": 1.2022033180227896e-15,
+        "arithmetic_allowance": 3.21578484380496e-11,
+        "operations": 9504100,
+        "maximum_score": 6.065139827756204,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.14823811686233093,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.06951166119937936,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.006589541414660393,
+      "empirical_class_gap_upper": 0.006589544575318574,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7180091661742554,
+      "saved_CUDA_machine_mean_D": 0.043011760830384715,
+      "machine_minus_real_affine_CE": 5.382381207397202e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227003,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_mlp_raw_s227003",
+      "source_model_sha256": "a82ffa089811170f9fe555f563c5c124049cc065f961cba41ae5e84fb1140d1a",
+      "source_complete_sha256": "dd2979a832b1c660ab5bbbb561fc4854f550bab430f7f4c3a2dbe8f72500e188",
+      "real_affine_point_primal": {
+        "value": 1.718045704391797,
+        "lower": 1.7180457043592026,
+        "upper": 1.7180457044243915,
+        "forward_allowance": 1.2099098074078372e-15,
+        "arithmetic_allowance": 3.2593057237331935e-11,
+        "operations": 9504100,
+        "maximum_score": 6.023654621589643,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09606399219118432,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07537115228333813,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.006626080170005099,
+      "empirical_class_gap_upper": 0.006626083331533695,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7180457044112334,
+      "saved_CUDA_machine_mean_D": 0.04304829906736274,
+      "machine_minus_real_affine_CE": 1.943645244750769e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227004,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_mlp_raw_s227004",
+      "source_model_sha256": "797c402f8a74fa864a2a84fd84576d46ae0f51ffd291d473df2d9e458a64cc33",
+      "source_complete_sha256": "75b266bf2d6979cbde8a309057e07b733286b7eb5429853f30f464af8f2581ef",
+      "real_affine_point_primal": {
+        "value": 1.7180957839805595,
+        "lower": 1.7180957839480888,
+        "upper": 1.7180957840130304,
+        "forward_allowance": 1.2134509458352738e-15,
+        "arithmetic_allowance": 3.2469377993697984e-11,
+        "operations": 9504100,
+        "maximum_score": 5.774837706403602,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09173891546153516,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.0776777217932731,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.006676159758891353,
+      "empirical_class_gap_upper": 0.006676162920172591,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.718095784065257,
+      "saved_CUDA_machine_mean_D": 0.043098378721386124,
+      "machine_minus_real_affine_CE": 8.469758228102364e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 227005,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "fashion_mlp_raw_s227005",
+      "source_model_sha256": "3d6a00332a0426fe7153b5ed9170ce9e1a33213b55bae94f0025aab8eef4262f",
+      "source_complete_sha256": "6d6fe7b45a5d710570ca45bca71abfc4db5ac29d6b048747cc06e41809619cfc",
+      "real_affine_point_primal": {
+        "value": 1.7178281817375471,
+        "lower": 1.7178281817054877,
+        "upper": 1.7178281817696066,
+        "forward_allowance": 1.1933996400046914e-15,
+        "arithmetic_allowance": 3.205800877905181e-11,
+        "operations": 9504100,
+        "maximum_score": 6.305482768460528,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10471667363812391,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.07067972906381959,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.4286128663628356e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.006408557516290213,
+      "empirical_class_gap_upper": 0.006408560676748777,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 1.7178281814104552,
+      "saved_CUDA_machine_mean_D": 0.042830776066584544,
+      "machine_minus_real_affine_CE": -3.270919091136193e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227001,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "resnet18_raw_s227001",
+      "source_model_sha256": "264a2118be52ed61fb1060b54d70e3c7aed600f39c23fa4fd249947798a52bd6",
+      "source_complete_sha256": "7dabb2bbfeba76a7ed020b3bfb55209799ebf05adc5fa13eb899a0e035055c6b",
+      "real_affine_point_primal": {
+        "value": 3.9782738331188106,
+        "lower": 3.9782738327524254,
+        "upper": 3.9782738334851953,
+        "forward_allowance": 2.992712880951642e-15,
+        "arithmetic_allowance": 3.663814213112012e-10,
+        "operations": 72720100,
+        "maximum_score": 6.703000360127165,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10763846808289712,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.0926468307890017,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.014013804314382481,
+      "empirical_class_gap_upper": 0.014013854255088278,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.978273832984727,
+      "saved_CUDA_machine_mean_D": 0.12734838486726055,
+      "machine_minus_real_affine_CE": -1.3408341104081956e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227002,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "resnet18_raw_s227002",
+      "source_model_sha256": "e303ee0b23e25dde5fb9833ceb414e828db34b3d4bcaf85096354fbc86786397",
+      "source_complete_sha256": "2a733ee31def1161ac654e0fd269e283043fb74cc96a5ba5e908f8e855e43971",
+      "real_affine_point_primal": {
+        "value": 3.978318257552495,
+        "lower": 3.978318257186451,
+        "upper": 3.978318257918539,
+        "forward_allowance": 2.96175567785791e-15,
+        "arithmetic_allowance": 3.6604074879339344e-10,
+        "operations": 72720100,
+        "maximum_score": 6.519113248765623,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11471403193876788,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10273968091048992,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.014058228748408117,
+      "empirical_class_gap_upper": 0.014058278688432237,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.9783182572374334,
+      "saved_CUDA_machine_mean_D": 0.12739280911996623,
+      "machine_minus_real_affine_CE": -3.15061754463386e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227003,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "resnet18_raw_s227003",
+      "source_model_sha256": "ecfb390e1f5aaf0a7112d48fe656344a960a029a9d65b4b02e8f545a96f43117",
+      "source_complete_sha256": "5b96f340010558ab7dae77a0643b85a456d3c5b90b9c9bc68f681e7b148045f7",
+      "real_affine_point_primal": {
+        "value": 3.978245905915735,
+        "lower": 3.9782459055497466,
+        "upper": 3.9782459062817237,
+        "forward_allowance": 2.97987433262098e-15,
+        "arithmetic_allowance": 3.659850103980832e-10,
+        "operations": 72720100,
+        "maximum_score": 6.514886443612609,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.10235273942004135,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.08750122744990477,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.013985877111703625,
+      "empirical_class_gap_upper": 0.013985927051616722,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.978245905880709,
+      "saved_CUDA_machine_mean_D": 0.12732045776324177,
+      "machine_minus_real_affine_CE": -3.502620415929414e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227004,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "resnet18_raw_s227004",
+      "source_model_sha256": "d29388768377212950868721d14a4de8110a615ce54bbd3cef5f1088a9b055e2",
+      "source_complete_sha256": "4e67fbb4cba225c5d4090b60a7eeb50f14807d56a18e4adc2987c06a35c3c100",
+      "real_affine_point_primal": {
+        "value": 3.9782078566587473,
+        "lower": 3.9782078562923933,
+        "upper": 3.9782078570251014,
+        "forward_allowance": 2.9970529114851797e-15,
+        "arithmetic_allowance": 3.6635079288547955e-10,
+        "operations": 72720100,
+        "maximum_score": 6.429266151322223,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11760504189128132,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09842579453090773,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.013947827854350335,
+      "empirical_class_gap_upper": 0.013947877794994403,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.978207856628842,
+      "saved_CUDA_machine_mean_D": 0.12728240851137518,
+      "machine_minus_real_affine_CE": -2.9905411480513067e-11,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 227005,
+      "arm": "secondary",
+      "source_phase": "pixel_affine_secondary_v1",
+      "source_job": "resnet18_raw_s227005",
+      "source_model_sha256": "ea41b5f199bd2ccffbc6a6305d0cecd1acd9a5faf62e171bc523f4eb7507166d",
+      "source_complete_sha256": "2da0bab8ba27d061fa4c450225fb6f87967f1eb6e959647fd6fa0f27df8e1945",
+      "real_affine_point_primal": {
+        "value": 3.978251952863923,
+        "lower": 3.9782519524979425,
+        "upper": 3.9782519532299037,
+        "forward_allowance": 2.990902283590147e-15,
+        "arithmetic_allowance": 3.6597699605102366e-10,
+        "operations": 72720100,
+        "maximum_score": 6.424450835153841,
+        "spot_checks": {
+          "exp": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.11200733097369814,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_sums": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 0.09934357591180355,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          },
+          "log_mass": {
+            "points": 19,
+            "largest_fraction_of_assumed_allowance": 2.267337793207298e-17,
+            "scope": "High-precision spot check,not proof of the libm bound at all arguments"
+          }
+        },
+        "exp_and_log_model": "IEEE round-to-nearest;log absolute error<=8u*(1+abs(log(x))),exp relative error<=8u;normal finite intermediates"
+      },
+      "empirical_class_gap_lower": 0.013991924059899572,
+      "empirical_class_gap_upper": 0.013991973999796683,
+      "raw_adequacy_confirmed": false,
+      "reference_tight": true,
+      "saved_CUDA_machine_CE": 3.978251952381401,
+      "saved_CUDA_machine_mean_D": 0.12732650426393427,
+      "machine_minus_real_affine_CE": -4.825220223381166e-10,
+      "scope": "TRAIN-B unbounded real fixed-feature affine class;not wholeNN/population/F32-machine optimizer optimality"
+    }
+  ],
+  "arm_qualification": [
+    {
+      "architecture": "fashion_cnn",
+      "qualified": {
+        "primary": false,
+        "secondary": false
+      },
+      "Q3_comparison_arm": null,
+      "Q1_Q2_primary_arm_unchanged": true,
+      "rule": "All5 raw seeds;secondary is whole-arm Q3 sensitivity only,never replaces primary learning gates"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "qualified": {
+        "primary": false,
+        "secondary": false
+      },
+      "Q3_comparison_arm": null,
+      "Q1_Q2_primary_arm_unchanged": true,
+      "rule": "All5 raw seeds;secondary is whole-arm Q3 sensitivity only,never replaces primary learning gates"
+    },
+    {
+      "architecture": "resnet18",
+      "qualified": {
+        "primary": true,
+        "secondary": false
+      },
+      "Q3_comparison_arm": "primary",
+      "Q1_Q2_primary_arm_unchanged": true,
+      "rule": "All5 raw seeds;secondary is whole-arm Q3 sensitivity only,never replaces primary learning gates"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227001/model.pt",
+      "bytes": 6807909,
+      "sha256": "4bcde27137b65572a4c484a773cf42d66d499d70d04cd3c079e18b7550605421"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227001/complete.json",
+      "bytes": 27127,
+      "sha256": "9279538f307f0f41d1b62c9ead0fe731425bb52fae2aa29cf848557a9c3afa97"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227001/training.npz",
+      "bytes": 6472814,
+      "sha256": "bb923dc0dba9088f443d16f58e743d540e47e121b962b7c717850125ec934c5f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/affine_feature_cache_v1/fashion_cnn/complete.json",
+      "bytes": 5651,
+      "sha256": "db45ca7bbb1d51c88bb2b911a2b0fc2c4a8c48b8e1311d9f655b01fe818db73d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/fashion_cnn/complete.json",
+      "bytes": 4546,
+      "sha256": "2990a608098ac19debd4e225df1a75eca819a068b34ec0458330c078ae529366"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227002/model.pt",
+      "bytes": 6807909,
+      "sha256": "cbab6dcb1f31649775cddd6c75ca3865105726194a2e1ad1ebe728ccc8ed5587"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227002/complete.json",
+      "bytes": 27236,
+      "sha256": "29e45799f055c5da769bb0ce5c6fe65e9ab2e0180db744e7d0aab74fca10037d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227002/training.npz",
+      "bytes": 6477519,
+      "sha256": "8b417bf37575a88dfea4374dbefd3daa412f2401a4056e6c76e1ee5868001a5d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227003/model.pt",
+      "bytes": 6807909,
+      "sha256": "147ec81450ddf94014305c253acfc9d5262d3af3786b46c2efae9c3cd2a197f7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227003/complete.json",
+      "bytes": 27180,
+      "sha256": "b7e9467e10f155e1fe9a44d669e8bbc9d5756532fa4cabf1959e858e083195c6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227003/training.npz",
+      "bytes": 6474294,
+      "sha256": "2329c9f8f741e62aecee1aa019987ccd4131dab6d8bfa7e7805218e82160b28a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227004/model.pt",
+      "bytes": 6807909,
+      "sha256": "470a070997992698f1a804df853a84caf1e40f945d2e41b1ce902eb9a0980fa3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227004/complete.json",
+      "bytes": 27130,
+      "sha256": "360ed4b2b840baf55ecc8c0caddef5ef599e0076cfdb7a9c63de4cde4c7bab34"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227004/training.npz",
+      "bytes": 6481213,
+      "sha256": "46f81f3efbe5b01d65c94d1d99d104bb2725c552b4f305cedfff89b5c06112a4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227005/model.pt",
+      "bytes": 6807909,
+      "sha256": "292a39d137d424cb9afe3add7411b56e3e30b410eca49ce54625b75ad98ab143"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227005/complete.json",
+      "bytes": 27161,
+      "sha256": "6ddb88eed8da2f82ac3d6239e15c504f453521bc57fb6fe3ba18448213f48a53"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_cnn_raw_s227005/training.npz",
+      "bytes": 6480608,
+      "sha256": "7a1228c4134051fde54de3bb2e39a4fb0a883f4f9c42cf7eb89c1b2b9630ed53"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227001/model.pt",
+      "bytes": 2145853,
+      "sha256": "75af78405db165d15fcac23d0d9d759ccad9d0ce5d06012f4d186ea505742b84"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227001/complete.json",
+      "bytes": 27446,
+      "sha256": "d96edcd09c03249c5c0f8e272ff7c692f07d60123bb3981c3eac1d81586e59d7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227001/training.npz",
+      "bytes": 6461758,
+      "sha256": "f59c06603bb5542157a9021c8ffe030aaf0a85fb3f90b51cf8a8f4a95119714b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/affine_feature_cache_v1/fashion_mlp/complete.json",
+      "bytes": 5629,
+      "sha256": "c37389863b2c3be98826202a9e566b654e69037158b0a215fd42fd55f69a390f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/fashion_mlp/complete.json",
+      "bytes": 3600,
+      "sha256": "d67733ad569ceeebdc17b7268c19d744fd7b49e50072843cd8e3d18750604358"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227002/model.pt",
+      "bytes": 2145853,
+      "sha256": "651c9254de4abedd88c16774e9881b3dbe0d6ebe568c4c1016c75a4abcc0bb1c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227002/complete.json",
+      "bytes": 27336,
+      "sha256": "0d9e15cf02ea5f50709d3702728633ac92fc77f7621e91990d7d8742919bbd43"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227002/training.npz",
+      "bytes": 6463026,
+      "sha256": "340fd48e4ca2c86810e1899dbd2f81e9fd78c55daf5a56a70ab2be5d71c5c02b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227003/model.pt",
+      "bytes": 2145853,
+      "sha256": "09118f2341a319c2dec9929e9e7d2acfc5c3b6e7038784a64de3f55aa7ce896d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227003/complete.json",
+      "bytes": 27392,
+      "sha256": "6a0c98e5068f95d6c7cf57aa9c44719cbb1f367c0e9dcbfa828c439486c00603"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227003/training.npz",
+      "bytes": 6467226,
+      "sha256": "7327a31c7c581f088dadb97cf9c00d4c3b5cebb18aadfa6042e32907d8202a45"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227004/model.pt",
+      "bytes": 2145853,
+      "sha256": "d4aea73e65580ed3c1caec77bfd20ea310887e3a9e92bdaf573ddb39046e5c3e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227004/complete.json",
+      "bytes": 27381,
+      "sha256": "152513108aa3ebbe4cbd8e06b57281d0e09937b337ca72e180b68a86fbdc930b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227004/training.npz",
+      "bytes": 6467350,
+      "sha256": "b36d8239ded1cf024e026f1d615fce8fef8eff609f95ff32b93f7bccb1fa93c3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227005/model.pt",
+      "bytes": 2145853,
+      "sha256": "93284f0a92d4647da20af3db515422c3a48a2dd553b684ac527bb6f50d0d7c0e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227005/complete.json",
+      "bytes": 27437,
+      "sha256": "880f27c26fe6f16132005f1f2fcc0f05e83dee9fdc7950e7b0671a8aa2069500"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/fashion_mlp_raw_s227005/training.npz",
+      "bytes": 6462769,
+      "sha256": "92c15e80cbe42fe4f9e8c95800e15e94efb72c30aa09a26cd83f26934f0f2a1f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227001/model.pt",
+      "bytes": 44949835,
+      "sha256": "f403f86d66cc18f9d9cebd860df9c6746612eb970a2abbd58dd7977c1458dacb"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227001/complete.json",
+      "bytes": 28280,
+      "sha256": "8e5a352f20b3c4e751078b7dd95cb1ca34b34ffc957c546e8c73535ea45752c2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227001/training.npz",
+      "bytes": 53582833,
+      "sha256": "6cdcb40cc72b18ea9a3d4e1752385c6a4525af0e964a34fc3c1f240feee3a31f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/affine_feature_cache_v1/resnet18/complete.json",
+      "bytes": 6591,
+      "sha256": "8ffa287ccfc9f28244b6d599afb21d01b58de3d289eebb618e630bb96bca20ba"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/resnet18/complete.json",
+      "bytes": 5854,
+      "sha256": "014ab05c4a65c8c9a7353f42d8d473eac66c9c1aeac5d92132303f6c7f7b1276"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227002/model.pt",
+      "bytes": 44949835,
+      "sha256": "29e1d561d0db5c67ea2676bf91cd0d22c19b828a452a3c91151a5b31cdc1d76c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227002/complete.json",
+      "bytes": 28253,
+      "sha256": "6203cb8ef5df2f09acb12d54eb6a9faed50237f69d1d878d8851036d78fc362f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227002/training.npz",
+      "bytes": 53587163,
+      "sha256": "1cd8b1b93bc9dbc31f2683059eb5e03c7463b24a69e551abf8fdcdcc3b215a34"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227003/model.pt",
+      "bytes": 44949835,
+      "sha256": "c43c73cda150a8c619f3833ead75925cae97a87296b2419239d6a8c200b5ee4e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227003/complete.json",
+      "bytes": 28298,
+      "sha256": "1282c6027aad3ea6deeed04b80e337db50e23fa07a7ad43d831f381bfab30773"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227003/training.npz",
+      "bytes": 53583333,
+      "sha256": "aefcac198a4810b0205427aa6f68a60e6a245c0fb8724be83be4490dc2fb99e4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227004/model.pt",
+      "bytes": 44949835,
+      "sha256": "d3f6d42de06610d6b0da180417e7b74de8a763c41def32b1e00fb5f482f654f9"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227004/complete.json",
+      "bytes": 28313,
+      "sha256": "1e4b98322507b6461a75da07814c7b8166c9e827cf5b5d3c8836bf5cfe394b94"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227004/training.npz",
+      "bytes": 53586005,
+      "sha256": "b42a1ad006dc39ab2246fd4446364906b39c2ab4b034de0a5624cb3b6993acca"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227005/model.pt",
+      "bytes": 44949835,
+      "sha256": "bc7f57140a4dd41a35c499fa5fbcc70b9f004c95829d480da87a88c326a60cbd"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227005/complete.json",
+      "bytes": 28278,
+      "sha256": "c98eac66aab96be31eb1c643d2b4ad4c23d36ce9b35665359322626fee55eb8f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/resnet18_raw_s227005/training.npz",
+      "bytes": 53582291,
+      "sha256": "29edab4312f370420036298b954ab710531d55d907026b86c8adf86a64d640c0"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227001/model.pt",
+      "bytes": 6807909,
+      "sha256": "159b30a6f55185f3fcd6939c17b938d3c5e26bb280e2b506976b7d3ca6810b51"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227001/complete.json",
+      "bytes": 27274,
+      "sha256": "6e4473336b234b6670fa9626abecd759583bd189f727514c48213df3e9c5b3cb"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227001/training.npz",
+      "bytes": 6477714,
+      "sha256": "df995f8a00ab792d828749b70e2e300eeced4c1efd3bd78703853151e6408ec4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227002/model.pt",
+      "bytes": 6807909,
+      "sha256": "0474314652f60fcf187def607bf5b3c367ee0b7c2491ea4f9a56e18ae04f919d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227002/complete.json",
+      "bytes": 27245,
+      "sha256": "a00979ebe4d74fb96731260a5a7747f4cbb91933bb2793a55e978c17e1d4ef46"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227002/training.npz",
+      "bytes": 6480269,
+      "sha256": "461dfc6903bf05ef65815fcbb5d77f8df3241ea53df1b382c36bd4b45e5bcb5c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227003/model.pt",
+      "bytes": 6807909,
+      "sha256": "0bf830dc78113d3df4021160de2a693c9b762cc76f166f6eaa67b96158bd6404"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227003/complete.json",
+      "bytes": 27249,
+      "sha256": "ed727899c5c150d4ced2f8fb48a48b9fdfedb845f34c965fa41ea601573a417b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227003/training.npz",
+      "bytes": 6477378,
+      "sha256": "30bc5ff42aa387e9f106e9028140dde3cc0cc1329d27998005f78c762b4ad55f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227004/model.pt",
+      "bytes": 6807909,
+      "sha256": "bb80cc1b52d9dbc7454f3929316ec6abef6bae14999f361c68174520b548ad08"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227004/complete.json",
+      "bytes": 27223,
+      "sha256": "873d268c86f5c875d19d60e0eecf8913dc9f18a06a0cc71e201992533cb95184"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227004/training.npz",
+      "bytes": 6480137,
+      "sha256": "03ce631c0251e638390388060ea3389ff1151e73a302663b46d56c27140f288d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227005/model.pt",
+      "bytes": 6807909,
+      "sha256": "86069aabc4226e977743c4aff5228f365cd239a4bca3d573343138f777c85157"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227005/complete.json",
+      "bytes": 27283,
+      "sha256": "b410dddaf0c7e6cb9aa4e0bb517c146985ed3a0a187c7c4a49a34b52c931f2c3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_cnn_raw_s227005/training.npz",
+      "bytes": 6479622,
+      "sha256": "3016e1a2a9e28b7b21d89c909515f4329ebcc896cb3668840ea8e9411424a882"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227001/model.pt",
+      "bytes": 2145853,
+      "sha256": "01a9d6d1b4341f60f6381d4158dd2b6bdb4c581417e8c94f29761b29014ce2f3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227001/complete.json",
+      "bytes": 27203,
+      "sha256": "2fa3a439becd055445838ed299a7e4dbfc47d527b1909ea33922f26837af03a2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227001/training.npz",
+      "bytes": 6463996,
+      "sha256": "81a7b563addd8554fd4b09f65aaf597bdd32cdbb7fff34a6ca1f7cd0e12d266b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227002/model.pt",
+      "bytes": 2145853,
+      "sha256": "6631d53ca1c92d0f14de760c96837884722803098d05005acac70b0709c0e4cc"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227002/complete.json",
+      "bytes": 27196,
+      "sha256": "aefa5a8a828051af48cf8e4000cdb3abc4715806df14bdcbdd8239a2d37ef900"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227002/training.npz",
+      "bytes": 6464142,
+      "sha256": "8849766f66f8179def1986b54f824a8cb609285741ddb17ddb42d0534a3e06ee"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227003/model.pt",
+      "bytes": 2145853,
+      "sha256": "a82ffa089811170f9fe555f563c5c124049cc065f961cba41ae5e84fb1140d1a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227003/complete.json",
+      "bytes": 27518,
+      "sha256": "dd2979a832b1c660ab5bbbb561fc4854f550bab430f7f4c3a2dbe8f72500e188"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227003/training.npz",
+      "bytes": 6466976,
+      "sha256": "4788d4824b50c73756ab27e40ae3f25dad23cd0fe6be72bbb44af954ccca6efc"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227004/model.pt",
+      "bytes": 2145853,
+      "sha256": "797c402f8a74fa864a2a84fd84576d46ae0f51ffd291d473df2d9e458a64cc33"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227004/complete.json",
+      "bytes": 27489,
+      "sha256": "75b266bf2d6979cbde8a309057e07b733286b7eb5429853f30f464af8f2581ef"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227004/training.npz",
+      "bytes": 6467352,
+      "sha256": "bf4cc166582232de28d91685ec030f98651c5c7a4bbdeb66062e4934acb409f9"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227005/model.pt",
+      "bytes": 2145853,
+      "sha256": "3d6a00332a0426fe7153b5ed9170ce9e1a33213b55bae94f0025aab8eef4262f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227005/complete.json",
+      "bytes": 27319,
+      "sha256": "6d6fe7b45a5d710570ca45bca71abfc4db5ac29d6b048747cc06e41809619cfc"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/fashion_mlp_raw_s227005/training.npz",
+      "bytes": 6462313,
+      "sha256": "19ad4a0e8dd8da358938b38f594abb890920f0b0a4ed63ddb6b38b1d65b739d5"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227001/model.pt",
+      "bytes": 44949835,
+      "sha256": "264a2118be52ed61fb1060b54d70e3c7aed600f39c23fa4fd249947798a52bd6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227001/complete.json",
+      "bytes": 28263,
+      "sha256": "7dabb2bbfeba76a7ed020b3bfb55209799ebf05adc5fa13eb899a0e035055c6b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227001/training.npz",
+      "bytes": 53577727,
+      "sha256": "d51596a250be3461f0e86af380a84b4705928c054f023ab446ceee0de2e55ed3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227002/model.pt",
+      "bytes": 44949835,
+      "sha256": "e303ee0b23e25dde5fb9833ceb414e828db34b3d4bcaf85096354fbc86786397"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227002/complete.json",
+      "bytes": 28270,
+      "sha256": "2a733ee31def1161ac654e0fd269e283043fb74cc96a5ba5e908f8e855e43971"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227002/training.npz",
+      "bytes": 53578677,
+      "sha256": "cbbf39d1bcb120101529758482cdcdf276b0fc2c1edede3831c311b6a52c433f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227003/model.pt",
+      "bytes": 44949835,
+      "sha256": "ecfb390e1f5aaf0a7112d48fe656344a960a029a9d65b4b02e8f545a96f43117"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227003/complete.json",
+      "bytes": 28314,
+      "sha256": "5b96f340010558ab7dae77a0643b85a456d3c5b90b9c9bc68f681e7b148045f7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227003/training.npz",
+      "bytes": 53575893,
+      "sha256": "b64f68a2cefe3a4113051e108cc6670272bc6fa370cf6724c08eeb2ceda92841"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227004/model.pt",
+      "bytes": 44949835,
+      "sha256": "d29388768377212950868721d14a4de8110a615ce54bbd3cef5f1088a9b055e2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227004/complete.json",
+      "bytes": 28291,
+      "sha256": "4e67fbb4cba225c5d4090b60a7eeb50f14807d56a18e4adc2987c06a35c3c100"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227004/training.npz",
+      "bytes": 53580077,
+      "sha256": "2076fa255e952704079f4f8db349136199f151445d77ae8c42a22775ad35a363"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227005/model.pt",
+      "bytes": 44949835,
+      "sha256": "ea41b5f199bd2ccffbc6a6305d0cecd1acd9a5faf62e171bc523f4eb7507166d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227005/complete.json",
+      "bytes": 28269,
+      "sha256": "2da0bab8ba27d061fa4c450225fb6f87967f1eb6e959647fd6fa0f27df8e1945"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/resnet18_raw_s227005/training.npz",
+      "bytes": 53576257,
+      "sha256": "a8fa90220899d267e6f9f4bfee19426b16a64d5a494d47bc1b9bdbb945a66557"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/summary.json",
+      "bytes": 34567,
+      "sha256": "9bf3f667e83974709929a7a86f32defe2317407d59fe8d1b0334ef2641237a01"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/manifest.json",
+      "bytes": 11474,
+      "sha256": "674c9bd259f609206584b94a0d423ebed9c407f4102962c6bcf72bd696fbc551"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227001/native_coefficients.npz",
+      "bytes": 10381,
+      "sha256": "e09d8122558a3051f30ba5d462de340b587a8d287e93093e80b7c0c04134adb3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227001/complete.json",
+      "bytes": 1635,
+      "sha256": "8aeefd5164a046f9a771d1237fbcb7a49568ceb6e1c47030d52932c0e20a95b2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227001/native_coefficients.npz",
+      "bytes": 191421,
+      "sha256": "90940659bf030b4b698aabd4a7fb34133f39ae1438cdeac4a43e5c59f1e07412"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227001/complete.json",
+      "bytes": 2351,
+      "sha256": "abc54ba50feef0fc459ca4554c5a5135ed5ebda42f0a4db7068e37f30e9b4b16"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227001/native_coefficients.npz",
+      "bytes": 191444,
+      "sha256": "5c2f400173329d03621874f643118b0e45c94bc1233a1be5901c960d8d5dbcd6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227001/complete.json",
+      "bytes": 2345,
+      "sha256": "54c5a5ac444a9252e32bf8619c05df626c2b7281e419a82a2f47b2bbb0f45e84"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227001/native_coefficients.npz",
+      "bytes": 10224,
+      "sha256": "5b38228c879beea27b76501b283f95cd4353fc2b14c617134740347c9d1fba43"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227001/complete.json",
+      "bytes": 1636,
+      "sha256": "8248fb26359a66ba0f4c98e216ccdaef3c69323d329110327300ec82c5ab8c06"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227003/native_coefficients.npz",
+      "bytes": 10223,
+      "sha256": "0349c17d14dd6f8fa1b40aade43590ed12651a8fc9fc007ab6ad83495d101425"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227003/complete.json",
+      "bytes": 1641,
+      "sha256": "b5cd1e07dac5acc52db26f185fb1fa86a6ad72107aa5281f444c92a77eb7459b"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227004/native_coefficients.npz",
+      "bytes": 10233,
+      "sha256": "eae00b1636907547e6485e207fd6ce42e1acd48946d658ed2b50375fc8416811"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227004/complete.json",
+      "bytes": 1641,
+      "sha256": "5b016f3ce3820d26caff0c330649ce6819ea6376108d78163e8168e015846b74"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227005/native_coefficients.npz",
+      "bytes": 10215,
+      "sha256": "0b96e2d48159d8a677c93234a1426c1626327c06362e67ae39f57c16591b3356"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227005/complete.json",
+      "bytes": 1642,
+      "sha256": "6f14199ece833824043fcee03194b3ff7c973c93280217bc405cfa2401d4b946"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227002/native_coefficients.npz",
+      "bytes": 10213,
+      "sha256": "39ccbf8ab816fc69227b37501f4c7c64f303cdba3b24f90892caeadcf464030d"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227002/complete.json",
+      "bytes": 1642,
+      "sha256": "335fea8a82047565c0925ba7cdf13c044455f817bbfd98fcf08a30508f35a4f9"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227003/native_coefficients.npz",
+      "bytes": 10376,
+      "sha256": "6781988164e3c7c9726ac2c4ec9313910f78ccd15e108f90449819f25dba74e6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227003/complete.json",
+      "bytes": 1641,
+      "sha256": "ca49620609ac0b2febc5e1e1bd2467784d8fac73dd02c98036e513c82bfa96ce"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227004/native_coefficients.npz",
+      "bytes": 10361,
+      "sha256": "254857237f6a9139f3e9860a840cfd92efdaa3312311f65f302530a827fb4f49"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227004/complete.json",
+      "bytes": 1641,
+      "sha256": "b5c14a4d891df5f2377a1ae11583084e9fb9c5c4033b30caa50580b038dd3ee4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227005/native_coefficients.npz",
+      "bytes": 10376,
+      "sha256": "1bc4b0fcdf3a34fc9a6d775c78193b397981597a8e895c25ad7f45b10916f6e5"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227005/complete.json",
+      "bytes": 1641,
+      "sha256": "042568f939784f805e7050ffab988075fc4bfa6dde98aa2bffbb98cc86c4b61f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227002/native_coefficients.npz",
+      "bytes": 10361,
+      "sha256": "c51a6e2c7c5331d33d2a9a590e83d63ed9c48d41d0c903d7313ee22c3630dc03"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227002/complete.json",
+      "bytes": 1641,
+      "sha256": "83623c8ca57b7f37e217f432c525215f1ce8844de21a35d956257cf8315aafd9"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227005/native_coefficients.npz",
+      "bytes": 191402,
+      "sha256": "5ba236c2cabac7eb1d8189cd11402611d2b21908eaa6958705e53943e4b107d3"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227005/complete.json",
+      "bytes": 2351,
+      "sha256": "7a232ca7751977256ee0d2c3909accfe6138100cd7de1f67a51cef23186fb598"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227002/native_coefficients.npz",
+      "bytes": 191461,
+      "sha256": "8538a9c579457494a90bd258929778b5f70882204a30a4eee28225d275f36e69"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227002/complete.json",
+      "bytes": 2352,
+      "sha256": "3b6d2ffca6ecf92e9229384ef5f938655a4072d5114348bb744e0e99bef41a30"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227002/native_coefficients.npz",
+      "bytes": 10368,
+      "sha256": "b66ceaf6f50d1ccd17c9c6b16e1d6b5c4e8dde33cd197a04094b32fe2a34c534"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227002/complete.json",
+      "bytes": 1634,
+      "sha256": "caa57290e8a60864507e00df334b85bf4d795601974cdbf0e07d71be378daef5"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227005/native_coefficients.npz",
+      "bytes": 10371,
+      "sha256": "be7daf94217ea45b97313ae72b2f6c283ad58a905dec7ddcb827236d5e200314"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227005/complete.json",
+      "bytes": 1635,
+      "sha256": "d7f58915ae82be40fd814a3521800297674080ec846e4fcfa41479415f14e1c7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227003/native_coefficients.npz",
+      "bytes": 191347,
+      "sha256": "94a59bb1fa17756075e162a693a6a9814addd4228f2e49ecc303435aea947724"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227003/complete.json",
+      "bytes": 2351,
+      "sha256": "aa7613692e0db55ce106570aa0bd0ec932a044dd0b957b3d405279f1bfeb3ce8"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227004/native_coefficients.npz",
+      "bytes": 191328,
+      "sha256": "dd5264d16b87a1c4d653498db3e81e1758d1c3107fa5bb3303596f629f34654e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__resnet18_raw_s227004/complete.json",
+      "bytes": 2351,
+      "sha256": "4283bc7bcfa72cbb4b105bbed42c00cd3b375f98a25bb7027338b57aa3e60f10"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227004/native_coefficients.npz",
+      "bytes": 10369,
+      "sha256": "a739102b237fe4aee50b133f2f423f52d5e7411a9dacc7e2639691d0a8319d52"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227004/complete.json",
+      "bytes": 1634,
+      "sha256": "226226e1765bc44691fd468d93877ea32964d0706042655ccff787dff8a5a82f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227003/native_coefficients.npz",
+      "bytes": 10382,
+      "sha256": "f6ca141456e0e6e735a777b40f78c99b4f96be497f7d2c9ed8c398dfc60092b8"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_cnn_raw_s227003/complete.json",
+      "bytes": 1634,
+      "sha256": "e0939b8ce91dbbff12d85065cfd4a74d5091cb3c531cec4cd848429e4985ffa4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227005/native_coefficients.npz",
+      "bytes": 191392,
+      "sha256": "204c1bed911544120c4ce72e7e8ee5cee3dfb6fd4b323f84b9b41f53f21925c4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227005/complete.json",
+      "bytes": 2345,
+      "sha256": "8d607175c4487d93dca354a6e9b1a0cb2612bbb48a5cad24385ef7cff7b415bf"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227002/native_coefficients.npz",
+      "bytes": 10216,
+      "sha256": "de653b4e1a198ea8d0edb489f98f1ff1052bbbcab228a713201853cd4d240b63"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227002/complete.json",
+      "bytes": 1635,
+      "sha256": "e736aa44e002eaceb849d3d95eeca633ace59a277fcfd2a2194e34a46f53ae2c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227002/native_coefficients.npz",
+      "bytes": 191442,
+      "sha256": "8bf74323276cdb383d5b1f05765801e0e2f565f81896a92090b0cba3779e9754"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227002/complete.json",
+      "bytes": 2344,
+      "sha256": "a68db12c743e5c158e406e5443cf48c66e2c7c060572c401455f387f442876dd"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227005/native_coefficients.npz",
+      "bytes": 10216,
+      "sha256": "a4caebc38fe4f181c9ac6b33057e8ecaa7c231fa24a4a3cd49ab71add7649117"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227005/complete.json",
+      "bytes": 1635,
+      "sha256": "870dcff72f48390ff31dfc56b0e2e06210ec56ada7c1b039490365f7cf620f0e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227003/native_coefficients.npz",
+      "bytes": 191453,
+      "sha256": "a0a866912ca0eed42beef568da47740cd5e35b6ac9784fa1d367ea68ac03e4a5"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227003/complete.json",
+      "bytes": 2345,
+      "sha256": "512551b216c27afb3a258ae8524cab462493cfd322dfa8a981acf86102ea0003"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227004/native_coefficients.npz",
+      "bytes": 10189,
+      "sha256": "ccc84869bab15a030f5233af1f1403a219e55ae071932852e8015ae0cca0a63a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227004/complete.json",
+      "bytes": 1635,
+      "sha256": "f0e840b52123acf35e4bf494f29a935692ccfd70443b732ae900976571e50b35"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227004/native_coefficients.npz",
+      "bytes": 191423,
+      "sha256": "ca9ca4c6c49d9a1edb411acf5ae7e5efbfc53973528b8b8803f68d406a483e0e"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__resnet18_raw_s227004/complete.json",
+      "bytes": 2346,
+      "sha256": "41672d787e5a974309e693a1830710e68d41cf55087f3a10a80ea13cd64883b2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227003/native_coefficients.npz",
+      "bytes": 10190,
+      "sha256": "de26fcd1469d6a7a6a68af1f8189966408ccb90eab303dd8c5e42a243a1ae427"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_primary_v1__fashion_mlp_raw_s227003/complete.json",
+      "bytes": 1634,
+      "sha256": "d3554c88f6b98aa8b4823b87089c19573d4aa3458c96e613e13db95b7903a922"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227001/native_coefficients.npz",
+      "bytes": 10228,
+      "sha256": "d9f875fba27024e1290c1fe4dcd681a0e1e61ecda91a12f9b64d9e181f6b818a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_mlp_raw_s227001/complete.json",
+      "bytes": 1640,
+      "sha256": "23d5c3822583be513f8876d3bdf0dd02d4ab7472f24bb3799e2ab3b1298b8db7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227001/native_coefficients.npz",
+      "bytes": 10373,
+      "sha256": "075cbf0ab34a76c63ba1a22d380705352153e07a4c339eb8aa877e8078a198e6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/pixel_affine_secondary_v1__fashion_cnn_raw_s227001/complete.json",
+      "bytes": 1641,
+      "sha256": "8744014007d970ae9eae4d1430b346f90c5276a59eb19685062f62d39763d06f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/audit.json",
+      "bytes": 1864,
+      "sha256": "6c427eca03e4839f860b2eb1b1785d0be7865fe212282b98896d272d1bd7b155"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/manifest.json",
+      "bytes": 2876,
+      "sha256": "22cda056cf195d2c6da09718037845e5ab05ed4e6f1ca51a6da76644acb7527c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/check_affine_dual_audit.py",
+      "bytes": 1751,
+      "sha256": "8fd6a0871aa37f096f2abcc8488ec2dbe954eab0204ad952ae6896475428c523"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/requirements.txt",
+      "bytes": 41,
+      "sha256": "48c5e1fcf87b5337291eac2621440171c64b6326ff7bea94bd0920edaf49810f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/source_manifest.json",
+      "bytes": 941,
+      "sha256": "591f7f0852dd9b5a0b8a54890ca3186f50c52cebadb88bb0d47646ff1e2e54f6"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/check_affine_reference.py",
+      "bytes": 5847,
+      "sha256": "d1610354d082bcc22df035d8c3277f929a900838df1d11d9e33316ffbe405163"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/producer.py",
+      "bytes": 7244,
+      "sha256": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/affine_raw_dual_audit.py",
+      "bytes": 7244,
+      "sha256": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/check_affine_reference_platform.py",
+      "bytes": 2955,
+      "sha256": "b8c07dce4d4c5080dbd5bc90d20ff3d9c407ab0dff2f2ba81b5a4a84c0fa15e9"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/queue.json",
+      "bytes": 809,
+      "sha256": "3087732df11a19a0c0b443805d94de0648cd74a221ccb8986dc02a0a2891c191"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/affine_raw_reference.py",
+      "bytes": 16727,
+      "sha256": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/source/protocol.md",
+      "bytes": 8807,
+      "sha256": "16944ca3307d7e88962f3f3768f087494019a4000b67e6dd01d30b1178a3bad1"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/queue_complete.json",
+      "bytes": 92,
+      "sha256": "690f880d6c0737bb22ca4512b72dc0eefcf54422b7b23114e92f446d985ac837"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/launch.json",
+      "bytes": 2926,
+      "sha256": "e0b68004a55e645fa7fe1abe673075b706cd4981d2289e0c0f23038e24833d6f"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_cnn/reference.npz",
+      "bytes": 6304607,
+      "sha256": "f090091028170d40b7953dd2e76e131f15339c9be90d4dae023d4fbcc37e7fc2"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_cnn/complete.json",
+      "bytes": 12342,
+      "sha256": "e2dd8116a165bf60668ffeb6bf74b71b25347d105be8ca604746ea977e0ac739"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_mlp/reference.npz",
+      "bytes": 6633800,
+      "sha256": "ef238559418434af3a42b6b308cd1ff81e1d4613fa50283f6277878ef6fffc49"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/fashion_mlp/complete.json",
+      "bytes": 11199,
+      "sha256": "ec6d18ac4fcd4173702e09f70d71033c1dd9f8bc924f6a01fc36c87a47d049ec"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/resnet18/reference.npz",
+      "bytes": 53456018,
+      "sha256": "5c26b94b297d3f15a10fa7307917cf684ff7369ddba18309a3681eee2731ee11"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/output/resnet18/complete.json",
+      "bytes": 13935,
+      "sha256": "99eaa26ca1d11c04e9f9a0e4c944a4f3f3938149fce86ef3930e315ac1e3bbda"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/summary.json",
+      "bytes": 1726,
+      "sha256": "603037f08e76b930d7c1f46a9ba5075c799743565f270d360f656f3f200bd362"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/manifest.json",
+      "bytes": 1052,
+      "sha256": "76d8cd8120397e1a66b993f41409558333307d28a0c9601c1a380716f73c457a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/fashion_cnn/training_inputs.npz",
+      "bytes": 9795673,
+      "sha256": "f9b6f568d0017ab1bf13f79eb6c855d3be396e8787d204b2aa1c83e39cb718d1"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/fashion_mlp/training_inputs.npz",
+      "bytes": 18216231,
+      "sha256": "b8c34a2cb6b2d262519be00816ee9e78cbc3dc6c5bd4af7eaeb17039264fd0d4"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/resnet18/training_inputs.npz",
+      "bytes": 56876976,
+      "sha256": "5ad526b3e402676b04974100901ed854c8ba38b8192e4f2a89be01a77b0f8459"
+    }
+  ],
+  "cpu_archive_audit": {
+    "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/audit.json",
+    "bytes": 1864,
+    "sha256": "6c427eca03e4839f860b2eb1b1785d0be7865fe212282b98896d272d1bd7b155"
+  },
+  "source_sha256": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289",
+  "certificate_source_sha256": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac",
+  "auditor_sha256": "38219ffc9ebb1ef8a9602a50a35a5fdcc15bbf25f46790760b6f3a0ca277c2c8",
+  "preparation_sha256": "52b619e6f50e55853869302a5a628744bf50a8ed7d6837df2c70c39266c62da0",
+  "official_test_decoded": false,
+  "longdouble_nmant": 63,
+  "limitations": [
+    "Intervals are conditional on the recorded IEEE/libm error model,not a formal machine proof.",
+    "Reference coefficients and tiny stored FP32 features define real affine points;possible GPU FTZ and F32 representability are separate.",
+    "Saved CUDA loss minus real-affine loss is descriptive;the gap certificate concerns the real point on trainingB only.",
+    "No validation/test labels or outcomes select an optimization arm. All30 raw points and15 target transports are retained."
+  ]
+}

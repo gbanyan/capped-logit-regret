@@ -1,0 +1,14 @@
+{
+  "queue_sha256": "b1cf1bfbd26a3a8c8b57e86aaa8a0a24c9a01c7614ae5d23435ad404e96afc13",
+  "manifest_queue_sha256": "b1cf1bfbd26a3a8c8b57e86aaa8a0a24c9a01c7614ae5d23435ad404e96afc13",
+  "queue_jobs": 980,
+  "unique_queue_jobs": 980,
+  "endpoint_rows": 980,
+  "unique_endpoint_jobs": 980,
+  "missing_endpoint_jobs": [],
+  "extra_endpoint_jobs": [],
+  "known_duplicate_pairs": 10,
+  "slots_in_known_pairs": 20,
+  "redundant_slots_in_these_pairs": 10,
+  "scope": "Read-only queue/endpoint membership and saved duplicate-record audit; no new fit, replay or inferred global independent-replication count"
+}

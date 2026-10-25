@@ -1,0 +1,23 @@
+{
+  "worker_kind": "teacher",
+  "jobs": [
+    {
+      "name": "resnet18",
+      "architecture": "resnet18",
+      "seed": 222950,
+      "epochs": 100
+    },
+    {
+      "name": "fashion_cnn",
+      "architecture": "fashion_cnn",
+      "seed": 222950,
+      "epochs": 30
+    },
+    {
+      "name": "fashion_mlp",
+      "architecture": "fashion_mlp",
+      "seed": 222950,
+      "epochs": 30
+    }
+  ]
+}

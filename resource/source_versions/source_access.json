@@ -1,0 +1,129 @@
+[
+  {
+    "id": "mao2023_proceedings",
+    "url": "https://papers.neurips.cc/paper_files/paper/2023/file/0e441913d4fa486c3eec967d79750b13-Paper-Conference.pdf",
+    "retrieved_utc": "2026-10-25T14:04:16.544069+00:00",
+    "status": 200,
+    "final_url": "https://papers.neurips.cc/paper_files/paper/2023/file/0e441913d4fa486c3eec967d79750b13-Paper-Conference.pdf",
+    "content_type": "application/pdf",
+    "sha256": "04f4e07cf701a6855b08115108ced54de568063d9b566a31f2a707ff82aafd68",
+    "bytes": 481547,
+    "local_file": "_work/mao2023_proceedings.pdf"
+  },
+  {
+    "id": "mao2023_author",
+    "url": "https://www.cs.nyu.edu/~mohri/pub/chcb.pdf",
+    "retrieved_utc": "2026-10-25T14:04:16.544416+00:00",
+    "status": 200,
+    "final_url": "https://cs.nyu.edu/~mohri/pub/chcb.pdf",
+    "content_type": "application/pdf",
+    "sha256": "841b8af7cb78d6261d361afcc2c8a2e78597012ba6fdc9c883ac4ea0da6dda2d",
+    "bytes": 467146,
+    "local_file": "_work/mao2023_author.pdf"
+  },
+  {
+    "id": "zheng2023_proceedings",
+    "url": "https://proceedings.mlr.press/v202/zheng23f/zheng23f.pdf",
+    "retrieved_utc": "2026-10-25T14:04:16.544504+00:00",
+    "status": 200,
+    "final_url": "https://proceedings.mlr.press/v202/zheng23f/zheng23f.pdf",
+    "content_type": "application/pdf",
+    "sha256": "bcdc6a7f3db855531f8dac5ffd8e765ea6564fb4eacf5dd2dacf8b42887e9a7b",
+    "bytes": 1526639,
+    "local_file": "_work/zheng2023_proceedings.pdf"
+  },
+  {
+    "id": "mao2025_proceedings",
+    "url": "https://raw.githubusercontent.com/mlresearch/v272/main/assets/mao25a/mao25a.pdf",
+    "retrieved_utc": "2026-10-25T14:04:16.544573+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/mlresearch/v272/main/assets/mao25a/mao25a.pdf",
+    "content_type": "application/octet-stream",
+    "sha256": "a680d00500a1b72c6627b9008b206e1583b0bff604ea3fa1c785bf0c854205d6",
+    "bytes": 419077,
+    "local_file": "_work/mao2025_proceedings.pdf"
+  },
+  {
+    "id": "mao2025_author_v2",
+    "url": "https://arxiv.org/pdf/2407.13722v2",
+    "retrieved_utc": "2026-10-25T14:04:16.989854+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2407.13722v2",
+    "content_type": "application/pdf",
+    "sha256": "d99c8080d271eb1e3888317e25a09ad3f52de294cfdf6cf12acac2f98678363d",
+    "bytes": 568570,
+    "local_file": "_work/mao2025_author_v2.pdf"
+  },
+  {
+    "id": "mao2023_openreview_bibliography",
+    "url": "https://openreview.net/forum?id=F3BYo1fgD5",
+    "retrieved_utc": "2026-10-25T14:04:17.135267+00:00",
+    "status": 200,
+    "final_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DF3BYo1fgD5",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "2f84c23b1710b61e0eb18ef2a61f8c8480027f536b3759eec045f092d00ca852",
+    "bytes": 4787,
+    "local_file": "_work/mao2023_openreview_bibliography.response"
+  },
+  {
+    "id": "mao2023_openreview_conference",
+    "url": "https://openreview.net/forum?id=nI7EmXq2PL",
+    "retrieved_utc": "2026-10-25T14:04:17.640783+00:00",
+    "status": 200,
+    "final_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DnI7EmXq2PL",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "23703beb226ad17cb9e78b9244ac82a9eb2b27ac9f637de5eb183e225a690cbe",
+    "bytes": 4787,
+    "local_file": "_work/mao2023_openreview_conference.response"
+  },
+  {
+    "id": "mao2023_openreview_pdf",
+    "url": "https://openreview.net/pdf?id=nI7EmXq2PL",
+    "retrieved_utc": "2026-10-25T14:04:18.091890+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "sha256": "a2d811e0d24af89d9bd4b19cc9e8fbc474c67ef3827648550a6560eca2a5e332",
+    "bytes": 12692,
+    "local_file": "_work/mao2023_openreview_pdf.response"
+  },
+  {
+    "id": "mao2023_api1_bibliography",
+    "url": "https://api.openreview.net/notes?id=F3BYo1fgD5",
+    "retrieved_utc": "2026-10-25T14:04:18.234759+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "sha256": "8b38c442c07bdc09189faf427d902d2207fddf9000f281d6862557acd851ab50",
+    "bytes": 249,
+    "local_file": "_work/mao2023_api1_bibliography.response"
+  },
+  {
+    "id": "mao2023_api2_bibliography",
+    "url": "https://api2.openreview.net/notes?id=F3BYo1fgD5",
+    "retrieved_utc": "2026-10-25T14:04:18.330294+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "sha256": "81f1e4b43eff3f710bbf6206a24312961811c12c91b99f4089d4d462d08a394a",
+    "bytes": 271,
+    "local_file": "_work/mao2023_api2_bibliography.response"
+  },
+  {
+    "id": "mao2023_api1_conference",
+    "url": "https://api.openreview.net/notes?id=nI7EmXq2PL",
+    "retrieved_utc": "2026-10-25T14:04:18.336291+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "sha256": "e37ff7c784fa599b33aec49a7f1bc0e30d7631a61c2eaeb6001295588561894e",
+    "bytes": 249,
+    "local_file": "_work/mao2023_api1_conference.response"
+  },
+  {
+    "id": "mao2023_api2_conference",
+    "url": "https://api2.openreview.net/notes?id=nI7EmXq2PL",
+    "retrieved_utc": "2026-10-25T14:04:18.559707+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "sha256": "757fa2dd07a4f447c0480004de2823d79b8a22d3c137cc8766e0a65dbdded98b",
+    "bytes": 271,
+    "local_file": "_work/mao2023_api2_conference.response"
+  }
+]

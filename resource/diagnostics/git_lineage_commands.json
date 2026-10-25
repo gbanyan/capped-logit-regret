@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "executed_utc": "2026-10-25T13:14:16.057019+00:00",
+  "execution_location": "local macOS repository",
+  "scope": "New read-only Git object-graph inspection; not a historical launch receipt, public timestamp authentication or current host-state check",
+  "records": [
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "f49e669a",
+        "c6d7d85c"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "meaning": "Exit 0 records ancestor relation in this local Git object graph"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "c6d7d85c",
+        "a5f46aaa"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "meaning": "Exit 0 records ancestor relation in this local Git object graph"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "a5f46aaa",
+        "a5338e86"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "meaning": "Exit 0 records ancestor relation in this local Git object graph"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "show",
+        "--no-patch",
+        "--format=%H%n%P%n%cI%n%s",
+        "f49e669a"
+      ],
+      "exit_code": 0,
+      "stdout": "f49e669a8377a61b254679d8a646ab2b8c35dbb2\n9a8141b4bb79f9a9a5c59d572f8ddcd3b24f2fc2\n2026-10-23T03:59:21+08:00\nPreserve actual4062-path cold audit and freeze bitwise648 replay comparison with signed-zero controls\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "show",
+        "--no-patch",
+        "--format=%H%n%P%n%cI%n%s",
+        "c6d7d85c"
+      ],
+      "exit_code": 0,
+      "stdout": "c6d7d85cbbd5f533742c32da31cd861d087cca32\n3b3772199ca9c16b01347ec643a87b7bd4d1faf8\n2026-10-23T04:06:16+08:00\nArchive all648 official outcomes and full negative arms,paired statistics,bounds and scientific figures\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "show",
+        "--no-patch",
+        "--format=%H%n%P%n%cI%n%s",
+        "a5f46aaa"
+      ],
+      "exit_code": 0,
+      "stdout": "a5f46aaad1525174035ed36c4bc228d546b77e04\na12c0855e399585a10461c19e55feaff43108d7d\n2026-10-23T05:17:41+08:00\nVerify final731 metadata files from origin and freeze authorized idle-host shutdown after full R1-R7 audit\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "git",
+        "show",
+        "--no-patch",
+        "--format=%H%n%P%n%cI%n%s",
+        "a5338e86"
+      ],
+      "exit_code": 0,
+      "stdout": "a5338e868f28915b87c14da2024be55edefbe65e\nd93ad74ae19983c7eb28adb06f1e3b4b7656706e\n2026-10-23T05:23:47+08:00\nFormat closing artifact links for readable CommonMark navigation\n",
+      "stderr": ""
+    }
+  ]
+}

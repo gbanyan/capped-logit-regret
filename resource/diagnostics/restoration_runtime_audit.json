@@ -1,0 +1,551 @@
+{
+  "kind": "NEW extraction of original saved origin/runtime/loading records; no fresh restoration, tensor parsing or inference",
+  "original_audit": {
+    "path": "results/capped_logits_completion_2026-10-22/cold_origin_final_audit_attempt001/summary.json",
+    "sha256": "79c6d4f9a43a25c1da960e236cfe2126d2b38a3d3fb635df8b727401fa43de63"
+  },
+  "original_metadata": {
+    "status": "PASS",
+    "commit": "c6d7d85cbbd5f533742c32da31cd861d087cca32",
+    "root": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022/final_origin_retrieval_v1/checkout",
+    "isolated_lfs_storage": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022/final_origin_retrieval_v1/checkout/.git/cold-lfs",
+    "manifests": [
+      {
+        "path": "results/capped_logits_completion_2026-10-22/affine_adequacy_inputs_v1/manifest.json",
+        "files": 61,
+        "manifest_sha256": "674c9bd259f609206584b94a0d423ebed9c407f4102962c6bcf72bd696fbc551"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/affine_raw_training_inputs_v2/manifest.json",
+        "files": 7,
+        "manifest_sha256": "76d8cd8120397e1a66b993f41409558333307d28a0c9601c1a380716f73c457a"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_adequacy_v1/manifest.json",
+        "files": 14,
+        "manifest_sha256": "5dfdb89feed4cfe1e193d1951777b6d7db47494ed858c2fa55b7e0130002ffa6"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_dual_audit_v3/manifest.json",
+        "files": 19,
+        "manifest_sha256": "22cda056cf195d2c6da09718037845e5ab05ed4e6f1ca51a6da76644acb7527c"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_reference_v1/manifest.json",
+        "files": 23,
+        "manifest_sha256": "30f05715da6aa7b10578b7a3ab7011399170910c26fcbf04b9b99f9ec0112bf9"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_reference_v2/manifest.json",
+        "files": 23,
+        "manifest_sha256": "654d9f2784cbdfc13136848e854d4c916c05ce57a0938a5067738088f82368c0"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/disjoint_image_kkt_attempt001/manifest.json",
+        "files": 1,
+        "manifest_sha256": "330687540680841300d78b3097b83732640e48b654b2a01d1a039164929c6326"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/disjoint_probability_certificate_attempt001/manifest.json",
+        "files": 1,
+        "manifest_sha256": "e50475b2dc5be47e7ca70220997edff829136c25198b5e3a3143a0d2492039c9"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/disjoint_probability_control_attempt001/manifest.json",
+        "files": 4,
+        "manifest_sha256": "b0a8d8fa54654e0b63728c1f60c0307550ef4396fbb735fed08bbef572c13756"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/fixed_p_image_caps_attempt001/manifest.json",
+        "files": 1,
+        "manifest_sha256": "1d035c919e4b178d12d6ab33f1de11214fcc7fce9d6aad98eb0a5796ae4db32e"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/official_report_attempt001/manifest.json",
+        "files": 8,
+        "manifest_sha256": "f3eda9d20d695040b5e4cff91df067ae767c477cda1e23e1ff0b028e3fc49046"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/affine_all_validation_v1/manifest.json",
+        "files": 183,
+        "manifest_sha256": "36a746b0eec4a37c081f37091648ebd782b23405d796b4d76d9cee37499c84dc"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/affine_box_gradient_diagnostic_v1/manifest.json",
+        "files": 107,
+        "manifest_sha256": "de616b684d03f85ce82b5a0a9e8d59339ec6d547e7ca3a311a063291b9b33b7f"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/affine_feature_cache_v1/manifest.json",
+        "files": 20,
+        "manifest_sha256": "4691d1fa93ad0d7a2a1250b6c34ddd436762ee6ef39893c05222721f4d700de3"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/baseline_development_v1/manifest.json",
+        "files": 21,
+        "manifest_sha256": "5dc87b99a75147cbca213bef6a1e3765dc0653bff4f00bd71b4b4754920f854a"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/bounded_confirmation_v1/manifest.json",
+        "files": 232,
+        "manifest_sha256": "6bf11da146a006aa6ae9e2a695a197507fc7002d1b75b620e72c40ebd2386dea"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/confirmation_readout_validation_v2/manifest.json",
+        "files": 138,
+        "manifest_sha256": "9d34902fe7899cc5b0df8c8eb08b07bab8ee199d2f4d130a4d8ff086ff0175c0"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/deep_gradient_diagnostic_v1/manifest.json",
+        "files": 69,
+        "manifest_sha256": "10cd94837dee69ec3a6f44a1706d64a8859d229a5a07bc4d59baf4aa7f633709"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/deep_head_transfer_diagnostic_v1/manifest.json",
+        "files": 24,
+        "manifest_sha256": "00278c9be11fd09eaa8b13163202a1257d02f6d382fc5b3b53985859e69c3715"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/deep_replication_head_transfer_v1/manifest.json",
+        "files": 23,
+        "manifest_sha256": "0e5c1007c2f1824be0b802f51daf1a297ab69b861481d9801e414a725e95703c"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/development_readout_validation_v1/manifest.json",
+        "files": 41,
+        "manifest_sha256": "2271fb6fef9a964ebae88abb916eca325e3c1c48cc6bf65cfbb8367600101e82"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/development_readout_validation_v2/manifest.json",
+        "files": 42,
+        "manifest_sha256": "450f9fbca41fa6a143616f5ab57833310155da77aca3792bc233b6430812fdaa"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/disjoint_features_centered_v1/manifest.json",
+        "files": 20,
+        "manifest_sha256": "45690f943973378d1a51521ed66adb218ab38dff618a8664efa9f4091303ac45"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/disjoint_native_pixel_witness_v1/manifest.json",
+        "files": 24,
+        "manifest_sha256": "63dd0184b3231e8678b45cecb0e32144a548ad11e2fdfd9cf28f14c61a9e3ad9"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/disjoint_student_confirmation_v1/manifest.json",
+        "files": 609,
+        "manifest_sha256": "9ceae52dcd615d351f6010b0b229df60713159851afc62a2f30ae2159d0aa44a"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/disjoint_student_development_v1/manifest.json",
+        "files": 129,
+        "manifest_sha256": "1ec2e5701eda5da4a59a2041191170cdb56d0dece2dbd4dfcb51e92655c040c8"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/disjoint_teacher_v1/manifest.json",
+        "files": 25,
+        "manifest_sha256": "f8cc9b365ba4d890c90bc6667bc107518818f1247e0eaba20e58fc95e740c12e"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/feature_path_replay_v1/manifest.json",
+        "files": 15,
+        "manifest_sha256": "3f72378802f61d0fae56373071b3e028bc0f85c262083c2cbdd269ed51c087a1"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/image_features_v1/manifest.json",
+        "files": 17,
+        "manifest_sha256": "29ae5fbdbc5b4db9de9b7639575011dedacd6a2c1e30006f4c65c89a44097e50"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/image_kkt_preflight_v1/manifest.json",
+        "files": 26,
+        "manifest_sha256": "5e3be54c1dce9482466f82c871db00b48c9e38326e1d38a3b33f1411ab44b19e"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/image_student_development_v1/manifest.json",
+        "files": 129,
+        "manifest_sha256": "a96c705a155953e275bad3aef3f87cda380bba6bb23d766ae8edcc33075dbf66"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/image_student_repair_v1/manifest.json",
+        "files": 129,
+        "manifest_sha256": "f78f32e62dc34244e06d420d46f782770eae547874a9aa5d59b8f8800fa1fb7f"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/legacy_readout_validation_v1/manifest.json",
+        "files": 41,
+        "manifest_sha256": "263494e1403cb4cdeb4d0bf67be266fec0588355b41200d05aa6621095316e9b"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/legacy_readout_validation_v2/manifest.json",
+        "files": 42,
+        "manifest_sha256": "37eaa8e8ce20a30731b664c30fd0a70b60bc753431643606067051fa2363b57a"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/native_hard_head_transfer_v1/manifest.json",
+        "files": 74,
+        "manifest_sha256": "badd98c03253d1a0ee46834bd2d3f27cb24ec5fb60b3162b4f0a7557234f92fa"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/natural_bounded_validation_v2/manifest.json",
+        "files": 63,
+        "manifest_sha256": "d5781a7dd41548b1f7bba174c60eb93d73304be8910ab7108ed8b547058c0ee6"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/natural_raw_validation_v2/manifest.json",
+        "files": 33,
+        "manifest_sha256": "d42bb9d40dea8ec596b2495bd41a96bf9ecebb7b36017d1afd95e4c7d54ff7a8"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/official_test_evaluation_v1/manifest.json",
+        "files": 1315,
+        "manifest_sha256": "e5bc5f260ab6d73b095ac8a542793a5ef8b351ecdf1f8559ccbfd122d5f318b1"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/official_test_features_v1/manifest.json",
+        "files": 16,
+        "manifest_sha256": "5e1cbc738bb2f64ade75cccb2210bdf5f201981654d885b4470a64d0666add52"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_primary_v1/manifest.json",
+        "files": 435,
+        "manifest_sha256": "f2400e1a3fe7e71a568a9fbe8c767be9c70c5bae4f1d94bf24dfb4b21efc1558"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_raw_head_transfer_v1/manifest.json",
+        "files": 90,
+        "manifest_sha256": "8f2761c253a51d0bc2006075189310d6498ea4df0e56b29495eeadf499926026"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_secondary_v1/manifest.json",
+        "files": 435,
+        "manifest_sha256": "42a6bb35ba185a87e64ea855e8b31b186b9c6b0b2603eac7fbbef7b8e527bfc1"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_tanh_head_transfer_v1/manifest.json",
+        "files": 90,
+        "manifest_sha256": "298d8eb45df1e12424faa875e52e0471d0dd5db43e1fc8e8a7d72eae3e7a1f59"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_affine_teacher_reference_v1/manifest.json",
+        "files": 90,
+        "manifest_sha256": "547b138d432ea8f939c55c9bcac1efce162b77194df8156695d8e80dc8b7fcd4"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_box_gradient_diagnostic_v1/manifest.json",
+        "files": 222,
+        "manifest_sha256": "cf785b3e86fb6a0e8baa70c6ffc6b903d43c38f1d9a3a3361c58301d128f887e"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_capacity_replay_v1/manifest.json",
+        "files": 613,
+        "manifest_sha256": "f639eb391e6f2f82c8a8afd7739116434ee369018492346ac1cac4f9fb0e168a"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_confirmation_v1/manifest.json",
+        "files": 313,
+        "manifest_sha256": "c80c1a3b12ecc3523cbe7dec5b7a8293c1fa1ef00ace28026860ce597131baff"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_hard_v1/manifest.json",
+        "files": 121,
+        "manifest_sha256": "bfc48020c94a9afeaf6c258d0f28f541d38aa9e20e1ea681760056a70f0df92b"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_validation_v2/manifest.json",
+        "files": 78,
+        "manifest_sha256": "1e71e8a1de34572f7e8cae275905d7b04d10a6028cc6a723cad102fe3d5cb488"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/manifest.json",
+        "files": 193,
+        "manifest_sha256": "59db4db015e8b1277158dfe26ebd15183a89ea20c82c03b52be2bd8769d624f3"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_mixed_confirmation_v1/manifest.json",
+        "files": 313,
+        "manifest_sha256": "c5f5cf75879735114903ddcf8e41bceb7216dd0ba0e75b6e1cf152f319c59cba"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/pixel_mixed_validation_v2/manifest.json",
+        "files": 78,
+        "manifest_sha256": "02203b8de3e2f71cace96fecbffbb1ce883fe428b2f400cb119f20519ab6e8bb"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/raw_confirmation_v1/manifest.json",
+        "files": 82,
+        "manifest_sha256": "0a12ae5d4ed3576d266d131b7e2bbee120fdcb76e2ea4918df0bfdc53733ded0"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/remaining_pixel_validation_v2/manifest.json",
+        "files": 201,
+        "manifest_sha256": "7d4e8c7e353c3cb2c8ffa07be7bd3276fa487c813a1921f5f70b1a63c0edf9a4"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/repair_readout_validation_v1/manifest.json",
+        "files": 41,
+        "manifest_sha256": "1cb1c169eac5c645e327078c39281f5779622a3e93e861dad344e7bb4cf21455"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/repair_readout_validation_v2/manifest.json",
+        "files": 42,
+        "manifest_sha256": "fa9c88888ccf2b4e31e55737d84894507585e4240a1d1305d71817cb29a01ae1"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/synthetic_confirmation_v1/manifest.json",
+        "files": 3928,
+        "manifest_sha256": "6acdc826df106c87395dad712ce63820d57453d30ecaf51c45582670182b24e5"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/synthetic_deep_replication_v1/manifest.json",
+        "files": 48,
+        "manifest_sha256": "3e267292a9baaf86c4cb4bef51f99b1cbf6a233ec39acacddd04fc9e41b10370"
+      },
+      {
+        "path": "results/capped_logits_completion_2026-10-22/phases/synthetic_development_v1/manifest.json",
+        "files": 40,
+        "manifest_sha256": "f9c4a2b2a1aa451faceb5aaa9f4edba675085cfc92b68960cf57253244d5c16d"
+      }
+    ],
+    "binary_paths": 4713,
+    "unique_LFS_objects": 4582,
+    "bytes": 24778294586,
+    "materialized_binary_paths": 0,
+    "torch": "2.11.0+cpu",
+    "numpy": "2.4.4",
+    "source_sha256": "8a3ee18fd92894799123546d5d489d8aad73d82847f8111e7dfd6b5a60c7b72a",
+    "scope": "Actual isolated remote retrieval/manifest/OID/serialization audit;not new inference or full R1-R7 completion"
+  },
+  "binary_roster": {
+    "file": "restored_binary_roster.csv",
+    "sha256": "056fa133514515e3b494157ee29cc9a32c8e2bb43109f9099c93af1adecbddfb",
+    "rows": 4713
+  },
+  "original_receipts": [
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cold_origin_initial_audit_attempt001/initial_empty_store_receipt.json",
+      "sha256": "27d2a805aaad6999eb5382f4d94bca9370216703231ad493457339be8122ec4a"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cold_origin_start_attempt001/summary.json",
+      "sha256": "7729e0bf27be41931e78d481f4906b10bb28ffc4a79b82dcbdf8b90c3663184c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/cold_origin_finalize_attempt001/summary.json",
+      "sha256": "dbdf6c419f90b30f3238f7ab8fda00ed12e8a207c0170067bd62af8667a192d7"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/runtime_inventory_attempt001/summary.json",
+      "sha256": "0e6f29bb92bfef30f1846288daf89c399fff8a72ac45811786cfc45a9ec13d39"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/restore_native_runtime_attempt001/summary.json",
+      "sha256": "c1db8f6827f7489efab7c42c3b6e1de881e1cbcff29f14077e4dab0647b2f48c"
+    },
+    {
+      "path": "results/capped_logits_completion_2026-10-22/shutdown_attempt001/receipt.json",
+      "sha256": "1f2a235b1876a1dcb43b35f326a3faf0be7a22050a1e75cacc24bcea7e4b9cb7"
+    }
+  ],
+  "all_receipt_links_match": true,
+  "GPU_image_id": "sha256:f5397c5c7ad095dbd11af2c40fc92fdbfe13087cfc5b8936426f37da10deab69",
+  "GPU_versions": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "torch": "2.8.0+cu128",
+    "CUDA": "12.8",
+    "cudnn": 91002,
+    "numpy": "2.3.3",
+    "torch_build": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CUDA_VERSION=12.8, CUDNN_VERSION=9.8.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+    "numpy_build": "{\n  \"Compilers\": {\n    \"c\": {\n      \"name\": \"gcc\",\n      \"linker\": \"ld.bfd\",\n      \"version\": \"14.2.1\",\n      \"commands\": \"cc\"\n    },\n    \"cython\": {\n      \"name\": \"cython\",\n      \"linker\": \"cython\",\n      \"version\": \"3.1.3\",\n      \"commands\": \"cython\"\n    },\n    \"c++\": {\n      \"name\": \"gcc\",\n      \"linker\": \"ld.bfd\",\n      \"version\": \"14.2.1\",\n      \"commands\": \"c++\"\n    }\n  },\n  \"Machine Information\": {\n    \"host\": {\n      \"cpu\": \"x86_64\",\n      \"family\": \"x86_64\",\n      \"endian\": \"little\",\n      \"system\": \"linux\"\n    },\n    \"build\": {\n      \"cpu\": \"x86_64\",\n      \"family\": \"x86_64\",\n      \"endian\": \"little\",\n      \"system\": \"linux\"\n    }\n  },\n  \"Build Dependencies\": {\n    \"blas\": {\n      \"name\": \"scipy-openblas\",\n      \"found\": true,\n      \"version\": \"0.3.30\",\n      \"detection method\": \"pkgconfig\",\n      \"include directory\": \"/opt/_internal/cpython-3.12.11/lib/python3.12/site-packages/scipy_openblas64/include\",\n      \"lib directory\": \"/opt/_internal/cpython-3.12.11/lib/python3.12/site-packages/scipy_openblas64/lib\",\n      \"openblas configuration\": \"OpenBLAS 0.3.30  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=64\",\n      \"pc file directory\": \"/project/.openblas\"\n    },\n    \"lapack\": {\n      \"name\": \"scipy-openblas\",\n      \"found\": true,\n      \"version\": \"0.3.30\",\n      \"detection method\": \"pkgconfig\",\n      \"include directory\": \"/opt/_internal/cpython-3.12.11/lib/python3.12/site-packages/scipy_openblas64/include\",\n      \"lib directory\": \"/opt/_internal/cpython-3.12.11/lib/python3.12/site-packages/scipy_openblas64/lib\",\n      \"openblas configuration\": \"OpenBLAS 0.3.30  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=64\",\n      \"pc file directory\": \"/project/.openblas\"\n    }\n  },\n  \"Python Information\": {\n    \"path\": \"/tmp/build-env-w4xgk5bb/bin/python\",\n    \"version\": \"3.12\"\n  },\n  \"SIMD Extensions\": {\n    \"baseline\": [\n      \"SSE\",\n      \"SSE2\",\n      \"SSE3\"\n    ],\n    \"found\": [\n      \"SSSE3\",\n      \"SSE41\",\n      \"POPCNT\",\n      \"SSE42\",\n      \"AVX\",\n      \"F16C\",\n      \"FMA3\",\n      \"AVX2\"\n    ],\n    \"not found\": [\n      \"AVX512F\",\n      \"AVX512CD\",\n      \"AVX512_KNL\",\n      \"AVX512_KNM\",\n      \"AVX512_SKX\",\n      \"AVX512_CLX\",\n      \"AVX512_CNL\",\n      \"AVX512_ICL\",\n      \"AVX512_SPR\"\n    ]\n  }\n}\n",
+    "packages": [
+      {
+        "name": "contourpy",
+        "version": "1.4.0"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1"
+      },
+      {
+        "name": "filelock",
+        "version": "3.32.3"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.67.0"
+      },
+      {
+        "name": "fsspec",
+        "version": "2026.7.0"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.1"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.1"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.6"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1"
+      },
+      {
+        "name": "numpy",
+        "version": "2.3.3"
+      },
+      {
+        "name": "nvidia-cublas-cu12",
+        "version": "12.8.4.1"
+      },
+      {
+        "name": "nvidia-cuda-cupti-cu12",
+        "version": "12.8.90"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc-cu12",
+        "version": "12.8.93"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu12",
+        "version": "12.8.90"
+      },
+      {
+        "name": "nvidia-cudnn-cu12",
+        "version": "9.10.2.21"
+      },
+      {
+        "name": "nvidia-cufft-cu12",
+        "version": "11.3.3.83"
+      },
+      {
+        "name": "nvidia-cufile-cu12",
+        "version": "1.13.1.3"
+      },
+      {
+        "name": "nvidia-curand-cu12",
+        "version": "10.3.9.90"
+      },
+      {
+        "name": "nvidia-cusolver-cu12",
+        "version": "11.7.3.90"
+      },
+      {
+        "name": "nvidia-cusparse-cu12",
+        "version": "12.5.8.93"
+      },
+      {
+        "name": "nvidia-cusparselt-cu12",
+        "version": "0.7.1"
+      },
+      {
+        "name": "nvidia-nccl-cu12",
+        "version": "2.27.3"
+      },
+      {
+        "name": "nvidia-nvjitlink-cu12",
+        "version": "12.8.93"
+      },
+      {
+        "name": "nvidia-nvtx-cu12",
+        "version": "12.8.90"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pillow",
+        "version": "12.3.0"
+      },
+      {
+        "name": "pip",
+        "version": "24.0"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.7.0"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.21.0"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.3"
+      },
+      {
+        "name": "pytest",
+        "version": "8.4.2"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+      },
+      {
+        "name": "scipy",
+        "version": "1.16.2"
+      },
+      {
+        "name": "setuptools",
+        "version": "78.1.0"
+      },
+      {
+        "name": "six",
+        "version": "1.17.0"
+      },
+      {
+        "name": "sympy",
+        "version": "1.14.0"
+      },
+      {
+        "name": "torch",
+        "version": "2.8.0+cu128"
+      },
+      {
+        "name": "triton",
+        "version": "3.4.0"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      }
+    ],
+    "inference_performed": false,
+    "official_data_read": false
+  },
+  "CPU_loading_versions": {
+    "torch": "2.11.0+cpu",
+    "numpy": "2.4.4"
+  },
+  "checkpoint_safe_load_records": 1884,
+  "array_safe_load_records": 2829,
+  "source_inspected_loading": {
+    "torch": "torch.load(map_location=cpu, weights_only=True)",
+    "numpy": "numpy.load(allow_pickle=False)"
+  },
+  "limits": [
+    "Saved receipts and source inspection, not independent authentication of historical execution.",
+    "Bytes sum over binary paths, not unique-object storage bytes.",
+    "CPU serialization-audit versions differ from the pinned GPU inference runtime.",
+    "Shutdown receipt records accepted command and SSH unreachability, not direct physical power observation.",
+    "Current live host state is unknown; no host was contacted."
+  ]
+}

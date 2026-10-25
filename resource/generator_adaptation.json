@@ -1,0 +1,6 @@
+{
+  "original_sha256": "62966f9667c489bf6f5ae227ab219d02b0b0f1d0be3cb282eb6c3cb96d5fef23",
+  "portable_sha256": "f3aef9fd6efb5fdc307865522ccaa77315a1158b81abfd94f71a5f549f3e5c67",
+  "only_change": "Empty EVIDENCE metadata list; internal protocol/proof notes are not needed to compute any asset and are omitted from the reviewer resource",
+  "scientific_inputs_and_numerical_assembly": "unchanged"
+}

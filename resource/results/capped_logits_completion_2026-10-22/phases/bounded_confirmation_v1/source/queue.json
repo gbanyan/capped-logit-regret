@@ -1,0 +1,321 @@
+{
+  "jobs": [
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222102,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222101,
+      "head": "ball",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222105,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222101,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222102,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222103,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222105,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222102,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222102,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222102,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222101,
+      "head": "tanh",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222104,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222104,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222104,
+      "head": "box",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222103,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222101,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222101,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222104,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222101,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222105,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222105,
+      "head": "tanh",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222103,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222104,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222103,
+      "head": "box",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222105,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222103,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222104,
+      "head": "ball",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222104,
+      "head": "ball",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222105,
+      "head": "ball",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222103,
+      "head": "ball",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222102,
+      "head": "ball",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222104,
+      "head": "tanh",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222103,
+      "head": "tanh",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222103,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222101,
+      "head": "box",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222102,
+      "head": "tanh",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222105,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222104,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222102,
+      "head": "box",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222101,
+      "head": "tanh",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222101,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222103,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222102,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222105,
+      "head": "box",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222105,
+      "head": "box",
+      "epochs": 30,
+      "beta": 0.3
+    }
+  ],
+  "official_test_sealed": true,
+  "full_natural_matrix": 60
+}

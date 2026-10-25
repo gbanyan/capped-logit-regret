@@ -1,0 +1,45 @@
+{
+  "scope": "New ordinary-FP64 std computation from saved original FP32 features, not an extended-precision certificate or neural run. Stored feature_std is the floored training normalizer and must not be mistaken for the raw-feature std.",
+  "records": [
+    {
+      "architecture": "fashion_cnn",
+      "input_sha256": "f9b6f568d0017ab1bf13f79eb6c855d3be396e8787d204b2aa1c83e39cb718d1",
+      "shape": [
+        27000,
+        256
+      ],
+      "dtype": "float32",
+      "minimum_retained_raw_feature_std_FP64": 4.952873055771875e-40,
+      "original_column": 162,
+      "raw_feature_min": 0.0,
+      "raw_feature_max": 1.4487603031816522e-38,
+      "nonzero_rows": 228,
+      "stored_training_normalizer_std_for_column": 0.1,
+      "minimum_retained_raw_std_above_point1": false,
+      "FP32_smallest_normal": 1.1754943508222875e-38
+    },
+    {
+      "architecture": "resnet18",
+      "input_sha256": "5ad526b3e402676b04974100901ed854c8ba38b8192e4f2a89be01a77b0f8459",
+      "shape": [
+        22500,
+        512
+      ],
+      "dtype": "float32",
+      "minimum_retained_raw_feature_std_FP64": 0.19933035826178735,
+      "original_column": 308,
+      "raw_feature_min": 0.0,
+      "raw_feature_max": 1.5554920434951782,
+      "nonzero_rows": 20424,
+      "stored_training_normalizer_std_for_column": 0.19933035826178735,
+      "minimum_retained_raw_std_above_point1": true,
+      "FP32_smallest_normal": 1.1754943508222875e-38
+    }
+  ],
+  "saved_machine_real_comparison": {
+    "source": "results/capped_logits_completion_2026-10-22/cpu_reference_phases/raw_affine_adequacy_v1/output/summary.json",
+    "rows": 30,
+    "maximum_absolute_saved_CUDA_minus_real_affine_CE": 8.561245046223576e-10,
+    "scope": "Summarises saved descriptive comparisons; not an FP32-machine optimality certificate or new CUDA replay"
+  }
+}

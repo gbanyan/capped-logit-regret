@@ -1,0 +1,310 @@
+{
+  "scope": "New read-only audit of saved original warm history, not new model inference or training",
+  "rows": [
+    {
+      "job": "fashion_cnn_box_warm_freeze0_s227201",
+      "source_sha256": "757647c7c7d96d07035dc430c69877ed77a51edd59f5f5728e6b3c653f951779",
+      "epoch0_validation_mean_D": 4.4298009704846206e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.023682314449440824,
+      "final_validation_coverage": 0.382,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze0_s227202",
+      "source_sha256": "8b5816a4ca55db33c7b310eb56bf71df3b8454d260107e74c346fa7684ff4a25",
+      "epoch0_validation_mean_D": 4.429863883122683e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.02535410439698424,
+      "final_validation_coverage": 0.37816666666666665,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze0_s227203",
+      "source_sha256": "5741b25dc49fad340f7eefe67bbb4ce5530194cfdb792dca184446b232a6ac2a",
+      "epoch0_validation_mean_D": 4.429634437030927e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.025942008036949137,
+      "final_validation_coverage": 0.37516666666666665,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze0_s227204",
+      "source_sha256": "bad1a20e46a98bf52455e8fee82926b1fa05f3d612f1acab069e1b20c915b611",
+      "epoch0_validation_mean_D": 4.4298601823792673e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.024748157088416073,
+      "final_validation_coverage": 0.38483333333333336,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze0_s227205",
+      "source_sha256": "65c5634efb2f8cf4717b7911784510eea1a645c68edfe3d605d558c10ef441eb",
+      "epoch0_validation_mean_D": 4.429963803194899e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.02433373861204053,
+      "final_validation_coverage": 0.38966666666666666,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze1_s227201",
+      "source_sha256": "b39bc33dd5e8dae7bc8be79be00e833b93ae9658c3b242bc753bbfc8c7f22c4c",
+      "epoch0_validation_mean_D": 4.4298009704846206e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0026923876746501756,
+      "final_validation_coverage": 0.613,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze1_s227202",
+      "source_sha256": "22285ec227a95c9f72bdc0728b238abe17d78e4cc34cbc5701265a91b046d1da",
+      "epoch0_validation_mean_D": 4.429863883122683e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0029329724125876254,
+      "final_validation_coverage": 0.5991666666666666,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze1_s227203",
+      "source_sha256": "68e5c981882bd5fef2b15d07dbb97ce5756c6dfca7bf9ea09e61df8a35a040d0",
+      "epoch0_validation_mean_D": 4.429634437030927e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.002938834290046667,
+      "final_validation_coverage": 0.5991666666666666,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze1_s227204",
+      "source_sha256": "577c3c71da97ce6ce971b6a2dc28af841e30e8e4b059ec61557d40c6f483e4b4",
+      "epoch0_validation_mean_D": 4.4298601823792673e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0035005672929481193,
+      "final_validation_coverage": 0.5736666666666667,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_cnn_box_warm_freeze1_s227205",
+      "source_sha256": "da11991aa815df41436b1690ebf9cfce2feaabcf90f780e27d922dea84115ac2",
+      "epoch0_validation_mean_D": 4.429963803194899e-14,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.003340053624334774,
+      "final_validation_coverage": 0.5848333333333333,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze0_s227201",
+      "source_sha256": "d86f8cfd51760ae47bc3f546c059c2191482ab62bf25f0d7ec49dd2dab2f7a0d",
+      "epoch0_validation_mean_D": 8.350246420244882e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.008694192323594046,
+      "final_validation_coverage": 0.465,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze0_s227202",
+      "source_sha256": "347e5952661c42e7d053f5d765229dd0203cab3919290b971e57dc29b65c61b4",
+      "epoch0_validation_mean_D": 8.350727516888886e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.011271976574995738,
+      "final_validation_coverage": 0.4155,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze0_s227203",
+      "source_sha256": "afdebbb809ec367a6016e2b6faf782b195a71b2d91899f69c06246c109012a31",
+      "epoch0_validation_mean_D": 8.351097591230427e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.01204480080273087,
+      "final_validation_coverage": 0.4078333333333333,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze0_s227204",
+      "source_sha256": "299245e48e790062bf2213934b1db8df7f91d7836118e0188a5697b3f842169e",
+      "epoch0_validation_mean_D": 8.345213409199914e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.008335170150206657,
+      "final_validation_coverage": 0.459,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze0_s227205",
+      "source_sha256": "5e84514f1a22a89ef2126fe8e466eeb764eceeb516aa3653d378eae2d86913eb",
+      "epoch0_validation_mean_D": 8.348766122878714e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.008833925007658611,
+      "final_validation_coverage": 0.4455,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze1_s227201",
+      "source_sha256": "773f5f6384a429ab23ef8691963b81b4409aa54d7e10d926ed383b514b0d5e01",
+      "epoch0_validation_mean_D": 8.350246420244882e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0017549712422764235,
+      "final_validation_coverage": 0.6285,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze1_s227202",
+      "source_sha256": "dce2aa8ee77d5d9c514653e8e95c11eec735d25e1477aeb60a39f1b30d0f7d5c",
+      "epoch0_validation_mean_D": 8.350727516888886e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.00194747023571722,
+      "final_validation_coverage": 0.6098333333333333,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze1_s227203",
+      "source_sha256": "4755fa3a5a293de5fb2dc0e0fcd3f24e722c2aad2bb7aa7cad0cafc1d7ea5c07",
+      "epoch0_validation_mean_D": 8.351097591230427e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0015662408870463812,
+      "final_validation_coverage": 0.6495,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze1_s227204",
+      "source_sha256": "a7f41d9af008e7c9428ca8ed940d3ccdd6f22e2f44a2ff4edb79a9905804d3e1",
+      "epoch0_validation_mean_D": 8.345213409199914e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0015047310757198779,
+      "final_validation_coverage": 0.6331666666666667,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "fashion_mlp_box_warm_freeze1_s227205",
+      "source_sha256": "7850a2ee55b7ed6e4b66b2117ed4102476a8f0c36d9fc7e5af4aec4000e7afd3",
+      "epoch0_validation_mean_D": 8.348766122878714e-15,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.0018411293621149027,
+      "final_validation_coverage": 0.6236666666666667,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze0_s227201",
+      "source_sha256": "c53456023a9883aa40711f5c8ebb1fd6753d42691d2b44a48ebb7a45e90c7ff3",
+      "epoch0_validation_mean_D": 1.705965777532015e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.18086888401998027,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze0_s227202",
+      "source_sha256": "80bf67c7158fbeeb9a14ddbb2b10f918ea006a25f475b3f86c5ab7e20313c6fc",
+      "epoch0_validation_mean_D": 1.7059667012375713e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.17813114964199264,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze0_s227203",
+      "source_sha256": "c6303dfc50f17df4d1755bb7b827334ba0b02a5cfdae8bb59d5f010bb06ba8f1",
+      "epoch0_validation_mean_D": 1.7059658663498565e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.17697748963217394,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze0_s227204",
+      "source_sha256": "130265376a44ec112c36c82beab6603d740fde7cc7fa7a9dbd4e89d4e7c2021d",
+      "epoch0_validation_mean_D": 1.7059662127394405e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.1732811961853423,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze0_s227205",
+      "source_sha256": "fa790b89ddc19a947b180f9592f44d6f93d2354f60fe9c1149f821289cd7cff7",
+      "epoch0_validation_mean_D": 1.70596538673351e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.1728526302547399,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze1_s227201",
+      "source_sha256": "f1a1376de43401eda5facc0352deb4048035c484c060954e71467c3579844bf2",
+      "epoch0_validation_mean_D": 1.705965777532015e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.22068478242406395,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze1_s227202",
+      "source_sha256": "c3a98f94893a9c543802b740ee87acd583e47e5b40ed7dccc367b6247ffac2ce",
+      "epoch0_validation_mean_D": 1.7059667012375713e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.2184380354576073,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze1_s227203",
+      "source_sha256": "a93458c69077e9a72ab39bbb206e16ef0e91d15fdff9bcd9b7a265e945b92461",
+      "epoch0_validation_mean_D": 1.7059658663498565e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.21497935554740089,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze1_s227204",
+      "source_sha256": "b3c3883b8a2b00cab856fafd8c1755fa3a4cb67493119699508b027b672fa6b3",
+      "epoch0_validation_mean_D": 1.7059662127394405e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.21205570607875288,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    },
+    {
+      "job": "resnet18_box_warm_freeze1_s227205",
+      "source_sha256": "190c1f193c714a7819f8d08977c8d398355630b5641c9b4e6e30ca46e49555e5",
+      "epoch0_validation_mean_D": 1.70596538673351e-11,
+      "epoch0_validation_coverage": 1.0,
+      "epoch0_Q1": true,
+      "final_validation_mean_D": 0.208416889862681,
+      "final_validation_coverage": 0.0,
+      "final_validation_Q1": false
+    }
+  ],
+  "models": 30,
+  "epoch0_validation_passes": 30,
+  "final_validation_passes": 0,
+  "epoch0_validation_mean_D_max": 1.7059667012375713e-11,
+  "epoch0_validation_coverage_min": 1.0
+}

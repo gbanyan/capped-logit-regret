@@ -1,0 +1,1255 @@
+{
+  "kind": "NEW read-only extraction/paired saved-label comparison; no generation or training",
+  "models": 30,
+  "paired_blocks": 15,
+  "all_pairs_indices_and_labels_byte_identical": true,
+  "original_source_manifest": {
+    "path": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/source/source_manifest.json",
+    "sha256": "d92d5fa3bef7e4914a6df6f90e8d048e281bab6b595ee062d9f81ca24f8c10b1"
+  },
+  "source_inspected_protocol": {
+    "targets": "hard",
+    "objective": "F.cross_entropy with one saved label per B image",
+    "draw_seed": "job seed + 4141",
+    "draw_frequency": "once before epoch loop; reused each epoch",
+    "shuffle_seed": "job seed + 11",
+    "paired_modes": "same architecture/seed, posterior/initialization/labels/shuffle seed; only BN/dropout statistics mode differs"
+  },
+  "limits": [
+    "Source/hash and saved-label checks, not independent validation of original random draws or optimizer execution.",
+    "Sampled-label finite-sample risk differs from posterior CE at a fixed model, despite equality in expectation over labels.",
+    "No source scientific summary or original record was modified."
+  ],
+  "rows": [
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze1_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227201/complete.json",
+      "source_record_sha256": "f1a1376de43401eda5facc0352deb4048035c484c060954e71467c3579844bf2",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "d32a3aabd3ed8ec4ef081ba5b2edf4488749d519201ef20f2bbfef7a7a3e0a05",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "d1842cdc4728444b8638128bae072908c455fdeabd684fff89f29f06f5d8373e"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "f933489ec317618505ebf9a09e3e7cffe27d05077e5b29492d02a93a78bceaec"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze0_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227201/complete.json",
+      "source_record_sha256": "c53456023a9883aa40711f5c8ebb1fd6753d42691d2b44a48ebb7a45e90c7ff3",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "d32a3aabd3ed8ec4ef081ba5b2edf4488749d519201ef20f2bbfef7a7a3e0a05",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "d1842cdc4728444b8638128bae072908c455fdeabd684fff89f29f06f5d8373e"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "f933489ec317618505ebf9a09e3e7cffe27d05077e5b29492d02a93a78bceaec"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze1_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227202/complete.json",
+      "source_record_sha256": "c3a98f94893a9c543802b740ee87acd583e47e5b40ed7dccc367b6247ffac2ce",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "6f2947a4ea2e320bd146169ada528396ff426957da4e500ebcaafb3772b09381",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "e57b783f7ba551f961452a8deebc5c714766db5c3b0b2a1728bbf3f97fc4f4a1"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "d47507acbd7fb53c39cb10665386352d39d8bfe86fb64e259475aa650f19af20"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze0_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227202/complete.json",
+      "source_record_sha256": "80bf67c7158fbeeb9a14ddbb2b10f918ea006a25f475b3f86c5ab7e20313c6fc",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "6f2947a4ea2e320bd146169ada528396ff426957da4e500ebcaafb3772b09381",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "e57b783f7ba551f961452a8deebc5c714766db5c3b0b2a1728bbf3f97fc4f4a1"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "d47507acbd7fb53c39cb10665386352d39d8bfe86fb64e259475aa650f19af20"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze1_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227203/complete.json",
+      "source_record_sha256": "a93458c69077e9a72ab39bbb206e16ef0e91d15fdff9bcd9b7a265e945b92461",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "f26675cfdb5f2fc2c036d9e3aacc9ca92550a180bf01769ea5525763bae08d71",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "4a5f63d6c6be48f323d9f4ee7a2be8f4d35d66e2689be79064a8927e6ca13cc6"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "4dbadc280d6d9ccec1ef839e99ada126e65eff333312da5bb9f7087c8bb3ac83"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze0_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227203/complete.json",
+      "source_record_sha256": "c6303dfc50f17df4d1755bb7b827334ba0b02a5cfdae8bb59d5f010bb06ba8f1",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "f26675cfdb5f2fc2c036d9e3aacc9ca92550a180bf01769ea5525763bae08d71",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "4a5f63d6c6be48f323d9f4ee7a2be8f4d35d66e2689be79064a8927e6ca13cc6"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "4dbadc280d6d9ccec1ef839e99ada126e65eff333312da5bb9f7087c8bb3ac83"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze1_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227204/complete.json",
+      "source_record_sha256": "b3c3883b8a2b00cab856fafd8c1755fa3a4cb67493119699508b027b672fa6b3",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "2feb8f57ad84b88be4907146661aa6a32228b7db1394b280da3d356b11b20b4a",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "30a50d8b6cd205cfd11fa299925888dff8ba64723b48e0a06b323c640c78dcb5"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "8d0499b47d0260050225251a7b745671d242d53aa7fc6ff36f9aceccb407b110"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze0_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227204/complete.json",
+      "source_record_sha256": "130265376a44ec112c36c82beab6603d740fde7cc7fa7a9dbd4e89d4e7c2021d",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "2feb8f57ad84b88be4907146661aa6a32228b7db1394b280da3d356b11b20b4a",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "30a50d8b6cd205cfd11fa299925888dff8ba64723b48e0a06b323c640c78dcb5"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "8d0499b47d0260050225251a7b745671d242d53aa7fc6ff36f9aceccb407b110"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze1_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227205/complete.json",
+      "source_record_sha256": "190c1f193c714a7819f8d08977c8d398355630b5641c9b4e6e30ca46e49555e5",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze1_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "1a56eead17d7790ebada20b3ec4a43250635d03263728400315c8633a86bbe58",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "5c5b19937ddc53fbd49e924ff5a4327aa52ff58790962a21f996d9a9a647aba2"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "6c895b1e07373bfe77a5adf0496056cdeb27113ee456107665e9c157712701b7"
+    },
+    {
+      "job": {
+        "architecture": "resnet18",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "b4ef0d633260eef01c4f4ccf85cc0d96d68fb6e7347473853ae09f240184c703",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "resnet18_box_warm_freeze0_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227205/complete.json",
+      "source_record_sha256": "fa790b89ddc19a947b180f9592f44d6f93d2354f60fe9c1149f821289cd7cff7",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/resnet18_box_warm_freeze0_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "1a56eead17d7790ebada20b3ec4a43250635d03263728400315c8633a86bbe58",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "b1c4f8fbc1338f5c01aa115c3fa94a07f412c0564df0d417e57db9dfb430e75d"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            22500
+          ],
+          "C_order_sha256": "5c5b19937ddc53fbd49e924ff5a4327aa52ff58790962a21f996d9a9a647aba2"
+        }
+      },
+      "examples": 22500,
+      "initialization_sha256": "6c895b1e07373bfe77a5adf0496056cdeb27113ee456107665e9c157712701b7"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze1_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227201/complete.json",
+      "source_record_sha256": "b39bc33dd5e8dae7bc8be79be00e833b93ae9658c3b242bc753bbfc8c7f22c4c",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "d2526cb01163f04b7081a33801f208546af2a31040fef3525d6e42ae93163d46",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "262f72c1ceda6d687e322d041091365dfa8b8c5dd3a877532074fb1ba69b2846"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "d707393e031088d411ebaa3bafba9c1a35ebd34a1f48ab9f2eddb0233a8fa0d8"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze0_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227201/complete.json",
+      "source_record_sha256": "757647c7c7d96d07035dc430c69877ed77a51edd59f5f5728e6b3c653f951779",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "d2526cb01163f04b7081a33801f208546af2a31040fef3525d6e42ae93163d46",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "262f72c1ceda6d687e322d041091365dfa8b8c5dd3a877532074fb1ba69b2846"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "d707393e031088d411ebaa3bafba9c1a35ebd34a1f48ab9f2eddb0233a8fa0d8"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze1_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227202/complete.json",
+      "source_record_sha256": "22285ec227a95c9f72bdc0728b238abe17d78e4cc34cbc5701265a91b046d1da",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "e92e13ebccb24e2100d694366f492698eb1c6f7227b47536a4001fe18db8954c",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "97d78725c09914f0e053b69c3fdd1efde62fd6524a07050dabdf8bb56964d0a7"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "b4b1482860f13ed79fac7c9c3c18a05f89da6fe2b83f4d5473230d25fb424e11"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze0_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227202/complete.json",
+      "source_record_sha256": "8b5816a4ca55db33c7b310eb56bf71df3b8454d260107e74c346fa7684ff4a25",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "e92e13ebccb24e2100d694366f492698eb1c6f7227b47536a4001fe18db8954c",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "97d78725c09914f0e053b69c3fdd1efde62fd6524a07050dabdf8bb56964d0a7"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "b4b1482860f13ed79fac7c9c3c18a05f89da6fe2b83f4d5473230d25fb424e11"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze1_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227203/complete.json",
+      "source_record_sha256": "68e5c981882bd5fef2b15d07dbb97ce5756c6dfca7bf9ea09e61df8a35a040d0",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "e5d8b34337a52a6b1facd4bae948e3989ae58147342ce7058b1ea9f3b3319d2d",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "b4ced248fe6a4b67559cadbd2eaebdfe74b886643a66b88f09879ec7690f3130"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "de8e0027f239f6a95e483cad2d9e507dabaf8cfe243864fb19c35ef57f9b1177"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze0_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227203/complete.json",
+      "source_record_sha256": "5741b25dc49fad340f7eefe67bbb4ce5530194cfdb792dca184446b232a6ac2a",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "e5d8b34337a52a6b1facd4bae948e3989ae58147342ce7058b1ea9f3b3319d2d",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "b4ced248fe6a4b67559cadbd2eaebdfe74b886643a66b88f09879ec7690f3130"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "de8e0027f239f6a95e483cad2d9e507dabaf8cfe243864fb19c35ef57f9b1177"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze1_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227204/complete.json",
+      "source_record_sha256": "577c3c71da97ce6ce971b6a2dc28af841e30e8e4b059ec61557d40c6f483e4b4",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "e66f5763dc10427a020e94c36f507f6e47f6449430958f0b79008044adfd76aa",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "41de0abf98cff307579419ca1bb0d356cb4a63a6f6f21fdbe19abdc5328b8874"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "20902a49ca67c85b2ddd7cd597557167805224f1ae0a0fca4904b7dc86e5a66d"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze0_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227204/complete.json",
+      "source_record_sha256": "bad1a20e46a98bf52455e8fee82926b1fa05f3d612f1acab069e1b20c915b611",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "e66f5763dc10427a020e94c36f507f6e47f6449430958f0b79008044adfd76aa",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "41de0abf98cff307579419ca1bb0d356cb4a63a6f6f21fdbe19abdc5328b8874"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "20902a49ca67c85b2ddd7cd597557167805224f1ae0a0fca4904b7dc86e5a66d"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze1_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227205/complete.json",
+      "source_record_sha256": "da11991aa815df41436b1690ebf9cfce2feaabcf90f780e27d922dea84115ac2",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze1_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "b1fc5d5d27b688085b927b96e0f8c301afcce3088216088e62bbc8c85de07130",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "8f767f444e2259c72c898af1dfa3f375540719e5e015521a19a71f589ef9faa7"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "d402a3defa7ec694821b982ef53d607a38726fa29ec9685b893dac21c43ea05f"
+    },
+    {
+      "job": {
+        "architecture": "fashion_cnn",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "2018c11834b80bb1013cf57de4476a05b31c8b9fce570d47257f1652e3ad021a",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_cnn_box_warm_freeze0_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227205/complete.json",
+      "source_record_sha256": "65c5634efb2f8cf4717b7911784510eea1a645c68edfe3d605d558c10ef441eb",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_cnn_box_warm_freeze0_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "b1fc5d5d27b688085b927b96e0f8c301afcce3088216088e62bbc8c85de07130",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "8f767f444e2259c72c898af1dfa3f375540719e5e015521a19a71f589ef9faa7"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "d402a3defa7ec694821b982ef53d607a38726fa29ec9685b893dac21c43ea05f"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze1_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227201/complete.json",
+      "source_record_sha256": "773f5f6384a429ab23ef8691963b81b4409aa54d7e10d926ed383b514b0d5e01",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "0f5b5ccfef457b904103ba7badeabe2150b0a401d79c2160c3c5b2de27f0158a",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "951a3c10611d6ee918df97fac9fa9789d17a568d8350ff579a40c5e78e9e55ae"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "04ead33988a85f14db3220b6e0d85db1242d5bb6aee39b6fce06b535b267722a"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze0_s227201",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227201,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227201/complete.json",
+      "source_record_sha256": "d86f8cfd51760ae47bc3f546c059c2191482ab62bf25f0d7ec49dd2dab2f7a0d",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227201/sampled_labels.npz",
+      "sampled_labels_sha256": "0f5b5ccfef457b904103ba7badeabe2150b0a401d79c2160c3c5b2de27f0158a",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "951a3c10611d6ee918df97fac9fa9789d17a568d8350ff579a40c5e78e9e55ae"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "04ead33988a85f14db3220b6e0d85db1242d5bb6aee39b6fce06b535b267722a"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze1_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227202/complete.json",
+      "source_record_sha256": "dce2aa8ee77d5d9c514653e8e95c11eec735d25e1477aeb60a39f1b30d0f7d5c",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "9fbe92c2f40eed2967c3c35bc6dcb6f68560a851cce62595ed6022f7c866c4f6",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "237e66be58e465fbe3103b321844d408695088c95acff38d441a5d855baf46d5"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "13e441e654dd7edaf2641ac454fb06b6c89a8dae6d4f9e8895a2920a169e80b2"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze0_s227202",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227202,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227202/complete.json",
+      "source_record_sha256": "347e5952661c42e7d053f5d765229dd0203cab3919290b971e57dc29b65c61b4",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227202/sampled_labels.npz",
+      "sampled_labels_sha256": "9fbe92c2f40eed2967c3c35bc6dcb6f68560a851cce62595ed6022f7c866c4f6",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "237e66be58e465fbe3103b321844d408695088c95acff38d441a5d855baf46d5"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "13e441e654dd7edaf2641ac454fb06b6c89a8dae6d4f9e8895a2920a169e80b2"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze1_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227203/complete.json",
+      "source_record_sha256": "4755fa3a5a293de5fb2dc0e0fcd3f24e722c2aad2bb7aa7cad0cafc1d7ea5c07",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "c2adfec41f08d1a071dfd61f99c0ca96928ef9b6b9b6ce116dd872dba70ed260",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "01aba745e822fd8619fe17daaa81e8b8068170bbe1db06cd14fa2cedb33eb6a0"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "54a21c6b18e6a53186dd9d850c885ed1d3b790164f2e235c6139b470da0c7425"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze0_s227203",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227203,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227203/complete.json",
+      "source_record_sha256": "afdebbb809ec367a6016e2b6faf782b195a71b2d91899f69c06246c109012a31",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227203/sampled_labels.npz",
+      "sampled_labels_sha256": "c2adfec41f08d1a071dfd61f99c0ca96928ef9b6b9b6ce116dd872dba70ed260",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "01aba745e822fd8619fe17daaa81e8b8068170bbe1db06cd14fa2cedb33eb6a0"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "54a21c6b18e6a53186dd9d850c885ed1d3b790164f2e235c6139b470da0c7425"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze1_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227204/complete.json",
+      "source_record_sha256": "a7f41d9af008e7c9428ca8ed940d3ccdd6f22e2f44a2ff4edb79a9905804d3e1",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "c910326c7465903a857e618e4efa863c2b81d571c83242713ef377b2295bd150",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "f1fa7fd5c4fda2df9d147ac307a1ba657adb514d5ddbefef28564bbc7ac90887"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "63a5ac0abea5cda44cbdef58c76b3d7d392e168f15566f8a79598cfb081b56fb"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze0_s227204",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227204,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227204/complete.json",
+      "source_record_sha256": "299245e48e790062bf2213934b1db8df7f91d7836118e0188a5697b3f842169e",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227204/sampled_labels.npz",
+      "sampled_labels_sha256": "c910326c7465903a857e618e4efa863c2b81d571c83242713ef377b2295bd150",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "f1fa7fd5c4fda2df9d147ac307a1ba657adb514d5ddbefef28564bbc7ac90887"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "63a5ac0abea5cda44cbdef58c76b3d7d392e168f15566f8a79598cfb081b56fb"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze1_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": true
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227205/complete.json",
+      "source_record_sha256": "7850a2ee55b7ed6e4b66b2117ed4102476a8f0c36d9fc7e5af4aec4000e7afd3",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze1_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "895dbfe81da0b62f62de173008a51c5159bd5ffd20d4e2268973c8dd3a4452fb",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "6dee43cda1f9fbdd5156340ffdf4f6d851906f01dc13b029e87835123a659c22"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "b00624266de3ace0a048841e8242908f686bb661c852cfe261031149e805379b"
+    },
+    {
+      "job": {
+        "architecture": "fashion_mlp",
+        "feature_phase": "disjoint_features_centered_v1",
+        "features_sha256": "aa7d203465b3523f41ccf6481b3d147f23e1b4bbdf9779528bc76149b1f8db83",
+        "beta": 0.3,
+        "width": 512,
+        "depth": 4,
+        "name": "fashion_mlp_box_warm_freeze0_s227205",
+        "law": "image_kkt",
+        "kappa": 0.95,
+        "head": "box",
+        "targets": "hard",
+        "seed": 227205,
+        "epochs": 10,
+        "initialization": "teacher",
+        "freeze_statistics": false
+      },
+      "source_record": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227205/complete.json",
+      "source_record_sha256": "5e84514f1a22a89ef2126fe8e466eeb764eceeb516aa3653d378eae2d86913eb",
+      "sampled_labels": "results/capped_logits_completion_2026-10-22/phases/pixel_kkt_warm_v1/fashion_mlp_box_warm_freeze0_s227205/sampled_labels.npz",
+      "sampled_labels_sha256": "895dbfe81da0b62f62de173008a51c5159bd5ffd20d4e2268973c8dd3a4452fb",
+      "arrays": {
+        "indices": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "17c6191e87d96ff5135007a1f4826f4e92f26dcc8691c9ca0b481ba680ff62a0"
+        },
+        "labels": {
+          "dtype": "int64",
+          "shape": [
+            27000
+          ],
+          "C_order_sha256": "6dee43cda1f9fbdd5156340ffdf4f6d851906f01dc13b029e87835123a659c22"
+        }
+      },
+      "examples": 27000,
+      "initialization_sha256": "b00624266de3ace0a048841e8242908f686bb661c852cfe261031149e805379b"
+    }
+  ]
+}

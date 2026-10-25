@@ -1,0 +1,112 @@
+{
+  "jobs": [
+    {
+      "architecture": "resnet18",
+      "seed": 222102,
+      "head": "raw",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222105,
+      "head": "raw",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222104,
+      "head": "raw",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222103,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222102,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222102,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222101,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222103,
+      "head": "raw",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222104,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222104,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222103,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222101,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_cnn",
+      "seed": 222105,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 222101,
+      "head": "raw",
+      "epochs": 100,
+      "beta": 0.3
+    },
+    {
+      "architecture": "fashion_mlp",
+      "seed": 222105,
+      "head": "raw",
+      "epochs": 30,
+      "beta": 0.3
+    }
+  ],
+  "remaining_bounded_jobs": 45,
+  "full_natural_matrix": 60,
+  "official_test_sealed": true
+}

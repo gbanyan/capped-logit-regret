@@ -1,0 +1,14 @@
+{
+  "commit": "39d585e47971a116e0d4a802405716c1c09040ec",
+  "inputs": {
+    "oracles.py": "acf4b93099dff09148782752c37066ec17835723c29990cd0f55ddc53ee6a011",
+    "image_data.py": "ab9d6867c8938de85ccf046e81afb69a628afe1c5a640fbf6a27e37a16fb0a1d",
+    "baseline.py": "86dd83220410c43d9c7188e4192cb8c861ba8968fd73efe9f486e07980feba9f",
+    "image_kkt.py": "5c8f3c77d67aeb88b4ada79bd280f67dbfa65dcf61d3d88c8124ff27a19146fb",
+    "image_student.py": "71dae0b0a3e1f1f5b7bbbe59f6eb9f629800fd1a5656f39991a5bb216c185a10",
+    "producer.py": "a86eca6a67de5dff54186770dc4b06d4b6df92ab9f83945bbd79713650f921fe",
+    "queue.json": "53d4b74e87bd9208d5e474d8b1a952fbf246e27812c0d862dd7b692c448c8fad",
+    "synthetic_confirmation.py": "7c32423c857bef19c44c91d4ba17390b1d7f939f1966add27eeaee6f556f4406",
+    "protocol.md": "c379c262b5da1aa3047199be3c313f07f3af314ff6755f3594b769136f72f82b"
+  }
+}

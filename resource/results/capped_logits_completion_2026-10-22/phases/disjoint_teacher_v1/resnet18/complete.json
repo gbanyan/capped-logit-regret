@@ -1,0 +1,185 @@
+{
+  "architecture": "resnet18",
+  "seed": 222950,
+  "epochs": 100,
+  "phase": "teacher-only halfA,student-only halfB untouched; fixed development recipe",
+  "history": [
+    {
+      "epoch": 0,
+      "validation": {
+        "CE": 4.698272998046875,
+        "accuracy": 0.0106
+      },
+      "elapsed_seconds": 0.3926497690008546
+    },
+    {
+      "epoch": 5,
+      "validation": {
+        "CE": 2.867244470214844,
+        "accuracy": 0.278
+      },
+      "elapsed_seconds": 9.071886824000103
+    },
+    {
+      "epoch": 10,
+      "validation": {
+        "CE": 2.123762286376953,
+        "accuracy": 0.4364
+      },
+      "elapsed_seconds": 17.520439333000468
+    },
+    {
+      "epoch": 15,
+      "validation": {
+        "CE": 1.9718646545410157,
+        "accuracy": 0.47
+      },
+      "elapsed_seconds": 25.970494011000483
+    },
+    {
+      "epoch": 20,
+      "validation": {
+        "CE": 1.8477471252441406,
+        "accuracy": 0.5182
+      },
+      "elapsed_seconds": 34.349219896999784
+    },
+    {
+      "epoch": 25,
+      "validation": {
+        "CE": 1.8466128356933593,
+        "accuracy": 0.5238
+      },
+      "elapsed_seconds": 42.709519429001375
+    },
+    {
+      "epoch": 30,
+      "validation": {
+        "CE": 1.8164909210205078,
+        "accuracy": 0.5364
+      },
+      "elapsed_seconds": 51.03538307800045
+    },
+    {
+      "epoch": 35,
+      "validation": {
+        "CE": 1.8850779205322266,
+        "accuracy": 0.5468
+      },
+      "elapsed_seconds": 59.34385306600052
+    },
+    {
+      "epoch": 40,
+      "validation": {
+        "CE": 1.81420966796875,
+        "accuracy": 0.5672
+      },
+      "elapsed_seconds": 67.79821795000134
+    },
+    {
+      "epoch": 45,
+      "validation": {
+        "CE": 1.7575444946289063,
+        "accuracy": 0.5792
+      },
+      "elapsed_seconds": 76.51146475300084
+    },
+    {
+      "epoch": 50,
+      "validation": {
+        "CE": 1.779509619140625,
+        "accuracy": 0.5896
+      },
+      "elapsed_seconds": 85.05547110299995
+    },
+    {
+      "epoch": 55,
+      "validation": {
+        "CE": 1.8040562805175782,
+        "accuracy": 0.6004
+      },
+      "elapsed_seconds": 93.38027980100014
+    },
+    {
+      "epoch": 60,
+      "validation": {
+        "CE": 1.6477040710449218,
+        "accuracy": 0.6252
+      },
+      "elapsed_seconds": 101.71745627699966
+    },
+    {
+      "epoch": 65,
+      "validation": {
+        "CE": 1.372447021484375,
+        "accuracy": 0.672
+      },
+      "elapsed_seconds": 110.37076490900108
+    },
+    {
+      "epoch": 70,
+      "validation": {
+        "CE": 1.2936110076904297,
+        "accuracy": 0.6852
+      },
+      "elapsed_seconds": 118.82942674399965
+    },
+    {
+      "epoch": 75,
+      "validation": {
+        "CE": 1.2449932037353515,
+        "accuracy": 0.687
+      },
+      "elapsed_seconds": 127.26396962299987
+    },
+    {
+      "epoch": 80,
+      "validation": {
+        "CE": 1.2199793670654298,
+        "accuracy": 0.6948
+      },
+      "elapsed_seconds": 135.6433444610011
+    },
+    {
+      "epoch": 85,
+      "validation": {
+        "CE": 1.2089327270507813,
+        "accuracy": 0.6948
+      },
+      "elapsed_seconds": 144.0799981050004
+    },
+    {
+      "epoch": 90,
+      "validation": {
+        "CE": 1.202058026123047,
+        "accuracy": 0.6992
+      },
+      "elapsed_seconds": 152.56768810300127
+    },
+    {
+      "epoch": 95,
+      "validation": {
+        "CE": 1.203374462890625,
+        "accuracy": 0.6982
+      },
+      "elapsed_seconds": 161.28618300200105
+    },
+    {
+      "epoch": 100,
+      "validation": {
+        "CE": 1.2011834228515625,
+        "accuracy": 0.699
+      },
+      "elapsed_seconds": 169.69805548000113
+    }
+  ],
+  "initialization_sha256": "74b4961ae1e728832849568657fe626ddbb2182a35175e65de12f4ebac92944b",
+  "parameter_count": 11220132,
+  "torch": "2.8.0+cu128",
+  "CUDA": "12.8",
+  "official_test_evaluated": false,
+  "replay_validation_exact": true,
+  "seconds": 170.19260969100105,
+  "model_sha256": "b2666e418b29a96ea90580246cdcdb4ee3fab8ac7c10435aaf8eeb208593c16f",
+  "peak_cuda_allocated": 1121524224
+}

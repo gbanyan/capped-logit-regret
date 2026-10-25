@@ -1,0 +1,67 @@
+{
+  "kind": "Source-based documentation of existing score stress test; no rerun",
+  "source": "results/capped_logits_completion_2026-10-22/score_controls_attempt001/summary.json",
+  "source_sha256": "10332cb91dfa6a7d68cadad2811a2bdbe401262296104c791855a8ec4e72dfcf",
+  "producer": {
+    "score_controls.py": "b5db873ca46745170254b45b18f073bad23eea4d6353f302de54c3ebddc47d91",
+    "oracles.py": "acf4b93099dff09148782752c37066ec17835723c29990cd0f55ddc53ee6a011"
+  },
+  "n": 10,
+  "beta": 0.3,
+  "R": "28/3",
+  "Lambda": "log(28/3)/2",
+  "ball_radius": "sqrt(2)*Lambda",
+  "posterior": [
+    0.45,
+    0.49,
+    0.0075,
+    0.0075,
+    0.0075,
+    0.0075,
+    0.0075,
+    0.0075,
+    0.0075,
+    0.0075
+  ],
+  "initial_raw": "(4*Lambda,-4*Lambda,...,-4*Lambda)",
+  "initial_feasible": "Box clip / ball projection of same raw initialization",
+  "updates": 20000,
+  "step_size": 2,
+  "separate_parameter_moving_terms": false,
+  "methods": "Raw clip/tanh gradient steps with their Jacobians; direct box/ball projected gradient steps",
+  "stopping": "Fixed 20000 updates; saved steps 0,1,10,100,1000,20000",
+  "zero_convention": "oracles.fw_gap returns max(0, FP64 dot-plus-support); zero is reported floating arithmetic, not an outward-rounded exact certificate",
+  "PGD_asserted_tolerance": 1e-09,
+  "endpoints": [
+    {
+      "step": 20000,
+      "arm": "hard_jacobian",
+      "CE": 1.9036043968861687,
+      "FW": 1.104612880454417,
+      "pred": 0
+    },
+    {
+      "step": 20000,
+      "arm": "tanh_jacobian",
+      "CE": 1.1838987826425058,
+      "FW": 6.113175799382642e-05,
+      "pred": 1
+    },
+    {
+      "step": 20000,
+      "arm": "score_PGD",
+      "CE": 1.1838376577891032,
+      "FW": 0.0,
+      "pred": 0
+    },
+    {
+      "step": 20000,
+      "arm": "ball_PGD",
+      "CE": 1.5315674850403314,
+      "FW": 0.0,
+      "pred": 1
+    }
+  ],
+  "inspection": "score_controls.py lines 48-65; oracles.py lines 21-24",
+  "limits": "Constructed different domains/Jacobians, not a general optimizer/head ranking"
+}

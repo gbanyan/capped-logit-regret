@@ -1,0 +1,258 @@
+{
+  "status": "PASS",
+  "python": "3.15.1",
+  "counterexample": {
+    "p": [
+      "1/2",
+      "2/5",
+      "1/10"
+    ],
+    "q_star": [
+      "2/5",
+      "2/5",
+      "1/5"
+    ],
+    "gradient_q_minus_p": [
+      "-1/10",
+      "0",
+      "1/10"
+    ],
+    "exact_certificate": {
+      "CE_excess_upper": "1/2000",
+      "printed_requirement_lower": "1/200",
+      "strict_separation": true,
+      "justification": "D(eta)=log((2 exp(-eta)+3)/5)+eta/2 <= eta/2; Psi(0)=Psi_prime(0)=0 and Psi_second(t)=1/(1-t*t)>=1 imply Psi(t)>=t*t/2. Convex box KKT certifies z_star; lowering class1 makes class2 uniquely maximal. On a singleton both ordinary minimizability gaps are zero."
+    },
+    "numeric_80_decimal_digits": {
+      "eta": "0.001",
+      "CE_excess": "0.00010011999199560075223726345390537990049759421256956358466931064193711414531123718",
+      "printed_required_lower_bound": "0.0050083668463568374717982264267300414835787830772809768981092393279877473716757825",
+      "lower_bound_to_excess_ratio": "50.023644094746870097292565011977948743419092074840461210964746809873889027235381"
+    },
+    "strict_sequence": [
+      {
+        "eta": "0.1",
+        "CE_excess": "0.011191567750225372342561494228671495579221756177949921962558115208150122105519543",
+        "regret": "0.1"
+      },
+      {
+        "eta": "0.01",
+        "CE_excess": "0.0010119919560754366333962420024411146974489092271619862295894884401669061375943761",
+        "regret": "0.1"
+      },
+      {
+        "eta": "0.001",
+        "CE_excess": "0.00010011999199560075223726345390537990049759421256956358466931064193711414531123718",
+        "regret": "0.1"
+      },
+      {
+        "eta": "0.0001",
+        "CE_excess": "0.000010001199991999560007520237326346538996807971052290272265185665402135747478267633",
+        "regret": "0.1"
+      },
+      {
+        "eta": "0.00001",
+        "CE_excess": "0.0000010000119999919999560000752002373326346653899110936352009686170532133041393508208",
+        "regret": "0.1"
+      },
+      {
+        "eta": "0.000001",
+        "CE_excess": "1.0000011999999199999560000075200023733326346665389905395077304391140045629477960E-7",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-7",
+        "CE_excess": "1.0000001199999991999999560000007520000237333326346666538990482522201113916587121E-8",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-8",
+        "CE_excess": "1.0000000119999999919999999560000000752000002373333326346666653899047682267160538E-9",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-9",
+        "CE_excess": "1.0000000011999999999199999999560000000075200000023733333326346666665389555556299E-10",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-10",
+        "CE_excess": "1.0000000001199999999991999999999560000000007520000000237333333326346672380725499E-11",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-11",
+        "CE_excess": "1.0000000000119999999999919999999999560000000000752000000002373333333312060952381E-12",
+        "regret": "0.1"
+      },
+      {
+        "eta": "1E-12",
+        "CE_excess": "1.0000000000011999999999999199999999999560000000000075200000000023733111111112061E-13",
+        "regret": "0.1"
+      }
+    ],
+    "marginal_only_transfer": {
+      "q": [
+        "4000001/10000000",
+        "3999999/10000000",
+        "1/5"
+      ],
+      "delta": "1/10000000",
+      "marginal_bounds_satisfied": true,
+      "joint_ratio_constraint_violated": true
+    },
+    "printed_E1_family_obstruction": {
+      "source_q": [
+        "39/100",
+        "2/5",
+        "21/100"
+      ],
+      "source_unique_prediction": 2,
+      "Bayes_label": 1,
+      "mu": "-3/100",
+      "printed_mu_interval": [
+        "-1/10",
+        "11/100"
+      ],
+      "transformed_q": [
+        "43/100",
+        "9/25",
+        "21/100"
+      ],
+      "printed_coordinate_constraints_satisfied": true,
+      "transformed_joint_ratio_violated": true,
+      "location": "NeurIPS 2023 proceedings Appendix E.1 PDF page29, family h_mu and constraint(7)"
+    },
+    "sharp_residual_n3_R2": "1/5",
+    "distinction": "Regret 1/10 disproves a zero residual; it does not alone prove sharp residual 1/5."
+  },
+  "zheng_displayed_bound": {
+    "records": [
+      {
+        "p": [
+          "17/40",
+          "2/5",
+          "7/40"
+        ],
+        "posterior_spread": "1/4",
+        "allowed_spread": "1/4",
+        "eta": "1/1000000",
+        "regret": "1/40",
+        "exact_CE_excess_upper": "17/40000000",
+        "surrogate_gate": "1/32",
+        "exact_two_excess_upper": "17/20000000",
+        "regret_squared": "1/1600",
+        "decimal_80_digits": {
+          "CE_excess": "2.500011999999199999560000075200023733326346665389905395077304391140045629477960E-8",
+          "claimed_sqrt_bound": "0.00022360733440561380653703746910764388157188076194380751975725952310318126245874753"
+        }
+      },
+      {
+        "p": [
+          "21/50",
+          "2/5",
+          "9/50"
+        ],
+        "posterior_spread": "6/25",
+        "allowed_spread": "1/4",
+        "eta": "1/1000000",
+        "regret": "1/50",
+        "exact_CE_excess_upper": "21/50000000",
+        "surrogate_gate": "1/32",
+        "exact_two_excess_upper": "21/25000000",
+        "regret_squared": "1/2500",
+        "decimal_80_digits": {
+          "CE_excess": "2.000011999999199999560000075200023733326346665389905395077304391140045629477960E-8",
+          "claimed_sqrt_bound": "0.00020000059999906000279798940080494930243033158645406038572187360212317242565132552"
+        }
+      }
+    ],
+    "class_mapping": "H_lin at x=0, B=log(2)/2, any W>0: biases span the full box; posterior constant off support; both ordinary minimizability gaps are zero.",
+    "scope": "Displayed ICML2023 Theorem3.3 with its ordinary gaps; not an entropy-relative Bayes-calibration bound."
+  },
+  "rational_sharp_witnesses": [
+    {
+      "n": 3,
+      "R": 2,
+      "beta": "1/5",
+      "full_support_regret": "999/5000",
+      "regret_to_beta": "999/1000",
+      "slope": "16/5"
+    },
+    {
+      "n": 3,
+      "R": 3,
+      "beta": "1/7",
+      "full_support_regret": "999/7000",
+      "regret_to_beta": "999/1000",
+      "slope": "15/7"
+    },
+    {
+      "n": 3,
+      "R": 30,
+      "beta": "1/61",
+      "full_support_regret": "999/61000",
+      "regret_to_beta": "999/1000",
+      "slope": "1920/1769"
+    },
+    {
+      "n": 4,
+      "R": 2,
+      "beta": "1/3",
+      "full_support_regret": "333/1000",
+      "regret_to_beta": "999/1000",
+      "slope": "10/3"
+    },
+    {
+      "n": 4,
+      "R": 3,
+      "beta": "1/4",
+      "full_support_regret": "999/4000",
+      "regret_to_beta": "999/1000",
+      "slope": "9/4"
+    },
+    {
+      "n": 4,
+      "R": 30,
+      "beta": "1/31",
+      "full_support_regret": "999/31000",
+      "regret_to_beta": "999/1000",
+      "slope": "990/899"
+    },
+    {
+      "n": 10,
+      "R": 2,
+      "beta": "2/3",
+      "full_support_regret": "333/500",
+      "regret_to_beta": "999/1000",
+      "slope": "11/3"
+    },
+    {
+      "n": 10,
+      "R": 3,
+      "beta": "4/7",
+      "full_support_regret": "999/1750",
+      "regret_to_beta": "999/1000",
+      "slope": "18/7"
+    },
+    {
+      "n": 10,
+      "R": 30,
+      "beta": "2/17",
+      "full_support_regret": "999/8500",
+      "regret_to_beta": "999/1000",
+      "slope": "585/493"
+    }
+  ],
+  "numerical_sanity": {
+    "samples": 5000,
+    "seed": 20261025,
+    "bridge_coordinates": 59000,
+    "absolute_tolerance": 1e-10,
+    "maximum_bridge_violation": 4.191091917959966e-15,
+    "maximum_finite_bound_violation": 0.0,
+    "minimum_unclamped_excess": -4.440892098500626e-16,
+    "scope": "New deterministic floating-point sanity checks with a scalar clipping oracle; not exhaustive or formal proof."
+  },
+  "limits": "No external paper parsing, training, inference, private arrays, network access or formal proof assistant. The exact separation argument is provided; Decimal and float evaluations are not interval certificates."
+}

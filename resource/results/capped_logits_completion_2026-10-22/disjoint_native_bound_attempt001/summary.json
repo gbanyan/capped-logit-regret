@@ -1,0 +1,565 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "architecture": "resnet18",
+      "raw_bound_exponent": 257,
+      "epsilon_exponent": -259,
+      "scaled_bound_exponent": -2,
+      "min_cap": 1.7431775950012312,
+      "relative_replay_error": 0.0,
+      "raw_near_tie_count": 0,
+      "ledger": [
+        {
+          "path": "resnet18.features.0",
+          "type": "Conv2d",
+          "input_exponent": 3,
+          "output_exponent": 7
+        },
+        {
+          "path": "resnet18.features.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 7,
+          "output_exponent": 14
+        },
+        {
+          "path": "resnet18.features.2",
+          "type": "ReLU",
+          "input_exponent": 14,
+          "output_exponent": 14
+        },
+        {
+          "path": "resnet18.features.3.path.0",
+          "type": "Conv2d",
+          "input_exponent": 14,
+          "output_exponent": 23
+        },
+        {
+          "path": "resnet18.features.3.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 23,
+          "output_exponent": 28
+        },
+        {
+          "path": "resnet18.features.3.path.2",
+          "type": "ReLU",
+          "input_exponent": 28,
+          "output_exponent": 28
+        },
+        {
+          "path": "resnet18.features.3.path.3",
+          "type": "Conv2d",
+          "input_exponent": 28,
+          "output_exponent": 36
+        },
+        {
+          "path": "resnet18.features.3.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 36,
+          "output_exponent": 42
+        },
+        {
+          "path": "resnet18.features.3.skip",
+          "type": "Identity",
+          "input_exponent": 14,
+          "output_exponent": 14
+        },
+        {
+          "path": "resnet18.features.3",
+          "type": "Block",
+          "input_exponent": 14,
+          "output_exponent": 43
+        },
+        {
+          "path": "resnet18.features.4.path.0",
+          "type": "Conv2d",
+          "input_exponent": 43,
+          "output_exponent": 51
+        },
+        {
+          "path": "resnet18.features.4.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 51,
+          "output_exponent": 56
+        },
+        {
+          "path": "resnet18.features.4.path.2",
+          "type": "ReLU",
+          "input_exponent": 56,
+          "output_exponent": 56
+        },
+        {
+          "path": "resnet18.features.4.path.3",
+          "type": "Conv2d",
+          "input_exponent": 56,
+          "output_exponent": 63
+        },
+        {
+          "path": "resnet18.features.4.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 63,
+          "output_exponent": 71
+        },
+        {
+          "path": "resnet18.features.4.skip",
+          "type": "Identity",
+          "input_exponent": 43,
+          "output_exponent": 43
+        },
+        {
+          "path": "resnet18.features.4",
+          "type": "Block",
+          "input_exponent": 43,
+          "output_exponent": 72
+        },
+        {
+          "path": "resnet18.features.5.path.0",
+          "type": "Conv2d",
+          "input_exponent": 72,
+          "output_exponent": 80
+        },
+        {
+          "path": "resnet18.features.5.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 80,
+          "output_exponent": 85
+        },
+        {
+          "path": "resnet18.features.5.path.2",
+          "type": "ReLU",
+          "input_exponent": 85,
+          "output_exponent": 85
+        },
+        {
+          "path": "resnet18.features.5.path.3",
+          "type": "Conv2d",
+          "input_exponent": 85,
+          "output_exponent": 94
+        },
+        {
+          "path": "resnet18.features.5.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 94,
+          "output_exponent": 100
+        },
+        {
+          "path": "resnet18.features.5.skip.0",
+          "type": "Conv2d",
+          "input_exponent": 72,
+          "output_exponent": 77
+        },
+        {
+          "path": "resnet18.features.5.skip.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 77,
+          "output_exponent": 83
+        },
+        {
+          "path": "resnet18.features.5",
+          "type": "Block",
+          "input_exponent": 72,
+          "output_exponent": 101
+        },
+        {
+          "path": "resnet18.features.6.path.0",
+          "type": "Conv2d",
+          "input_exponent": 101,
+          "output_exponent": 109
+        },
+        {
+          "path": "resnet18.features.6.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 109,
+          "output_exponent": 113
+        },
+        {
+          "path": "resnet18.features.6.path.2",
+          "type": "ReLU",
+          "input_exponent": 113,
+          "output_exponent": 113
+        },
+        {
+          "path": "resnet18.features.6.path.3",
+          "type": "Conv2d",
+          "input_exponent": 113,
+          "output_exponent": 121
+        },
+        {
+          "path": "resnet18.features.6.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 121,
+          "output_exponent": 127
+        },
+        {
+          "path": "resnet18.features.6.skip",
+          "type": "Identity",
+          "input_exponent": 101,
+          "output_exponent": 101
+        },
+        {
+          "path": "resnet18.features.6",
+          "type": "Block",
+          "input_exponent": 101,
+          "output_exponent": 128
+        },
+        {
+          "path": "resnet18.features.7.path.0",
+          "type": "Conv2d",
+          "input_exponent": 128,
+          "output_exponent": 137
+        },
+        {
+          "path": "resnet18.features.7.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 137,
+          "output_exponent": 140
+        },
+        {
+          "path": "resnet18.features.7.path.2",
+          "type": "ReLU",
+          "input_exponent": 140,
+          "output_exponent": 140
+        },
+        {
+          "path": "resnet18.features.7.path.3",
+          "type": "Conv2d",
+          "input_exponent": 140,
+          "output_exponent": 149
+        },
+        {
+          "path": "resnet18.features.7.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 149,
+          "output_exponent": 154
+        },
+        {
+          "path": "resnet18.features.7.skip.0",
+          "type": "Conv2d",
+          "input_exponent": 128,
+          "output_exponent": 133
+        },
+        {
+          "path": "resnet18.features.7.skip.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 133,
+          "output_exponent": 138
+        },
+        {
+          "path": "resnet18.features.7",
+          "type": "Block",
+          "input_exponent": 128,
+          "output_exponent": 155
+        },
+        {
+          "path": "resnet18.features.8.path.0",
+          "type": "Conv2d",
+          "input_exponent": 155,
+          "output_exponent": 164
+        },
+        {
+          "path": "resnet18.features.8.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 164,
+          "output_exponent": 168
+        },
+        {
+          "path": "resnet18.features.8.path.2",
+          "type": "ReLU",
+          "input_exponent": 168,
+          "output_exponent": 168
+        },
+        {
+          "path": "resnet18.features.8.path.3",
+          "type": "Conv2d",
+          "input_exponent": 168,
+          "output_exponent": 177
+        },
+        {
+          "path": "resnet18.features.8.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 177,
+          "output_exponent": 184
+        },
+        {
+          "path": "resnet18.features.8.skip",
+          "type": "Identity",
+          "input_exponent": 155,
+          "output_exponent": 155
+        },
+        {
+          "path": "resnet18.features.8",
+          "type": "Block",
+          "input_exponent": 155,
+          "output_exponent": 185
+        },
+        {
+          "path": "resnet18.features.9.path.0",
+          "type": "Conv2d",
+          "input_exponent": 185,
+          "output_exponent": 194
+        },
+        {
+          "path": "resnet18.features.9.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 194,
+          "output_exponent": 198
+        },
+        {
+          "path": "resnet18.features.9.path.2",
+          "type": "ReLU",
+          "input_exponent": 198,
+          "output_exponent": 198
+        },
+        {
+          "path": "resnet18.features.9.path.3",
+          "type": "Conv2d",
+          "input_exponent": 198,
+          "output_exponent": 208
+        },
+        {
+          "path": "resnet18.features.9.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 208,
+          "output_exponent": 214
+        },
+        {
+          "path": "resnet18.features.9.skip.0",
+          "type": "Conv2d",
+          "input_exponent": 185,
+          "output_exponent": 191
+        },
+        {
+          "path": "resnet18.features.9.skip.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 191,
+          "output_exponent": 197
+        },
+        {
+          "path": "resnet18.features.9",
+          "type": "Block",
+          "input_exponent": 185,
+          "output_exponent": 215
+        },
+        {
+          "path": "resnet18.features.10.path.0",
+          "type": "Conv2d",
+          "input_exponent": 215,
+          "output_exponent": 225
+        },
+        {
+          "path": "resnet18.features.10.path.1",
+          "type": "BatchNorm2d",
+          "input_exponent": 225,
+          "output_exponent": 229
+        },
+        {
+          "path": "resnet18.features.10.path.2",
+          "type": "ReLU",
+          "input_exponent": 229,
+          "output_exponent": 229
+        },
+        {
+          "path": "resnet18.features.10.path.3",
+          "type": "Conv2d",
+          "input_exponent": 229,
+          "output_exponent": 238
+        },
+        {
+          "path": "resnet18.features.10.path.4",
+          "type": "BatchNorm2d",
+          "input_exponent": 238,
+          "output_exponent": 246
+        },
+        {
+          "path": "resnet18.features.10.skip",
+          "type": "Identity",
+          "input_exponent": 215,
+          "output_exponent": 215
+        },
+        {
+          "path": "resnet18.features.10",
+          "type": "Block",
+          "input_exponent": 215,
+          "output_exponent": 247
+        },
+        {
+          "path": "resnet18.features.11",
+          "type": "AdaptiveAvgPool2d",
+          "input_exponent": 247,
+          "output_exponent": 247
+        },
+        {
+          "path": "resnet18.features.12",
+          "type": "Flatten",
+          "input_exponent": 247,
+          "output_exponent": 247
+        },
+        {
+          "path": "resnet18.output",
+          "type": "Linear",
+          "input_exponent": 247,
+          "output_exponent": 257
+        }
+      ],
+      "teacher_sha256": "dd972a2645903b2a49dc7f4db1f4e872313e1772ee7eaa7d3508f81631bd1100",
+      "scaled_checkpoint_sha256": "3740fdcf941f634b1c2ef61345f331265158a60645e57693b7b951c913823bc0"
+    },
+    {
+      "architecture": "fashion_cnn",
+      "raw_bound_exponent": 46,
+      "epsilon_exponent": -50,
+      "scaled_bound_exponent": -4,
+      "min_cap": 0.49041462650586315,
+      "relative_replay_error": 0.0,
+      "raw_near_tie_count": 0,
+      "ledger": [
+        {
+          "path": "fashion_cnn.features.0",
+          "type": "Conv2d",
+          "input_exponent": 3,
+          "output_exponent": 8
+        },
+        {
+          "path": "fashion_cnn.features.1",
+          "type": "ReLU",
+          "input_exponent": 8,
+          "output_exponent": 8
+        },
+        {
+          "path": "fashion_cnn.features.2",
+          "type": "Conv2d",
+          "input_exponent": 8,
+          "output_exponent": 17
+        },
+        {
+          "path": "fashion_cnn.features.3",
+          "type": "ReLU",
+          "input_exponent": 17,
+          "output_exponent": 17
+        },
+        {
+          "path": "fashion_cnn.features.4",
+          "type": "MaxPool2d",
+          "input_exponent": 17,
+          "output_exponent": 17
+        },
+        {
+          "path": "fashion_cnn.features.5",
+          "type": "Conv2d",
+          "input_exponent": 17,
+          "output_exponent": 27
+        },
+        {
+          "path": "fashion_cnn.features.6",
+          "type": "ReLU",
+          "input_exponent": 27,
+          "output_exponent": 27
+        },
+        {
+          "path": "fashion_cnn.features.7",
+          "type": "MaxPool2d",
+          "input_exponent": 27,
+          "output_exponent": 27
+        },
+        {
+          "path": "fashion_cnn.features.8",
+          "type": "Flatten",
+          "input_exponent": 27,
+          "output_exponent": 27
+        },
+        {
+          "path": "fashion_cnn.output.0",
+          "type": "Linear",
+          "input_exponent": 27,
+          "output_exponent": 39
+        },
+        {
+          "path": "fashion_cnn.output.1",
+          "type": "ReLU",
+          "input_exponent": 39,
+          "output_exponent": 39
+        },
+        {
+          "path": "fashion_cnn.output.2",
+          "type": "Dropout",
+          "input_exponent": 39,
+          "output_exponent": 39
+        },
+        {
+          "path": "fashion_cnn.output.3",
+          "type": "Linear",
+          "input_exponent": 39,
+          "output_exponent": 46
+        }
+      ],
+      "teacher_sha256": "50f7dfb8187f6f136b7bd2f646550c1e08b70df32a6d30015a9b8b152edae5ff",
+      "scaled_checkpoint_sha256": "ab083170cacc50bde6658f15846f44f186f01f1041d48889315d49c7e308564b"
+    },
+    {
+      "architecture": "fashion_mlp",
+      "raw_bound_exponent": 30,
+      "epsilon_exponent": -34,
+      "scaled_bound_exponent": -4,
+      "min_cap": 0.49041462650586315,
+      "relative_replay_error": 0.0,
+      "raw_near_tie_count": 0,
+      "ledger": [
+        {
+          "path": "fashion_mlp.features.0",
+          "type": "Flatten",
+          "input_exponent": 3,
+          "output_exponent": 3
+        },
+        {
+          "path": "fashion_mlp.features.1",
+          "type": "Linear",
+          "input_exponent": 3,
+          "output_exponent": 13
+        },
+        {
+          "path": "fashion_mlp.features.2",
+          "type": "ReLU",
+          "input_exponent": 13,
+          "output_exponent": 13
+        },
+        {
+          "path": "fashion_mlp.features.3",
+          "type": "Dropout",
+          "input_exponent": 13,
+          "output_exponent": 13
+        },
+        {
+          "path": "fashion_mlp.features.4",
+          "type": "Linear",
+          "input_exponent": 13,
+          "output_exponent": 22
+        },
+        {
+          "path": "fashion_mlp.features.5",
+          "type": "ReLU",
+          "input_exponent": 22,
+          "output_exponent": 22
+        },
+        {
+          "path": "fashion_mlp.features.6",
+          "type": "Dropout",
+          "input_exponent": 22,
+          "output_exponent": 22
+        },
+        {
+          "path": "fashion_mlp.output",
+          "type": "Linear",
+          "input_exponent": 22,
+          "output_exponent": 30
+        }
+      ],
+      "teacher_sha256": "944243c29ec7d45c5512494d894ec8509db11fd2ba2cf2f6b5b24ed1818c9faa",
+      "scaled_checkpoint_sha256": "4148c887046b0156a48ec4ac11cb0b8baef1288a62ee2007591b5367b73e42b3"
+    }
+  ],
+  "torch": "2.11.0",
+  "teacher_phase": "disjoint_features_centered_v1",
+  "centered": true,
+  "scope": "Exact-real architecture norm argument plus sampled FP64 implementation replay;not global machine-arithmetic proof",
+  "source_sha256": "66ac78eb216b5b2f9b417add495ee44dd8c84478dfaeb3cb2f02fc899637e915"
+}

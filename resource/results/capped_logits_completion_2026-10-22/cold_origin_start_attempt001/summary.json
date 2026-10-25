@@ -1,0 +1,21 @@
+{
+  "status": "FETCH_COMPLETE_NOT_YET_AUDITED",
+  "mode": "start",
+  "commit": "729d273d4eb27b6dc7bcec480516397aace4cb7f",
+  "project": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022",
+  "data": "/mnt/SAM1TB/dev/data/oscillation-trans-affine-reference-20261022",
+  "origin": "PRIVATE_ORIGIN_REDACTED",
+  "branch": "research/capped-logit-experiments-20261022",
+  "source_sha256": "ab8db05d6f3a8ed404ad7dd89dde6f521d1831ed40ca78fddb46838192f564d9",
+  "prepared_commit": "d1803cc3c19d12cc73677c9a4177b03cccceb082",
+  "root": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022/final_origin_retrieval_v1/checkout",
+  "isolated_store": "/mnt/SAM1TB/dev/projects/oscillation-trans-affine-reference-20261022/final_origin_retrieval_v1/checkout/.git/cold-lfs",
+  "started": 1792698050.876595,
+  "completed": 1792698239.5902057,
+  "affinity": [
+    0,
+    1
+  ],
+  "all_payload_sources": "origin only;no original worktree/LFS store copied",
+  "final_assets_covered": false
+}

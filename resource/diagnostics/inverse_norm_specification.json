@@ -1,0 +1,25 @@
+{
+  "kind": "Source-based clarification of the existing conditional numerical method; no matrix, inverse, solver or model rerun",
+  "norm": "Frobenius norm, with propagated arithmetic inflation",
+  "products": [
+    "V W - I",
+    "W V - I"
+  ],
+  "represented_matrices": "W is the stored square FP64 coordinate map; V is the FP64 inverse candidate computed by numpy.linalg.inv, not assumed to be an exact inverse.",
+  "norm_helper": "affine_raw_reference.norm_up converts to longdouble and returns sqrt(sum(value*value))/(1-gamma(4*value.size+16)).",
+  "left_bound_code": "norm_up(V@W-I) + 4*gamma(d,U64)*norm_up(abs(V)@abs(W))",
+  "right_bound_code": "norm_up(W@V-I) + 4*gamma(d,U64)*norm_up(abs(W)@abs(V))",
+  "implication": "A subunit bound in the Frobenius norm controls the spectral norm and makes the corresponding product invertible. A valid one-sided bound suffices for square W; a large opposite-side bound does not contradict that argument.",
+  "source_baseline": "d1bef6621301666371c8367430479518f1278925",
+  "sources": {
+    "affine_raw_reference.py": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289",
+    "affine_raw_dual_audit.py": "1ce9b547206754599c80a7fc2cee7a98cadbbd175c9e5e8df5ee2c5d259d1eac"
+  },
+  "source_linkage": "These two hashes match source_sha256 and certificate_source_sha256 in the provided final raw-affine summary.",
+  "inspected_passages": "affine_raw_reference.py lines 31-33 and 147-152; affine_raw_dual_audit.py verify_chart.",
+  "limits": [
+    "Conditional on the manuscript's normal-intermediate IEEE/libm model and stated propagation assumptions.",
+    "Identifies the norm/product actually computed; not independent reconstruction of matrices or bounds.",
+    "No separate final inverse-candidate array is asserted to have been archived."
+  ]
+}

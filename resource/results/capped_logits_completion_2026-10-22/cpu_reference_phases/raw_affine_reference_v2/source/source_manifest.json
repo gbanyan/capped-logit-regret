@@ -1,0 +1,12 @@
+{
+  "commit": "9a2c22bb68c92690d8504a3e132a053612c4a100",
+  "inputs": {
+    "requirements.txt": "48c5e1fcf87b5337291eac2621440171c64b6326ff7bea94bd0920edaf49810f",
+    "check_affine_reference.py": "d1610354d082bcc22df035d8c3277f929a900838df1d11d9e33316ffbe405163",
+    "producer.py": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289",
+    "check_affine_reference_platform.py": "5c46c21b993a9f525554e608a4706169be68a1fc559d0b0119d487e22097ac1b",
+    "queue.json": "3087732df11a19a0c0b443805d94de0648cd74a221ccb8986dc02a0a2891c191",
+    "affine_raw_reference.py": "91caec7fc33c74b6bf40c35850a2d06173d89e25467c77361f71e51c0de52289",
+    "protocol.md": "18f1b53765c9f73c34ffe575eacf868e16ef42e6ec7faba98c73bc35ede47f9f"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "phase": "raw_affine_dual_audit_v3",
+  "host": "gbminipc",
+  "kind": "audit",
+  "status": "PASS",
+  "terminal_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-10-22T18:45:32.334802692Z",
+    "FinishedAt": "2026-10-22T18:47:50.729979884Z"
+  },
+  "container": "9275f3d86e8d69dd61dd119afb5b7e397b4403f020bb840d6fbb24f7ac183990",
+  "verified_jobs": [
+    {
+      "architecture": "resnet18",
+      "width": 4.920793594820339e-08,
+      "tight": true,
+      "source_hashes_verified": true,
+      "arrays_finite": true,
+      "full_coordinate_dimension_retained": true,
+      "CPU64_vs_source_extended_attained_CE_difference": 0.0,
+      "same_point_checked": true
+    },
+    {
+      "architecture": "fashion_cnn",
+      "width": 1.234254698445625e-09,
+      "tight": true,
+      "source_hashes_verified": true,
+      "arrays_finite": true,
+      "full_coordinate_dimension_retained": true,
+      "CPU64_vs_source_extended_attained_CE_difference": 0.0,
+      "same_point_checked": true
+    },
+    {
+      "architecture": "fashion_mlp",
+      "width": 3.0963396291383564e-09,
+      "tight": true,
+      "source_hashes_verified": true,
+      "arrays_finite": true,
+      "full_coordinate_dimension_retained": true,
+      "CPU64_vs_source_extended_attained_CE_difference": 2.220446049250313e-16,
+      "same_point_checked": true
+    }
+  ],
+  "source_pins_verified": true,
+  "official_test_decoded": false,
+  "auditor_sha256": "236f9329dd552220fc7bb3a585bd463b241c5af9ffa52ebe0b273706d2a91797",
+  "scope": "Source/input/finite-array/class-span/attained-objective audit;conditional interval proof is source-reviewed with production fixtures,not independently rerun at equal extended precision on Mac"
+}

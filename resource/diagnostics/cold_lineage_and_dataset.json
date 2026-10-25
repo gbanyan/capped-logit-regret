@@ -1,0 +1,68 @@
+{
+  "lineage": {
+    "relations": [
+      {
+        "older": "f49e669a",
+        "newer": "c6d7d85c",
+        "is_ancestor": true
+      },
+      {
+        "older": "c6d7d85c",
+        "newer": "a5f46aaa",
+        "is_ancestor": true
+      },
+      {
+        "older": "a5f46aaa",
+        "newer": "a5338e86",
+        "is_ancestor": true
+      }
+    ],
+    "replay_source": "f49e669a8377a61b254679d8a646ab2b8c35dbb2",
+    "corpus": "c6d7d85cbbd5f533742c32da31cd861d087cca32",
+    "pre_shutdown_pushed": "a5f46aaad1525174035ed36c4bc228d546b77e04",
+    "post_shutdown_documentary_checkpoint": "a5338e868f28915b87c14da2024be55edefbe65e",
+    "post_shutdown_checkpoint_subject": "Format closing artifact links for readable CommonMark navigation",
+    "limit": "No inference about the current physical power state of gblinux."
+  },
+  "cifar_record": {
+    "path": "results/capped_logits_completion_2026-10-22/phases/official_test_evaluation_v1/pixel_affine_primary_v1__resnet18_box_s227001/complete.json",
+    "sha256": "b81e6d5e33b69aee4fa4101a3935a0681f18066860535e823e5689a902883686",
+    "data_identity": {
+      "dataset": "CIFAR100",
+      "archive_md5": "03b5dce01913d631647c71ecec9e9cb8",
+      "member": "cifar-100-binary/test.bin",
+      "member_sha256": "d8b1e6b7b3bee4020055f0699b111f60b1af1e262aeb93a0b659061746f8224a",
+      "selection": "last50 original test indices per fine class",
+      "examples": 5000
+    },
+    "reader_path": "results/capped_logits_completion_2026-10-22/phases/official_test_evaluation_v1/source/sealed_test_data.py",
+    "reader_sha256": "a4c6f0014aefa3f710b0400b76a4dfc1766dedc20ae8b9f4c03308c501195ef3",
+    "manifest_reader_sha256": "a4c6f0014aefa3f710b0400b76a4dfc1766dedc20ae8b9f4c03308c501195ef3",
+    "reader_checks_archive_md5_before_decode": true,
+    "external_archive_outside_cold_store": true,
+    "limit": "Archived dataset identity and reader checks, not a new hash of the current external tarball."
+  },
+  "primary_restoration_audit": {
+    "path": "results/capped_logits_completion_2026-10-22/cold_origin_final_audit_attempt001/summary.json",
+    "sha256": "79c6d4f9a43a25c1da960e236cfe2126d2b38a3d3fb635df8b727401fa43de63",
+    "bytes": 4202181,
+    "status": "PASS",
+    "top_keys": [
+      "status",
+      "commit",
+      "root",
+      "isolated_lfs_storage",
+      "manifests",
+      "checked_binaries",
+      "binary_paths",
+      "unique_LFS_objects",
+      "bytes",
+      "materialized_binary_paths",
+      "torch",
+      "numpy",
+      "source_sha256",
+      "scope"
+    ],
+    "limit": "Original primary record included here; no new cold retrieval or serialization replay."
+  }
+}

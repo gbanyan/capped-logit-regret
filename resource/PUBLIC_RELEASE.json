@@ -1,0 +1,56 @@
+{
+  "version": "v1.0.0",
+  "repository": "https://github.com/gbanyan/capped-logit-regret",
+  "baseline_commit": "3bd7f4b4087b6ae4daac2cf13f867672ff2ca3ad",
+  "baseline_ESM_sha256": "3415f657359dd1bcecd2148e19447acd9b1d1b0bbd0b5b0d9e230ec958b90339",
+  "changed_members": {
+    "ADDITIONAL_EVIDENCE.md": {
+      "before_sha256": "7fedfc2172c6ce3591a0cf2e1df693e470548461560fdc685a383040b8f1eb6e",
+      "after_sha256": "0c4861c677caa030c5a4a2e5f76758d7b8d7127197ddc15625643c0a4e45b701"
+    },
+    "README.txt": {
+      "before_sha256": "06f0b9f9cf2c818cd53c95bf328012931f3587a148edd132402d425d741d7212",
+      "after_sha256": "bca2e0d896c1d428af0ea8cae324194606465e13fe19076cdb00eb808532bf4c"
+    },
+    "RESOURCE_ADDITIONS.json": {
+      "before_sha256": "c2f8b7daf91c737322c35eebb60cd6426b860d3d47d20ba7da6def91536eb2c1",
+      "after_sha256": "a9d55e5475ae1ef60b00cddb5c3ed27d88d9ba95e91a89077128d418a64f6b6b"
+    },
+    "SCIENTIFIC_EVIDENCE_SCOPE.md": {
+      "before_sha256": "d036966e1f25719929c22d0ba254ccf65fb2e6a5a5446aa9ca3337ecef1b45b3",
+      "after_sha256": "6efa8383cb2ebd51aff1ec14fadba01048f01631fda65e312fbd831aa22060f9"
+    },
+    "producer_sources/cold_retrieve_completion.py": {
+      "before_sha256": "ab8db05d6f3a8ed404ad7dd89dde6f521d1831ed40ca78fddb46838192f564d9",
+      "after_sha256": "1fa0dc5a9ce213f041ec616c1cab2c5655e2bd036e36b6dfbe492435e757cb17"
+    },
+    "results/capped_logits_completion_2026-10-22/cold_origin_finalize_attempt001/summary.json": {
+      "before_sha256": "dbdf6c419f90b30f3238f7ab8fda00ed12e8a207c0170067bd62af8667a192d7",
+      "after_sha256": "568e0c679c0d0b22d1808a3961d3cd05106e9a2b86a9fe55f81ec5027133f34f"
+    },
+    "results/capped_logits_completion_2026-10-22/cold_origin_initial_audit_attempt001/initial_empty_store_receipt.json": {
+      "before_sha256": "27d2a805aaad6999eb5382f4d94bca9370216703231ad493457339be8122ec4a",
+      "after_sha256": "1901b57a62c59f4ac6d0804978b1b2a6282cc3f0db4b4bd67138174372eba585"
+    },
+    "results/capped_logits_completion_2026-10-22/cold_origin_start_attempt001/summary.json": {
+      "before_sha256": "7729e0bf27be41931e78d481f4906b10bb28ffc4a79b82dcbdf8b90c3663184c",
+      "after_sha256": "97c311fe2d5c81115e15c34d3222fb8802f145ea86098de330b2e0eca6fab859"
+    },
+    "theory_checks/README.md": {
+      "before_sha256": "3012dc1e5485767f1260bf1bc8d73b64cfa6b7e86fa8cf8cdc89f89f149eaa1a",
+      "after_sha256": "dc06b273e287ab0be7840d3e4ee8520947931e16da66d9fb7af0f302037f3df7"
+    }
+  },
+  "new_members": [
+    "LICENSE-CC-BY-4.0.txt",
+    "LICENSE-MIT.txt",
+    "LICENSES.md"
+  ],
+  "numerical_inputs_and_outputs": "byte-preserved",
+  "only_python_change": "Administrative cold_retrieve_completion.py private-origin string redacted",
+  "full_model_array_corpus_included": false,
+  "licenses": {
+    "author_code": "MIT",
+    "author_results_metadata_docs": "CC-BY-4.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "d5b7c647dd048fe24d0efabba460be0cfb6cbc4f",
+  "inputs": {
+    "oracles.py": "acf4b93099dff09148782752c37066ec17835723c29990cd0f55ddc53ee6a011",
+    "image_data.py": "ab9d6867c8938de85ccf046e81afb69a628afe1c5a640fbf6a27e37a16fb0a1d",
+    "image_test_evaluate.py": "07d877858e302d77629d206a333c94ee971b0a81bdfa5620dd1eea31780b80c8",
+    "image_matrix.py": "b44519730d59e09553290c535521134a17a51d074bdde999026f34eb0f2fdf26",
+    "baseline.py": "86dd83220410c43d9c7188e4192cb8c861ba8968fd73efe9f486e07980feba9f",
+    "image_kkt.py": "5c8f3c77d67aeb88b4ada79bd280f67dbfa65dcf61d3d88c8124ff27a19146fb",
+    "image_pixel.py": "a86eca6a67de5dff54186770dc4b06d4b6df92ab9f83945bbd79713650f921fe",
+    "sealed_test_data.py": "a4c6f0014aefa3f710b0400b76a4dfc1766dedc20ae8b9f4c03308c501195ef3",
+    "image_student.py": "71dae0b0a3e1f1f5b7bbbe59f6eb9f629800fd1a5656f39991a5bb216c185a10",
+    "producer.py": "07d877858e302d77629d206a333c94ee971b0a81bdfa5620dd1eea31780b80c8",
+    "inference_source_closure.py": "abe75268244fa9d32eaeee52b3950942a5103a9783da4e2fc998cd1e274661a9",
+    "queue.json": "308d2ff5114a98812e9c92fff44105e7b79576be96bbda970cedf48fff802d21",
+    "synthetic_confirmation.py": "7c32423c857bef19c44c91d4ba17390b1d7f939f1966add27eeaee6f556f4406",
+    "protocol.md": "f89b04cb159d3c97ea4d8e084fb9f275b03b56e57914f765ba071a272e076f7c"
+  }
+}
